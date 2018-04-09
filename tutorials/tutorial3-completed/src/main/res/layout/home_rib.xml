@@ -59,20 +59,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:checkedButton="@+id/you_radio_button">
         <RadioButton
+            android:id="@+id/you_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="You"
             android:layout_margin="16dp"/>
 
-        <!--android:onClick="onRadioButtonClicked"/>-->
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Computer"
             android:layout_margin="16dp"/>
-        <!--android:onClick="onRadioButtonClicked"/>-->
     </RadioGroup>
 
 
