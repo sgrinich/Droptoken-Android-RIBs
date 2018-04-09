@@ -54,11 +54,6 @@ public class HomeView extends LinearLayout implements HomeInteractor.HomePresent
               RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radio_group);
               int selectedId = radioGroup.getCheckedRadioButtonId();
 
-              // -1 is nothing selected,
-              Log.d("selectedID: ", Integer.toString(selectedId));
-//            TextView playerNameOne = (TextView) findViewById(R.id.player_name_1);
-//            TextView playerNameTwo = (TextView) findViewById(R.id.player_name_2);
-//            return Pair.create(playerNameOne.getText().toString(), playerNameTwo.getText().toString());
               return Pair.create(selectedId, "test");
           }
         });
