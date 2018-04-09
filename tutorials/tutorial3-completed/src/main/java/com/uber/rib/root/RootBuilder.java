@@ -72,8 +72,8 @@ public class RootBuilder extends ViewBuilder<RootView, RootRouter, RootBuilder.P
 
     @RootScope
     @Provides
-    static HomeInteractor.Listener loggedOutListener(RootInteractor rootInteractor) {
-      return rootInteractor.new LoggedOutListener();
+    static HomeInteractor.Listener homeListener(RootInteractor rootInteractor) {
+      return rootInteractor.new HomeListener();
     }
 
     @RootScope

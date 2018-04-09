@@ -22,7 +22,7 @@ public final class RootBuilder_Module_LoggedOutListenerFactory
   @Override
   public HomeInteractor.Listener get() {
     return Preconditions.checkNotNull(
-        RootBuilder.Module.loggedOutListener(rootInteractorProvider.get()),
+        RootBuilder.Module.homeListener(rootInteractorProvider.get()),
         "Cannot return null from a non-@Nullable @Provides method");
   }
 
@@ -32,6 +32,6 @@ public final class RootBuilder_Module_LoggedOutListenerFactory
   }
 
   public static HomeInteractor.Listener proxyLoggedOutListener(RootInteractor rootInteractor) {
-    return RootBuilder.Module.loggedOutListener(rootInteractor);
+    return RootBuilder.Module.homeListener(rootInteractor);
   }
 }

@@ -34,15 +34,15 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
   @Override
   protected void didBecomeActive(@Nullable Bundle savedInstanceState) {
     super.didBecomeActive(savedInstanceState);
-    getRouter().attachLoggedOut();
+    getRouter().attachHome();
   }
 
-  class LoggedOutListener implements HomeInteractor.Listener {
+  class HomeListener implements HomeInteractor.Listener {
 
     @Override
     public void play(String firstPlayer, String userColor) {
       // Switch to logged in. Let’s just ignore userName for now.
-      getRouter().detachLoggedOut();
+      getRouter().detachHome();
       getRouter().attachLoggedIn();
     }
   }

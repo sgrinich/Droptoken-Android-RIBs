@@ -43,13 +43,13 @@ public class RootRouter extends ViewRouter<RootView, RootInteractor, RootBuilder
     this.loggedInBuilder = loggedInBuilder;
   }
 
-  void attachLoggedOut() {
+  void attachHome() {
     homeRouter = homeBuilder.build(getView());
     attachChild(homeRouter);
     getView().addView(homeRouter.getView());
   }
 
-  void detachLoggedOut() {
+  void detachHome() {
     if (homeRouter != null) {
       detachChild(homeRouter);
       getView().removeView(homeRouter.getView());
