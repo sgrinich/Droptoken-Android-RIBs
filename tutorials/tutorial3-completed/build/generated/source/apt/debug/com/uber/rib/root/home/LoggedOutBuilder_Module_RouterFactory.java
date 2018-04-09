@@ -9,40 +9,40 @@ import javax.inject.Provider;
   value = "dagger.internal.codegen.ComponentProcessor",
   comments = "https://google.github.io/dagger"
 )
-public final class LoggedOutBuilder_Module_RouterFactory implements Factory<LoggedOutRouter> {
-  private final Provider<LoggedOutBuilder.Component> componentProvider;
+public final class LoggedOutBuilder_Module_RouterFactory implements Factory<HomeRouter> {
+  private final Provider<HomeBuilder.Component> componentProvider;
 
-  private final Provider<LoggedOutView> viewProvider;
+  private final Provider<HomeView> viewProvider;
 
-  private final Provider<LoggedOutInteractor> interactorProvider;
+  private final Provider<HomeInteractor> interactorProvider;
 
   public LoggedOutBuilder_Module_RouterFactory(
-      Provider<LoggedOutBuilder.Component> componentProvider,
-      Provider<LoggedOutView> viewProvider,
-      Provider<LoggedOutInteractor> interactorProvider) {
+      Provider<HomeBuilder.Component> componentProvider,
+      Provider<HomeView> viewProvider,
+      Provider<HomeInteractor> interactorProvider) {
     this.componentProvider = componentProvider;
     this.viewProvider = viewProvider;
     this.interactorProvider = interactorProvider;
   }
 
   @Override
-  public LoggedOutRouter get() {
+  public HomeRouter get() {
     return Preconditions.checkNotNull(
-        LoggedOutBuilder.Module.router(
+        HomeBuilder.Module.router(
             componentProvider.get(), viewProvider.get(), interactorProvider.get()),
         "Cannot return null from a non-@Nullable @Provides method");
   }
 
-  public static Factory<LoggedOutRouter> create(
-      Provider<LoggedOutBuilder.Component> componentProvider,
-      Provider<LoggedOutView> viewProvider,
-      Provider<LoggedOutInteractor> interactorProvider) {
+  public static Factory<HomeRouter> create(
+      Provider<HomeBuilder.Component> componentProvider,
+      Provider<HomeView> viewProvider,
+      Provider<HomeInteractor> interactorProvider) {
     return new LoggedOutBuilder_Module_RouterFactory(
         componentProvider, viewProvider, interactorProvider);
   }
 
-  public static LoggedOutRouter proxyRouter(
-      Object component, LoggedOutView view, LoggedOutInteractor interactor) {
-    return LoggedOutBuilder.Module.router((LoggedOutBuilder.Component) component, view, interactor);
+  public static HomeRouter proxyRouter(
+          Object component, HomeView view, HomeInteractor interactor) {
+    return HomeBuilder.Module.router((HomeBuilder.Component) component, view, interactor);
   }
 }

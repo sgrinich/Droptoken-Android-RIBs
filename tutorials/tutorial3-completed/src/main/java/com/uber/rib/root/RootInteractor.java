@@ -20,7 +20,7 @@ import android.support.annotation.Nullable;
 import com.uber.rib.core.Bundle;
 import com.uber.rib.core.Interactor;
 import com.uber.rib.core.RibInteractor;
-import com.uber.rib.root.home.LoggedOutInteractor;
+import com.uber.rib.root.home.HomeInteractor;
 import javax.inject.Inject;
 
 /**
@@ -37,7 +37,7 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
     getRouter().attachLoggedOut();
   }
 
-  class LoggedOutListener implements LoggedOutInteractor.Listener {
+  class LoggedOutListener implements HomeInteractor.Listener {
 
     @Override
     public void play(String firstPlayer, String userColor) {

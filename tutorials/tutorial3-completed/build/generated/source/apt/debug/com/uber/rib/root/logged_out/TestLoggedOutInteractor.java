@@ -1,14 +1,14 @@
 package com.uber.rib.root.logged_out;
 
-import com.uber.rib.root.home.LoggedOutInteractor;
+import com.uber.rib.root.home.HomeInteractor;
 
 public class TestLoggedOutInteractor {
   private TestLoggedOutInteractor() {
   }
 
-  public static LoggedOutInteractor create(final LoggedOutInteractor.Listener listener,
-                                           final LoggedOutInteractor.LoggedOutPresenter presenter) {
-    LoggedOutInteractor interactor = new LoggedOutInteractor();
+  public static HomeInteractor create(final HomeInteractor.Listener listener,
+                                      final HomeInteractor.LoggedOutPresenter presenter) {
+    HomeInteractor interactor = new HomeInteractor();
     interactor.listener = listener;
     interactor.presenter = presenter;
     return interactor;

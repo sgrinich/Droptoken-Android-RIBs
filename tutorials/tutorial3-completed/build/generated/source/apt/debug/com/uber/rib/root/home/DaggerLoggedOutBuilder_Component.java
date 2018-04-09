@@ -11,24 +11,24 @@ import javax.inject.Provider;
   value = "dagger.internal.codegen.ComponentProcessor",
   comments = "https://google.github.io/dagger"
 )
-public final class DaggerLoggedOutBuilder_Component implements LoggedOutBuilder.Component {
-  private Provider<LoggedOutView> viewProvider;
+public final class DaggerLoggedOutBuilder_Component implements HomeBuilder.Component {
+  private Provider<HomeView> viewProvider;
 
-  private Provider<LoggedOutInteractor.LoggedOutPresenter> presenterProvider;
+  private Provider<HomeInteractor.HomePresenter> presenterProvider;
 
-  private LoggedOutBuilder.ParentComponent parentComponent;
+  private HomeBuilder.ParentComponent parentComponent;
 
-  private Provider<LoggedOutBuilder.Component> componentProvider;
+  private Provider<HomeBuilder.Component> componentProvider;
 
-  private Provider<LoggedOutInteractor> interactorProvider;
+  private Provider<HomeInteractor> interactorProvider;
 
-  private Provider<LoggedOutRouter> routerProvider;
+  private Provider<HomeRouter> routerProvider;
 
   private DaggerLoggedOutBuilder_Component(Builder builder) {
     initialize(builder);
   }
 
-  public static LoggedOutBuilder.Component.Builder builder() {
+  public static HomeBuilder.Component.Builder builder() {
     return new Builder();
   }
 
@@ -37,7 +37,7 @@ public final class DaggerLoggedOutBuilder_Component implements LoggedOutBuilder.
     this.viewProvider = InstanceFactory.create(builder.view);
     this.presenterProvider = DoubleCheck.provider((Provider) viewProvider);
     this.parentComponent = builder.parentComponent;
-    this.componentProvider = InstanceFactory.<LoggedOutBuilder.Component>create(this);
+    this.componentProvider = InstanceFactory.<HomeBuilder.Component>create(this);
     this.interactorProvider = InstanceFactory.create(builder.interactor);
     this.routerProvider =
         DoubleCheck.provider(
@@ -46,16 +46,16 @@ public final class DaggerLoggedOutBuilder_Component implements LoggedOutBuilder.
   }
 
   @Override
-  public void inject(LoggedOutInteractor arg0) {
+  public void inject(HomeInteractor arg0) {
     injectLoggedOutInteractor(arg0);
   }
 
   @Override
-  public LoggedOutRouter loggedoutRouter() {
+  public HomeRouter homeRouter() {
     return routerProvider.get();
   }
 
-  private LoggedOutInteractor injectLoggedOutInteractor(LoggedOutInteractor instance) {
+  private HomeInteractor injectLoggedOutInteractor(HomeInteractor instance) {
     Interactor_MembersInjector.injectPresenter(instance, presenterProvider.get());
     LoggedOutInteractor_MembersInjector.injectListener(
         instance,
@@ -66,43 +66,43 @@ public final class DaggerLoggedOutBuilder_Component implements LoggedOutBuilder.
     return instance;
   }
 
-  private static final class Builder implements LoggedOutBuilder.Component.Builder {
-    private LoggedOutBuilder.ParentComponent parentComponent;
+  private static final class Builder implements HomeBuilder.Component.Builder {
+    private HomeBuilder.ParentComponent parentComponent;
 
-    private LoggedOutInteractor interactor;
+    private HomeInteractor interactor;
 
-    private LoggedOutView view;
+    private HomeView view;
 
     @Override
-    public LoggedOutBuilder.Component build() {
+    public HomeBuilder.Component build() {
       if (parentComponent == null) {
         throw new IllegalStateException(
-            LoggedOutBuilder.ParentComponent.class.getCanonicalName() + " must be set");
+            HomeBuilder.ParentComponent.class.getCanonicalName() + " must be set");
       }
       if (interactor == null) {
         throw new IllegalStateException(
-            LoggedOutInteractor.class.getCanonicalName() + " must be set");
+            HomeInteractor.class.getCanonicalName() + " must be set");
       }
       if (view == null) {
-        throw new IllegalStateException(LoggedOutView.class.getCanonicalName() + " must be set");
+        throw new IllegalStateException(HomeView.class.getCanonicalName() + " must be set");
       }
       return new DaggerLoggedOutBuilder_Component(this);
     }
 
     @Override
-    public Builder interactor(LoggedOutInteractor interactor) {
+    public Builder interactor(HomeInteractor interactor) {
       this.interactor = Preconditions.checkNotNull(interactor);
       return this;
     }
 
     @Override
-    public Builder view(LoggedOutView view) {
+    public Builder view(HomeView view) {
       this.view = Preconditions.checkNotNull(view);
       return this;
     }
 
     @Override
-    public Builder parentComponent(LoggedOutBuilder.ParentComponent component) {
+    public Builder parentComponent(HomeBuilder.ParentComponent component) {
       this.parentComponent = Preconditions.checkNotNull(component);
       return this;
     }

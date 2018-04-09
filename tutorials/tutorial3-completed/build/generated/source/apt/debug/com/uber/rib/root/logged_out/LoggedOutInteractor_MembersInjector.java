@@ -1,7 +1,7 @@
 package com.uber.rib.root.logged_out;
 
 import com.uber.rib.core.Interactor_MembersInjector;
-import com.uber.rib.root.home.LoggedOutInteractor;
+import com.uber.rib.root.home.HomeInteractor;
 
 import dagger.MembersInjector;
 import javax.annotation.Generated;
@@ -12,37 +12,37 @@ import javax.inject.Provider;
   comments = "https://google.github.io/dagger"
 )
 public final class LoggedOutInteractor_MembersInjector
-    implements MembersInjector<LoggedOutInteractor> {
-  private final Provider<LoggedOutInteractor.LoggedOutPresenter> presenterProvider;
+    implements MembersInjector<HomeInteractor> {
+  private final Provider<HomeInteractor.LoggedOutPresenter> presenterProvider;
 
-  private final Provider<LoggedOutInteractor.Listener> listenerProvider;
+  private final Provider<HomeInteractor.Listener> listenerProvider;
 
   public LoggedOutInteractor_MembersInjector(
-      Provider<LoggedOutInteractor.LoggedOutPresenter> presenterProvider,
-      Provider<LoggedOutInteractor.Listener> listenerProvider) {
+      Provider<HomeInteractor.LoggedOutPresenter> presenterProvider,
+      Provider<HomeInteractor.Listener> listenerProvider) {
     this.presenterProvider = presenterProvider;
     this.listenerProvider = listenerProvider;
   }
 
-  public static MembersInjector<LoggedOutInteractor> create(
-      Provider<LoggedOutInteractor.LoggedOutPresenter> presenterProvider,
-      Provider<LoggedOutInteractor.Listener> listenerProvider) {
+  public static MembersInjector<HomeInteractor> create(
+      Provider<HomeInteractor.LoggedOutPresenter> presenterProvider,
+      Provider<HomeInteractor.Listener> listenerProvider) {
     return new LoggedOutInteractor_MembersInjector(presenterProvider, listenerProvider);
   }
 
   @Override
-  public void injectMembers(LoggedOutInteractor instance) {
+  public void injectMembers(HomeInteractor instance) {
     Interactor_MembersInjector.injectPresenter(instance, presenterProvider.get());
     injectListener(instance, listenerProvider.get());
     injectPresenter(instance, presenterProvider.get());
   }
 
   public static void injectListener(
-      LoggedOutInteractor instance, LoggedOutInteractor.Listener listener) {
+          HomeInteractor instance, HomeInteractor.Listener listener) {
     instance.listener = listener;
   }
 
-  public static void injectPresenter(LoggedOutInteractor instance, Object presenter) {
-    instance.presenter = (LoggedOutInteractor.LoggedOutPresenter) presenter;
+  public static void injectPresenter(HomeInteractor instance, Object presenter) {
+    instance.presenter = (HomeInteractor.LoggedOutPresenter) presenter;
   }
 }

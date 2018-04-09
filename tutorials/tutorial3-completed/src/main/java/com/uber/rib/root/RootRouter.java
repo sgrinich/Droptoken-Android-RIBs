@@ -20,40 +20,40 @@ import android.support.annotation.Nullable;
 
 import com.uber.rib.core.ViewRouter;
 import com.uber.rib.root.logged_in.LoggedInBuilder;
-import com.uber.rib.root.home.LoggedOutBuilder;
-import com.uber.rib.root.home.LoggedOutRouter;
+import com.uber.rib.root.home.HomeBuilder;
+import com.uber.rib.root.home.HomeRouter;
 
 /**
  * Adds and removes children of {@link RootBuilder.RootScope}.
  */
 public class RootRouter extends ViewRouter<RootView, RootInteractor, RootBuilder.Component> {
 
-  private final LoggedOutBuilder loggedOutBuilder;
+  private final HomeBuilder homeBuilder;
   private final LoggedInBuilder loggedInBuilder;
-  @Nullable private LoggedOutRouter loggedOutRouter;
+  @Nullable private HomeRouter homeRouter;
 
   RootRouter(
       RootView view,
       RootInteractor interactor,
       RootBuilder.Component component,
-      LoggedOutBuilder loggedOutBuilder,
+      HomeBuilder homeBuilder,
       LoggedInBuilder loggedInBuilder) {
     super(view, interactor, component);
-    this.loggedOutBuilder = loggedOutBuilder;
+    this.homeBuilder = homeBuilder;
     this.loggedInBuilder = loggedInBuilder;
   }
 
   void attachLoggedOut() {
-    loggedOutRouter = loggedOutBuilder.build(getView());
-    attachChild(loggedOutRouter);
-    getView().addView(loggedOutRouter.getView());
+    homeRouter = homeBuilder.build(getView());
+    attachChild(homeRouter);
+    getView().addView(homeRouter.getView());
   }
 
   void detachLoggedOut() {
-    if (loggedOutRouter != null) {
-      detachChild(loggedOutRouter);
-      getView().removeView(loggedOutRouter.getView());
-      loggedOutRouter = null;
+    if (homeRouter != null) {
+      detachChild(homeRouter);
+      getView().removeView(homeRouter.getView());
+      homeRouter = null;
     }
   }
 
