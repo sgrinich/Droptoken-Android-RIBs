@@ -43,12 +43,16 @@ public class HomeInteractor
     super.didBecomeActive(savedInstanceState);
     presenter
         .playGame()
-        .subscribe(new Consumer<Pair<String, String>>() {
+        .subscribe(new Consumer<Pair<Integer, String>>() {
           @Override
-          public void accept(Pair<String, String> names) throws Exception {
-            if (!isEmpty(names.first) && !isEmpty(names.second)) {
+          public void accept(Pair<Integer, String> names) throws Exception {
+            if (names.first != -1) {
               listener.play(names.first, names.second);
             }
+
+//            if (!isEmpty(names.first) && !isEmpty(names.second)) {
+//              listener.play(names.first, names.second);
+//            }
           }
         });
   }
@@ -62,11 +66,11 @@ public class HomeInteractor
    */
   interface HomePresenter {
 
-    Observable<Pair<String, String>> playGame();
+    Observable<Pair<Integer, String>> playGame();
   }
 
   public interface Listener {
-    void play(String firstPlayer, String userColor);
+    void play(Integer firstPlayer, String userColor);
   }
 
 }

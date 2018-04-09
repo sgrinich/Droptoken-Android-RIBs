@@ -46,11 +46,11 @@ public class HomeView extends LinearLayout implements HomeInteractor.HomePresent
   }
 
   @Override
-  public Observable<Pair<String, String>> playGame() {
+  public Observable<Pair<Integer, String>> playGame() {
     return RxView.clicks(findViewById(R.id.play_button))
-        .map(new Function<Object, Pair<String, String>>() {
+        .map(new Function<Object, Pair<Integer, String>>() {
           @Override
-          public Pair<String, String> apply(Object o) throws Exception {
+          public Pair<Integer, String> apply(Object o) throws Exception {
               RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radio_group);
               int selectedId = radioGroup.getCheckedRadioButtonId();
 
@@ -59,7 +59,7 @@ public class HomeView extends LinearLayout implements HomeInteractor.HomePresent
 //            TextView playerNameOne = (TextView) findViewById(R.id.player_name_1);
 //            TextView playerNameTwo = (TextView) findViewById(R.id.player_name_2);
 //            return Pair.create(playerNameOne.getText().toString(), playerNameTwo.getText().toString());
-              return Pair.create(Integer.toString(selectedId), "test");
+              return Pair.create(selectedId, "test");
           }
         });
   }
