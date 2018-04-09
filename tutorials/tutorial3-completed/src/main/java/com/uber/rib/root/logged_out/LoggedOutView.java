@@ -46,13 +46,14 @@ public class LoggedOutView extends LinearLayout implements LoggedOutInteractor.L
 
   @Override
   public Observable<Pair<String, String>> loginName() {
-    return RxView.clicks(findViewById(R.id.login_button))
+    return RxView.clicks(findViewById(R.id.play_button))
         .map(new Function<Object, Pair<String, String>>() {
           @Override
           public Pair<String, String> apply(Object o) throws Exception {
-            TextView playerNameOne = (TextView) findViewById(R.id.player_name_1);
-            TextView playerNameTwo = (TextView) findViewById(R.id.player_name_2);
-            return Pair.create(playerNameOne.getText().toString(), playerNameTwo.getText().toString());
+//            TextView playerNameOne = (TextView) findViewById(R.id.player_name_1);
+//            TextView playerNameTwo = (TextView) findViewById(R.id.player_name_2);
+//            return Pair.create(playerNameOne.getText().toString(), playerNameTwo.getText().toString());
+              return Pair.create("abc", "test");
           }
         });
   }
