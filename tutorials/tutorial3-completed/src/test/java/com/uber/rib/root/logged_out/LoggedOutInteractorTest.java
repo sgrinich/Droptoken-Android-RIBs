@@ -9,6 +9,9 @@ import static org.mockito.Mockito.when;
 
 import com.uber.rib.core.InteractorHelper;
 import com.uber.rib.core.RibTestBasePlaceholder;
+import com.uber.rib.root.home.LoggedOutInteractor;
+import com.uber.rib.root.home.LoggedOutRouter;
+
 import io.reactivex.Observable;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,7 +22,8 @@ public class LoggedOutInteractorTest extends RibTestBasePlaceholder {
 
   @Mock LoggedOutInteractor.Listener listener;
   @Mock LoggedOutInteractor.LoggedOutPresenter presenter;
-  @Mock LoggedOutRouter router;
+  @Mock
+  LoggedOutRouter router;
 
   private LoggedOutInteractor interactor;
 

@@ -20,7 +20,7 @@ import android.support.annotation.Nullable;
 import com.uber.rib.core.Bundle;
 import com.uber.rib.core.Interactor;
 import com.uber.rib.core.RibInteractor;
-import com.uber.rib.root.logged_out.LoggedOutInteractor;
+import com.uber.rib.root.home.LoggedOutInteractor;
 import javax.inject.Inject;
 
 /**

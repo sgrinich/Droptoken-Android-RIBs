@@ -1,7 +1,7 @@
 package com.uber.rib.root;
 
 import com.uber.rib.core.Interactor_MembersInjector;
-import com.uber.rib.root.logged_out.LoggedOutInteractor;
+import com.uber.rib.root.home.LoggedOutInteractor;
 import dagger.internal.DoubleCheck;
 import dagger.internal.InstanceFactory;
 import dagger.internal.Preconditions;

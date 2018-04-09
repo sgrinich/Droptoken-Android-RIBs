@@ -1,5 +1,10 @@
 package com.uber.rib.root.logged_out;
 
+import com.uber.rib.root.home.LoggedOutBuilder;
+import com.uber.rib.root.home.LoggedOutInteractor;
+import com.uber.rib.root.home.LoggedOutRouter;
+import com.uber.rib.root.home.LoggedOutView;
+
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
 import javax.annotation.Generated;

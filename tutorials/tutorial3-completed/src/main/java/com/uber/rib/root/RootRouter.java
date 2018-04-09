@@ -20,8 +20,8 @@ import android.support.annotation.Nullable;
 
 import com.uber.rib.core.ViewRouter;
 import com.uber.rib.root.logged_in.LoggedInBuilder;
-import com.uber.rib.root.logged_out.LoggedOutBuilder;
-import com.uber.rib.root.logged_out.LoggedOutRouter;
+import com.uber.rib.root.home.LoggedOutBuilder;
+import com.uber.rib.root.home.LoggedOutRouter;
 
 /**
  * Adds and removes children of {@link RootBuilder.RootScope}.

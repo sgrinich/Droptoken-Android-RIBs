@@ -1,6 +1,8 @@
 package com.uber.rib.root.logged_out;
 
 import com.uber.rib.core.Interactor_MembersInjector;
+import com.uber.rib.root.home.LoggedOutInteractor;
+
 import dagger.MembersInjector;
 import javax.annotation.Generated;
 import javax.inject.Provider;
