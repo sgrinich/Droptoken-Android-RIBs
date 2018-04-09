@@ -41,7 +41,7 @@ public class LoggedOutInteractor
   protected void didBecomeActive(@Nullable Bundle savedInstanceState) {
     super.didBecomeActive(savedInstanceState);
     presenter
-        .loginName()
+        .playGame()
         .subscribe(new Consumer<Pair<String, String>>() {
           @Override
           public void accept(Pair<String, String> names) throws Exception {
@@ -61,7 +61,7 @@ public class LoggedOutInteractor
    */
   interface LoggedOutPresenter {
 
-    Observable<Pair<String, String>> loginName();
+    Observable<Pair<String, String>> playGame();
   }
 
   public interface Listener {
