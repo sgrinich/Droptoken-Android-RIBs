@@ -46,7 +46,7 @@ public class LoggedOutInteractor
           @Override
           public void accept(Pair<String, String> names) throws Exception {
             if (!isEmpty(names.first) && !isEmpty(names.second)) {
-              listener.login(names.first, names.second);
+              listener.play(names.first, names.second);
             }
           }
         });
@@ -65,7 +65,7 @@ public class LoggedOutInteractor
   }
 
   public interface Listener {
-    void login(String userNameA, String userNameB);
+    void play(String firstPlayer, String userColor);
   }
 
 }

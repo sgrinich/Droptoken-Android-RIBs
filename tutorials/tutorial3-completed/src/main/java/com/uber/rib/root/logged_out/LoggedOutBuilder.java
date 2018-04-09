@@ -59,7 +59,7 @@ public class LoggedOutBuilder
 
   @Override
   protected LoggedOutView inflateView(LayoutInflater inflater, ViewGroup parentViewGroup) {
-    return (LoggedOutView) inflater.inflate(R.layout.logged_out_rib, parentViewGroup, false);
+    return (LoggedOutView) inflater.inflate(R.layout.home_rib, parentViewGroup, false);
   }
 
   public interface ParentComponent {

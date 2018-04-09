@@ -685,7 +685,7 @@ int layout abc_screen_toolbar 0x7f030017
 int layout abc_search_dropdown_item_icons_2line 0x7f030018
 int layout abc_search_view 0x7f030019
 int layout abc_select_dialog_material 0x7f03001a
-int layout logged_out_rib 0x7f03001b
+int layout home_rib 0x7f03001b
 int layout notification_action 0x7f03001c
 int layout notification_action_tombstone 0x7f03001d
 int layout notification_media_action 0x7f03001e

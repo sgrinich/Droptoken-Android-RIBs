@@ -44,6 +44,10 @@
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/layout/notification_action.xml"
     },
     {
+        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/home_rib.xml",
+        "source": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/layout/home_rib.xml"
+    },
+    {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
@@ -182,10 +186,6 @@
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/logged_out_rib.xml",
-        "source": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/layout/logged_out_rib.xml"
     },
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
