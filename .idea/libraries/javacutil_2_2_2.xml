@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="javacutil-2.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/javacutil/2.2.2/92ff4cd5ca5346d5f4e479a3d5b3d1fc013e175d/javacutil-2.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/javacutil/2.2.2/ccec5f3013d4fe18fc3f8402a1a338412a0c4226/javacutil-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

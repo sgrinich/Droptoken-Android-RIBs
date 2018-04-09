@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jackson-databind-2.9.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/71ffd116fca01d7bd4db1251b5e567b70d5e78e1/ideaIC-LATEST-EAP-SNAPSHOT/lib/jackson-databind-2.9.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/LATEST-EAP-SNAPSHOT/eec07e35278a7727d04c54de7ddceb521b56fe4/ideaIC-LATEST-EAP-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

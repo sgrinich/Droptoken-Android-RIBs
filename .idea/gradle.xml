@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/demos" />
+            <option value="$PROJECT_DIR$/demos/memory-leaks" />
+            <option value="$PROJECT_DIR$/libraries" />
+            <option value="$PROJECT_DIR$/libraries/rib-android" />
+            <option value="$PROJECT_DIR$/libraries/rib-android-test" />
+            <option value="$PROJECT_DIR$/libraries/rib-base" />
+            <option value="$PROJECT_DIR$/libraries/rib-compiler-app" />
+            <option value="$PROJECT_DIR$/libraries/rib-compiler-test" />
+            <option value="$PROJECT_DIR$/libraries/rib-debug-utils" />
+            <option value="$PROJECT_DIR$/libraries/rib-router-navigator" />
+            <option value="$PROJECT_DIR$/libraries/rib-screen-stack-base" />
+            <option value="$PROJECT_DIR$/libraries/rib-test-utils" />
+            <option value="$PROJECT_DIR$/libraries/rib-uava" />
+            <option value="$PROJECT_DIR$/libraries/rib-workflow" />
+            <option value="$PROJECT_DIR$/libraries/rib-workflow-test-utils" />
+            <option value="$PROJECT_DIR$/tooling" />
+            <option value="$PROJECT_DIR$/tooling/autodispose-error-prone-checker" />
+            <option value="$PROJECT_DIR$/tooling/rib-intellij-plugin" />
+            <option value="$PROJECT_DIR$/tutorials" />
+            <option value="$PROJECT_DIR$/tutorials/tutorial1" />
+            <option value="$PROJECT_DIR$/tutorials/tutorial2" />
+            <option value="$PROJECT_DIR$/tutorials/tutorial3" />
+            <option value="$PROJECT_DIR$/tutorials/tutorial3-completed" />
+            <option value="$PROJECT_DIR$/tutorials/tutorial4" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

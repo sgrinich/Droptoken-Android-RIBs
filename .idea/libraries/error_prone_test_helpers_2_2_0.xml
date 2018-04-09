@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="error_prone_test_helpers-2.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_test_helpers/2.2.0/4f0f4434d54d829714651e24188b46f6d29ef7d1/error_prone_test_helpers-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_test_helpers/2.2.0/29bd5734ce211654826b23cb6318de3ea8648953/error_prone_test_helpers-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.uber.rib.android.test" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+    <!-- Need this application attribute in order for roboelectric tests to pass. -->
+    <application
+        android:theme="@style/Theme.AppCompat"
+        tools:replace="android:theme" />
+
+</manifest>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-uava/build/libs/rib-uava-0.9.1-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfc78aebcb66385797ee328ac012dbee4644e783">
+        <dex dex="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial2/build/intermediates/pre-dexed/debug/rib-uava-0.9.1-SNAPSHOT_7fb3a8072081d4918cdabeb0b96bdfd618402a24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-base/build/libs/rib-base-0.9.1-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5b7127f0cb2d82db7b4884fb71a7744ab99d5ce4">
+        <dex dex="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial2/build/intermediates/pre-dexed/debug/rib-base-0.9.1-SNAPSHOT_7120ec1e66b20df6b455f606bcb0d36bb55febc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6203a27526d22379def26809c1c225d40ad681d9">
+        <dex dex="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial2/build/intermediates/pre-dexed/debug/classes_e59692224d16da9c3bfa63931c6c3b81161de765.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/stephengrinich/Documents/98point6/RIBs/android/libraries/rib-android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6203a27526d22379def26809c1c225d40ad681d9">
+        <dex dex="/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial2/build/intermediates/pre-dexed/debug/classes_6d9f0a5840fd0973204b6c72d007bf4de36d5dc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/stephengrinich/Documents/98point6/RIBs/android/libraries/rib-uava/build/libs/rib-uava-0.9.1-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65ba7a6d885cbdddac96c9e47c92592b88daad20">
+        <dex dex="/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial2/build/intermediates/pre-dexed/debug/rib-uava-0.9.1-SNAPSHOT_a1f931ccddeb895807a552cc65ea17ef1e9213f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/stephengrinich/Documents/98point6/RIBs/android/libraries/rib-base/build/libs/rib-base-0.9.1-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbea3ad1bd726603d48f1ff41d3cf9011f5a6216">
+        <dex dex="/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial2/build/intermediates/pre-dexed/debug/rib-base-0.9.1-SNAPSHOT_ecfa7306dd67d1056c5013034ac0470e5890caea.jar" />
+    </item>
+
+</items>

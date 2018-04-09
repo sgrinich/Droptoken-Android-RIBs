@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tooling/autodispose-error-prone-checker/autodispose-error-prone-checker.iml" filepath="$PROJECT_DIR$/tooling/autodispose-error-prone-checker/autodispose-error-prone-checker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demos/demos.iml" filepath="$PROJECT_DIR$/demos/demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demos/memory-leaks/memory-leaks.iml" filepath="$PROJECT_DIR$/demos/memory-leaks/memory-leaks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-android/rib-android.iml" filepath="$PROJECT_DIR$/libraries/rib-android/rib-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-android-test/rib-android-test.iml" filepath="$PROJECT_DIR$/libraries/rib-android-test/rib-android-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-base/rib-base.iml" filepath="$PROJECT_DIR$/libraries/rib-base/rib-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-compiler-app/rib-compiler-app.iml" filepath="$PROJECT_DIR$/libraries/rib-compiler-app/rib-compiler-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-compiler-test/rib-compiler-test.iml" filepath="$PROJECT_DIR$/libraries/rib-compiler-test/rib-compiler-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-debug-utils/rib-debug-utils.iml" filepath="$PROJECT_DIR$/libraries/rib-debug-utils/rib-debug-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tooling/rib-intellij-plugin/rib-intellij-plugin.iml" filepath="$PROJECT_DIR$/tooling/rib-intellij-plugin/rib-intellij-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-router-navigator/rib-router-navigator.iml" filepath="$PROJECT_DIR$/libraries/rib-router-navigator/rib-router-navigator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-screen-stack-base/rib-screen-stack-base.iml" filepath="$PROJECT_DIR$/libraries/rib-screen-stack-base/rib-screen-stack-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-test-utils/rib-test-utils.iml" filepath="$PROJECT_DIR$/libraries/rib-test-utils/rib-test-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-uava/rib-uava.iml" filepath="$PROJECT_DIR$/libraries/rib-uava/rib-uava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-workflow/rib-workflow.iml" filepath="$PROJECT_DIR$/libraries/rib-workflow/rib-workflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/rib-workflow-test-utils/rib-workflow-test-utils.iml" filepath="$PROJECT_DIR$/libraries/rib-workflow-test-utils/rib-workflow-test-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tooling/tooling.iml" filepath="$PROJECT_DIR$/tooling/tooling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorials/tutorial1/tutorial1.iml" filepath="$PROJECT_DIR$/tutorials/tutorial1/tutorial1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorials/tutorial2/tutorial2.iml" filepath="$PROJECT_DIR$/tutorials/tutorial2/tutorial2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorials/tutorial3/tutorial3.iml" filepath="$PROJECT_DIR$/tutorials/tutorial3/tutorial3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorials/tutorial3-completed/tutorial3-completed.iml" filepath="$PROJECT_DIR$/tutorials/tutorial3-completed/tutorial3-completed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorials/tutorial4/tutorial4.iml" filepath="$PROJECT_DIR$/tutorials/tutorial4/tutorial4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorials/tutorials.iml" filepath="$PROJECT_DIR$/tutorials/tutorials.iml" />
+    </modules>
+  </component>
+</project>
