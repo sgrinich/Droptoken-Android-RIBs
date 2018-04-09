@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rib-compiler-test.rib-compiler-test-0.9.1-SNAPSHOT-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/rib-compiler-test/build/libs/rib-compiler-test-0.9.1-SNAPSHOT-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

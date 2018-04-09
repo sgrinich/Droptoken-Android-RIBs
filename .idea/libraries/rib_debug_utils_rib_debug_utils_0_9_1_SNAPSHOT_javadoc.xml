@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rib-debug-utils.rib-debug-utils-0.9.1-SNAPSHOT-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/rib-debug-utils/build/libs/rib-debug-utils-0.9.1-SNAPSHOT-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
