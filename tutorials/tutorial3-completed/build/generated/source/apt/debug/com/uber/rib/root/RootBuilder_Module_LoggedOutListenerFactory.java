@@ -1,6 +1,6 @@
 package com.uber.rib.root;
 
-import com.uber.rib.root.home.LoggedOutInteractor;
+import com.uber.rib.root.home.HomeInteractor;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
 import javax.annotation.Generated;
@@ -11,7 +11,7 @@ import javax.inject.Provider;
   comments = "https://google.github.io/dagger"
 )
 public final class RootBuilder_Module_LoggedOutListenerFactory
-    implements Factory<LoggedOutInteractor.Listener> {
+    implements Factory<HomeInteractor.Listener> {
   private final Provider<RootInteractor> rootInteractorProvider;
 
   public RootBuilder_Module_LoggedOutListenerFactory(
@@ -20,18 +20,18 @@ public final class RootBuilder_Module_LoggedOutListenerFactory
   }
 
   @Override
-  public LoggedOutInteractor.Listener get() {
+  public HomeInteractor.Listener get() {
     return Preconditions.checkNotNull(
-        RootBuilder.Module.loggedOutListener(rootInteractorProvider.get()),
+        RootBuilder.Module.homeListener(rootInteractorProvider.get()),
         "Cannot return null from a non-@Nullable @Provides method");
   }
 
-  public static Factory<LoggedOutInteractor.Listener> create(
+  public static Factory<HomeInteractor.Listener> create(
       Provider<RootInteractor> rootInteractorProvider) {
     return new RootBuilder_Module_LoggedOutListenerFactory(rootInteractorProvider);
   }
 
-  public static LoggedOutInteractor.Listener proxyLoggedOutListener(RootInteractor rootInteractor) {
-    return RootBuilder.Module.loggedOutListener(rootInteractor);
+  public static HomeInteractor.Listener proxyLoggedOutListener(RootInteractor rootInteractor) {
+    return RootBuilder.Module.homeListener(rootInteractor);
   }
 }

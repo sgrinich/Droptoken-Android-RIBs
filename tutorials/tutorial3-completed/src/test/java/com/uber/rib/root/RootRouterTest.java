@@ -1,7 +1,7 @@
 package com.uber.rib.root;
 
+import com.uber.rib.root.home.HomeBuilder;
 import com.uber.rib.root.logged_in.LoggedInBuilder;
-import com.uber.rib.root.home.LoggedOutBuilder;
 
 import org.junit.Before;
 import org.mockito.Mock;
@@ -23,7 +23,7 @@ public class RootRouterTest {
         view,
         interactor,
         component,
-        new LoggedOutBuilder(component),
+        new HomeBuilder(component),
         new LoggedInBuilder(component));
   }
 }

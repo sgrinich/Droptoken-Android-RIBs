@@ -1,7 +1,7 @@
 package com.uber.rib.root;
 
 import com.uber.rib.core.Interactor_MembersInjector;
-import com.uber.rib.root.home.LoggedOutInteractor;
+import com.uber.rib.root.home.HomeInteractor;
 import dagger.internal.DoubleCheck;
 import dagger.internal.InstanceFactory;
 import dagger.internal.Preconditions;
@@ -19,7 +19,7 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
 
   private Provider<RootInteractor> interactorProvider;
 
-  private Provider<LoggedOutInteractor.Listener> loggedOutListenerProvider;
+  private Provider<HomeInteractor.Listener> homeListenerProvider;
 
   private RootView view;
 
@@ -40,9 +40,8 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
     this.viewProvider = InstanceFactory.create(builder.view);
     this.presenterProvider = DoubleCheck.provider((Provider) viewProvider);
     this.interactorProvider = InstanceFactory.create(builder.interactor);
-    this.loggedOutListenerProvider =
-        DoubleCheck.provider(
-            RootBuilder_Module_LoggedOutListenerFactory.create(interactorProvider));
+    this.homeListenerProvider =
+        DoubleCheck.provider(RootBuilder_Module_HomeListenerFactory.create(interactorProvider));
     this.view = builder.view;
     this.componentProvider = InstanceFactory.<RootBuilder.Component>create(this);
     this.routerProvider =
@@ -57,8 +56,8 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
   }
 
   @Override
-  public LoggedOutInteractor.Listener listener() {
-    return loggedOutListenerProvider.get();
+  public HomeInteractor.Listener listener() {
+    return homeListenerProvider.get();
   }
 
   @Override
