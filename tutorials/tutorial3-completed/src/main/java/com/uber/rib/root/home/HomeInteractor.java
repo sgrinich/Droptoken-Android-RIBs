@@ -18,6 +18,7 @@ package com.uber.rib.root.home;
 
 import android.support.annotation.Nullable;
 import android.support.v4.util.Pair;
+import android.util.Log;
 
 import com.uber.rib.core.Bundle;
 import com.uber.rib.core.Interactor;
@@ -33,6 +34,8 @@ import javax.inject.Inject;
 @RibInteractor
 public class HomeInteractor
     extends Interactor<HomeInteractor.HomePresenter, HomeRouter> {
+
+  private Boolean playerChoseRed = true;
 
   @Inject Listener listener;
   @Inject
@@ -50,23 +53,49 @@ public class HomeInteractor
               listener.play(names.first, names.second);
             }
 
-//            if (!isEmpty(names.first) && !isEmpty(names.second)) {
-//              listener.play(names.first, names.second);
-//            }
           }
         });
+
+    presenter
+        .choseRedColor()
+        .subscribe(new Consumer<Boolean>() {
+          @Override
+          public void accept(Boolean choseRed) throws Exception {
+            playerChoseRed = true;
+          }
+        });
+
+      presenter
+          .choseBlueColor()
+          .subscribe(new Consumer<Boolean>() {
+              @Override
+              public void accept(Boolean choseBlue) throws Exception {
+                  playerChoseRed = false;
+              }
+          });
+
   }
 
   private boolean isEmpty(@Nullable String string) {
     return string == null || string.length() == 0;
   }
 
+  private updateButtonColors() {
+      if (playerChoseRed) {
+        // set drawable to be deep red
+
+      } else {
+        // set drawable to be deep blue
+      }
+  }
+
   /**
    * Presenter interface implemented by this RIB's view.
    */
   interface HomePresenter {
-
     Observable<Pair<Integer, String>> playGame();
+    Observable<Boolean> choseRedColor();
+    Observable<Boolean> choseBlueColor();
   }
 
   public interface Listener {
