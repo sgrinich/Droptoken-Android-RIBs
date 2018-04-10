@@ -65,6 +65,10 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
 
     private GameView view;
 
+    private Integer firstPlayer;
+
+    private Boolean playerIsRed;
+
     @Override
     public GameBuilder.Component build() {
       if (parentComponent == null) {
@@ -76,6 +80,12 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
       }
       if (view == null) {
         throw new IllegalStateException(GameView.class.getCanonicalName() + " must be set");
+      }
+      if (firstPlayer == null) {
+        throw new IllegalStateException(Integer.class.getCanonicalName() + " must be set");
+      }
+      if (playerIsRed == null) {
+        throw new IllegalStateException(Boolean.class.getCanonicalName() + " must be set");
       }
       return new DaggerGameBuilder_Component(this);
     }
@@ -95,6 +105,18 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
     @Override
     public Builder parentComponent(GameBuilder.ParentComponent component) {
       this.parentComponent = Preconditions.checkNotNull(component);
+      return this;
+    }
+
+    @Override
+    public Builder firstPlayer(Integer firstPlayer) {
+      this.firstPlayer = Preconditions.checkNotNull(firstPlayer);
+      return this;
+    }
+
+    @Override
+    public Builder playerIsRed(Boolean playerIsRed) {
+      this.playerIsRed = Preconditions.checkNotNull(playerIsRed);
       return this;
     }
   }
