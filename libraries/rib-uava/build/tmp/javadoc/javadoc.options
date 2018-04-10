@@ -1,0 +1,10 @@
+-Xdoclint:none '-quiet'
+-classpath '/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-uava/build/classes/main:/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-uava/build/resources/main:/Users/stephengrinich/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/25.1.1/b59b6ee8d6ecc03e672d253800430343493a6ed8/support-annotations-25.1.1.jar'
+-d '/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-uava/build/docs/javadoc'
+-doctitle 'rib-uava 0.9.1-SNAPSHOT API'
+-quiet 
+-windowtitle 'rib-uava 0.9.1-SNAPSHOT API'
+'/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-uava/src/main/java/com/uber/rib/core/Preconditions.java'
+'/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-uava/src/main/java/com/uber/rib/core/Optional.java'
+'/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-uava/src/main/java/com/uber/rib/core/Present.java'
+'/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-uava/src/main/java/com/uber/rib/core/Absent.java'

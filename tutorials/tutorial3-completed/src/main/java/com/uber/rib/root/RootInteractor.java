@@ -40,7 +40,7 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
   class HomeListener implements HomeInteractor.Listener {
 
     @Override
-    public void play(String firstPlayer, String userColor) {
+    public void play(Integer firstPlayer, String userColor) {
       // Switch to logged in. Let’s just ignore userName for now.
       getRouter().detachHome();
       getRouter().attachLoggedIn();

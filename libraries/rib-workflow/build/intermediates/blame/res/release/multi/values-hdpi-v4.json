@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-workflow/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 13,
+                        "endOffset": 327
+                    }
+                }
+            }
+        ]
+    }
+]

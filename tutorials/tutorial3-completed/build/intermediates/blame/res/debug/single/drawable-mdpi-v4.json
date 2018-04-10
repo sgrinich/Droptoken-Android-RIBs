@@ -32,12 +32,12 @@
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png",
-        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
@@ -48,20 +48,20 @@
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png",
-        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png",
-        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
+        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",

@@ -4,7 +4,9 @@ import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v4.util.Pair;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.LinearLayout;
+import android.widget.RadioGroup;
 /*
  * Copyright (C) 2017. Uber Technologies
  *
@@ -44,16 +46,39 @@ public class HomeView extends LinearLayout implements HomeInteractor.HomePresent
   }
 
   @Override
-  public Observable<Pair<String, String>> playGame() {
+  public Observable<Pair<Integer, String>> playGame() {
     return RxView.clicks(findViewById(R.id.play_button))
-        .map(new Function<Object, Pair<String, String>>() {
+        .map(new Function<Object, Pair<Integer, String>>() {
           @Override
-          public Pair<String, String> apply(Object o) throws Exception {
-//            TextView playerNameOne = (TextView) findViewById(R.id.player_name_1);
-//            TextView playerNameTwo = (TextView) findViewById(R.id.player_name_2);
-//            return Pair.create(playerNameOne.getText().toString(), playerNameTwo.getText().toString());
-              return Pair.create("abc", "test");
+          public Pair<Integer, String> apply(Object o) throws Exception {
+              RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radio_group);
+              int selectedId = radioGroup.getCheckedRadioButtonId();
+
+              return Pair.create(selectedId, "test");
           }
         });
   }
+
+    @Override
+    public Observable<Boolean> choseRedColor() {
+        return RxView.clicks(findViewById(R.id.red_button))
+            .map(new Function<Object, Boolean>() {
+                @Override
+                public Boolean apply(Object o) throws Exception {
+                    return true;
+            }
+        });
+    }
+
+    @Override
+    public Observable<Boolean> choseBlueColor() {
+        return RxView.clicks(findViewById(R.id.blue_button))
+            .map(new Function<Object, Boolean>() {
+                @Override
+                public Boolean apply(Object o) throws Exception {
+                    return true;
+                }
+            });
+    }
+
 }

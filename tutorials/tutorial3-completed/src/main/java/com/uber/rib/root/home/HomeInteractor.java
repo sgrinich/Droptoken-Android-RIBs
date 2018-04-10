@@ -18,6 +18,7 @@ package com.uber.rib.root.home;
 
 import android.support.annotation.Nullable;
 import android.support.v4.util.Pair;
+import android.util.Log;
 
 import com.uber.rib.core.Bundle;
 import com.uber.rib.core.Interactor;
@@ -34,6 +35,8 @@ import javax.inject.Inject;
 public class HomeInteractor
     extends Interactor<HomeInteractor.HomePresenter, HomeRouter> {
 
+  private Boolean playerChoseRed = true;
+
   @Inject Listener listener;
   @Inject
   HomePresenter presenter;
@@ -43,30 +46,59 @@ public class HomeInteractor
     super.didBecomeActive(savedInstanceState);
     presenter
         .playGame()
-        .subscribe(new Consumer<Pair<String, String>>() {
+        .subscribe(new Consumer<Pair<Integer, String>>() {
           @Override
-          public void accept(Pair<String, String> names) throws Exception {
-            if (!isEmpty(names.first) && !isEmpty(names.second)) {
+          public void accept(Pair<Integer, String> names) throws Exception {
+            if (names.first != -1) {
               listener.play(names.first, names.second);
             }
+
           }
         });
+
+    presenter
+        .choseRedColor()
+        .subscribe(new Consumer<Boolean>() {
+          @Override
+          public void accept(Boolean choseRed) throws Exception {
+            playerChoseRed = true;
+          }
+        });
+
+      presenter
+          .choseBlueColor()
+          .subscribe(new Consumer<Boolean>() {
+              @Override
+              public void accept(Boolean choseBlue) throws Exception {
+                  playerChoseRed = false;
+              }
+          });
+
   }
 
   private boolean isEmpty(@Nullable String string) {
     return string == null || string.length() == 0;
   }
 
+  private updateButtonColors() {
+      if (playerChoseRed) {
+        // TODO: Delegate to HomeView, set drawable to be deep red
+      } else {
+        // TODO: Delegate to HomeView, set drawable to be deep blue
+      }
+  }
+
   /**
    * Presenter interface implemented by this RIB's view.
    */
   interface HomePresenter {
-
-    Observable<Pair<String, String>> playGame();
+    Observable<Pair<Integer, String>> playGame();
+    Observable<Boolean> choseRedColor();
+    Observable<Boolean> choseBlueColor();
   }
 
   public interface Listener {
-    void play(String firstPlayer, String userColor);
+    void play(Integer firstPlayer, String userColor);
   }
 
 }

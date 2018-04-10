@@ -26,18 +26,20 @@
         android:layout_margin="16dp">
 
         <Button
+            android:id="@+id/red_button"
             android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:background="@drawable/round_button"
+            android:background="@drawable/red_piece"
             android:text=""
             android:layout_gravity="center"
             android:textColor="#fff"
             android:layout_marginRight="50dp" />
 
         <Button
+            android:id="@+id/blue_button"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@drawable/round_button"
+            android:background="@drawable/blue_piece"
             android:layout_gravity="bottom"
             android:text=""
             android:textColor="#fff" />
@@ -55,23 +57,24 @@
         android:layout_margin="16dp"/>
 
     <RadioGroup
+        android:id="@+id/radio_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:checkedButton="@+id/you_radio_button">
         <RadioButton
+            android:id="@+id/you_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="You"
             android:layout_margin="16dp"/>
 
-        <!--android:onClick="onRadioButtonClicked"/>-->
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Computer"
             android:layout_margin="16dp"/>
-        <!--android:onClick="onRadioButtonClicked"/>-->
     </RadioGroup>
 
 
