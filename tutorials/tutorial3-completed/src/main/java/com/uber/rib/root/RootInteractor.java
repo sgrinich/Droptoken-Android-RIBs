@@ -20,6 +20,7 @@ import android.support.annotation.Nullable;
 import com.uber.rib.core.Bundle;
 import com.uber.rib.core.Interactor;
 import com.uber.rib.core.RibInteractor;
+import com.uber.rib.root.game.GameInteractor;
 import com.uber.rib.root.home.HomeInteractor;
 import javax.inject.Inject;
 
@@ -49,7 +50,13 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
     }
   }
 
-  /**
+  class GameListener implements GameInteractor.Listener {
+
+    // func call here
+  }
+
+
+    /**
    * Presenter interface implemented by this RIB's view.
    */
   interface RootPresenter {

@@ -17,6 +17,16 @@
         android:visibility="visible" />
 
     <TextView
+        android:id="@+id/prompt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="50dp"
+        android:text="It's your turn"
+        android:textSize="32sp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -32,7 +42,7 @@
         android:layout_below="@+id/title"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button12"
@@ -43,7 +53,7 @@
         android:layout_toRightOf="@id/button11"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button13"
@@ -54,7 +64,7 @@
         android:layout_toRightOf="@id/button12"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button14"
@@ -65,7 +75,7 @@
         android:layout_toRightOf="@id/button13"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
     <TextView
         android:id="@+id/button21"
         android:layout_width="0dp"
@@ -74,7 +84,7 @@
         android:layout_below="@id/button11"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button22"
@@ -85,7 +95,7 @@
         android:layout_toRightOf="@id/button21"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button23"
@@ -96,7 +106,7 @@
         android:layout_toRightOf="@id/button22"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button24"
@@ -107,7 +117,7 @@
         android:layout_toRightOf="@id/button23"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
     <TextView
         android:id="@+id/button31"
         android:layout_width="0dp"
@@ -116,7 +126,7 @@
         android:layout_below="@id/button21"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button32"
@@ -127,7 +137,7 @@
         android:layout_toRightOf="@id/button21"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button33"
@@ -138,7 +148,7 @@
         android:layout_toRightOf="@id/button22"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button34"
@@ -149,7 +159,7 @@
         android:layout_toRightOf="@id/button33"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
     <TextView
         android:id="@+id/button41"
         android:layout_width="0dp"
@@ -158,7 +168,7 @@
         android:layout_below="@id/button31"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button42"
@@ -169,7 +179,7 @@
         android:layout_toRightOf="@id/button41"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button43"
@@ -180,7 +190,7 @@
         android:layout_toRightOf="@id/button42"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 
     <TextView
         android:id="@+id/button44"
@@ -191,5 +201,5 @@
         android:layout_toRightOf="@id/button43"
         app:layout_aspectRatio="100%"
         app:layout_widthPercent="20%"
-        android:background="#808080"/>
+        android:background="@drawable/empty_piece"/>
 </com.uber.rib.root.game.GameView>

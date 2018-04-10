@@ -20,6 +20,8 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
 
   private Boolean playerIsRed;
 
+  private GameBuilder.ParentComponent parentComponent;
+
   private Provider<GameBuilder.Component> componentProvider;
 
   private Provider<GameInteractor> interactorProvider;
@@ -40,6 +42,7 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
     this.presenterProvider = DoubleCheck.provider((Provider) viewProvider);
     this.firstPlayer = builder.firstPlayer;
     this.playerIsRed = builder.playerIsRed;
+    this.parentComponent = builder.parentComponent;
     this.componentProvider = InstanceFactory.<GameBuilder.Component>create(this);
     this.interactorProvider = InstanceFactory.create(builder.interactor);
     this.routerProvider =
@@ -62,6 +65,12 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
     Interactor_MembersInjector.injectPresenter(instance, presenterProvider.get());
     GameInteractor_MembersInjector.injectFirstPlayer(instance, firstPlayer);
     GameInteractor_MembersInjector.injectPlayerIsRed(instance, playerIsRed);
+    GameInteractor_MembersInjector.injectBoard(instance, new Board());
+    GameInteractor_MembersInjector.injectGameListener(
+        instance,
+        Preconditions.checkNotNull(
+            parentComponent.gameListener(),
+            "Cannot return null from a non-@Nullable component method"));
     GameInteractor_MembersInjector.injectPresenter(instance, presenterProvider.get());
     return instance;
   }

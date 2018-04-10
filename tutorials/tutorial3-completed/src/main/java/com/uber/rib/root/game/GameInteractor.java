@@ -9,7 +9,6 @@ import com.uber.rib.core.RibInteractor;
 import com.uber.rib.core.Presenter;
 import com.uber.rib.core.Router;
 import com.uber.rib.root.home.HomeInteractor;
-
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -25,16 +24,26 @@ public class GameInteractor
   @Inject @Named("first_player") Integer firstPlayer;
   @Inject @Named("player_is_red") Boolean playerIsRed;
 
-
+  @Inject Board board;
+  @Inject GameInteractor.Listener gameListener;
   @Inject GamePresenter presenter;
-//  @Inject Listener gameListener;
+
+  private Boolean isPlayerTurn;
 
   @Override
   protected void didBecomeActive(@Nullable Bundle savedInstanceState) {
     super.didBecomeActive(savedInstanceState);
 
+    this.isPlayerTurn = this.isFirstMoveUser();
 
-    // TODO: Add attachment logic here (RxSubscriptions, etc.).
+    Log.d("is player turn : ", "" + this.isPlayerTurn);
+
+    if (this.isPlayerTurn) {
+      presenter.setPromptPlayer();
+    } else {
+      presenter.setWaitingForMove();
+    }
+
   }
 
   @Override
@@ -45,17 +54,29 @@ public class GameInteractor
   }
 
   private Boolean isFirstMoveUser(){
-    return !(this.firstPlayer > 1);
+    return (this.firstPlayer > 1);
   }
+
 
 
   /**
    * Presenter interface implemented by this RIB's view.
    */
-  interface GamePresenter { }
+  interface GamePresenter {
+    void setPromptPlayer();
+    void setWaitingForMove();
+  }
 
-//  public interface Listener {
-//  }
+
+  public interface Listener {
+
+    /**
+     * Called when the game is over.
+     *
+     * @param winner player that won, or null if it's a tie.
+     */
+//    void gameWon(@Nullable String winner);
+  }
 
 }
 

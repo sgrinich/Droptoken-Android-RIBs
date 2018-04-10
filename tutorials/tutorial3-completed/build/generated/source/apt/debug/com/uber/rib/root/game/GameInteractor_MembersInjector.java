@@ -16,21 +16,35 @@ public final class GameInteractor_MembersInjector implements MembersInjector<Gam
 
   private final Provider<Boolean> playerIsRedProvider;
 
+  private final Provider<Board> boardProvider;
+
+  private final Provider<GameInteractor.Listener> gameListenerProvider;
+
   public GameInteractor_MembersInjector(
       Provider<GameInteractor.GamePresenter> presenterProvider,
       Provider<Integer> firstPlayerProvider,
-      Provider<Boolean> playerIsRedProvider) {
+      Provider<Boolean> playerIsRedProvider,
+      Provider<Board> boardProvider,
+      Provider<GameInteractor.Listener> gameListenerProvider) {
     this.presenterProvider = presenterProvider;
     this.firstPlayerProvider = firstPlayerProvider;
     this.playerIsRedProvider = playerIsRedProvider;
+    this.boardProvider = boardProvider;
+    this.gameListenerProvider = gameListenerProvider;
   }
 
   public static MembersInjector<GameInteractor> create(
       Provider<GameInteractor.GamePresenter> presenterProvider,
       Provider<Integer> firstPlayerProvider,
-      Provider<Boolean> playerIsRedProvider) {
+      Provider<Boolean> playerIsRedProvider,
+      Provider<Board> boardProvider,
+      Provider<GameInteractor.Listener> gameListenerProvider) {
     return new GameInteractor_MembersInjector(
-        presenterProvider, firstPlayerProvider, playerIsRedProvider);
+        presenterProvider,
+        firstPlayerProvider,
+        playerIsRedProvider,
+        boardProvider,
+        gameListenerProvider);
   }
 
   @Override
@@ -38,6 +52,8 @@ public final class GameInteractor_MembersInjector implements MembersInjector<Gam
     Interactor_MembersInjector.injectPresenter(instance, presenterProvider.get());
     injectFirstPlayer(instance, firstPlayerProvider.get());
     injectPlayerIsRed(instance, playerIsRedProvider.get());
+    injectBoard(instance, boardProvider.get());
+    injectGameListener(instance, gameListenerProvider.get());
     injectPresenter(instance, presenterProvider.get());
   }
 
@@ -47,6 +63,15 @@ public final class GameInteractor_MembersInjector implements MembersInjector<Gam
 
   public static void injectPlayerIsRed(GameInteractor instance, Boolean playerIsRed) {
     instance.playerIsRed = playerIsRed;
+  }
+
+  public static void injectBoard(GameInteractor instance, Board board) {
+    instance.board = board;
+  }
+
+  public static void injectGameListener(
+      GameInteractor instance, GameInteractor.Listener gameListener) {
+    instance.gameListener = gameListener;
   }
 
   public static void injectPresenter(GameInteractor instance, Object presenter) {

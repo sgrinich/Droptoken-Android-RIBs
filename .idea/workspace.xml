@@ -6,38 +6,80 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="164ab19b-d0f2-421d-a70b-3c8886becb5c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/Board.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/BoardCoordinate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/drawable/empty_piece.xml" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/DaggerRootBuilder_Component.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/DaggerRootBuilder_Component.java" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/game/DaggerGameBuilder_Component.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/game/DaggerGameBuilder_Component.java" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/game/GameInteractor_MembersInjector.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/game/GameInteractor_MembersInjector.java" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/game/TestGameInteractor.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/game/TestGameInteractor.java" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/r/debug/com/uber/rib/android/R.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/r/debug/com/uber/rib/android/R.java" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/r/debug/com/uber/rib/tutorial1/R.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/r/debug/com/uber/rib/tutorial1/R.java" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/multi/values.json" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/android/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/android/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/android/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/android/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/DaggerRootBuilder_Component$Builder.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/DaggerRootBuilder_Component$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/DaggerRootBuilder_Component.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/DaggerRootBuilder_Component.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/RootBuilder$Module.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/RootBuilder$Module.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/RootInteractor$HomeListener.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/RootInteractor$HomeListener.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/RootInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/RootInteractor.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/DaggerGameBuilder_Component$Builder.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/DaggerGameBuilder_Component$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/DaggerGameBuilder_Component.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/DaggerGameBuilder_Component.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameBuilder$ParentComponent.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameBuilder$ParentComponent.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor$GamePresenter.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor$GamePresenter.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor_MembersInjector.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor_MembersInjector.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameView.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/TestGameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/TestGameInteractor.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeView$1.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeView$1.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeView.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$id.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$integer.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$integer.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$layout.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$string.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$string.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$style.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$style.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$styleable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/tutorial1/R$styleable.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/android/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/android/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/android/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/android/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/DaggerRootBuilder_Component$Builder.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/DaggerRootBuilder_Component$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/DaggerRootBuilder_Component.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/DaggerRootBuilder_Component.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/RootBuilder$Module.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/RootBuilder$Module.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/RootInteractor$HomeListener.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/RootInteractor$HomeListener.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/RootInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/RootInteractor.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/DaggerGameBuilder_Component$Builder.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/DaggerGameBuilder_Component$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/DaggerGameBuilder_Component.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/DaggerGameBuilder_Component.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameBuilder$ParentComponent.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameBuilder$ParentComponent.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor$GamePresenter.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor$GamePresenter.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor_MembersInjector.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor_MembersInjector.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameView.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/TestGameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/TestGameInteractor.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/home/HomeView$1.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/home/HomeView$1.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/home/HomeView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/home/HomeView.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/tutorial1/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/tutorial1/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/tutorial1/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/tutorial1/R$id.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/tutorial1/R$integer.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/tutorial1/R$integer.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/tutorial1/R$layout.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/tutorial1/R$layout.class" />
@@ -53,29 +95,45 @@
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/JADJUv1E2sCxF9740RVdXzw+xO4=" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/JADJUv1E2sCxF9740RVdXzw+xO4=" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/manifest.crc" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/manifest.xml" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/pre-dexed/debug/debug_7abfec929086fdba2b35c5c6165f4a892dbb63d2.jar" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/pre-dexed/debug/debug_7abfec929086fdba2b35c5c6165f4a892dbb63d2.jar" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/game_rib.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/game_rib.xml" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/values/values.xml" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/restart-dex/debug/build-info.xml" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_3.apk" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_4.apk" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_6.apk" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_8.apk" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/symbols/debug/R.txt" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/android/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/android/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/android/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/android/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/DaggerRootBuilder_Component$Builder.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/DaggerRootBuilder_Component$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/DaggerRootBuilder_Component.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/DaggerRootBuilder_Component.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/RootBuilder$Module.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/RootBuilder$Module.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/RootInteractor$HomeListener.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/RootInteractor$HomeListener.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/RootInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/RootInteractor.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/DaggerGameBuilder_Component$Builder.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/DaggerGameBuilder_Component$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/DaggerGameBuilder_Component.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/DaggerGameBuilder_Component.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameBuilder$ParentComponent.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameBuilder$ParentComponent.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor$GamePresenter.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor$GamePresenter.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor_MembersInjector.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor_MembersInjector.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameView.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/TestGameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/TestGameInteractor.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/home/HomeView$1.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/home/HomeView$1.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/home/HomeView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/home/HomeView.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$id.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$integer.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$integer.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$layout.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$layout.class" />
@@ -83,24 +141,43 @@
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$style.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$style.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$styleable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/tutorial1/R$styleable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/buildId.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/android/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/android/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/android/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/android/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/DaggerGameBuilder_Component$Builder.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/DaggerGameBuilder_Component$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/DaggerGameBuilder_Component.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/DaggerGameBuilder_Component.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameBuilder$ParentComponent.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameBuilder$ParentComponent.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor$GamePresenter.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor$GamePresenter.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor_MembersInjector.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor_MembersInjector.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameView.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/TestGameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/TestGameInteractor.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$id.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$integer.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$integer.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$layout.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$string.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$string.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$style.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$style.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$styleable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/tutorial1/R$styleable.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$drawable.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$id.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/uber/rib/root/DaggerRootBuilder_Component$Builder.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/uber/rib/root/DaggerRootBuilder_Component$Builder.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/uber/rib/root/DaggerRootBuilder_Component.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/uber/rib/root/DaggerRootBuilder_Component.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/uber/rib/root/RootBuilder$Module.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/uber/rib/root/RootBuilder$Module.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/uber/rib/root/RootInteractor$HomeListener.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/uber/rib/root/RootInteractor$HomeListener.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/uber/rib/root/RootInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/uber/rib/root/RootInteractor.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/uber/rib/root/home/HomeView$1.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/uber/rib/root/home/HomeView$1.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/uber/rib/root/home/HomeView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/uber/rib/root/home/HomeView.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/outputs/apk/tutorial3-completed-debug.apk" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/outputs/apk/tutorial3-completed-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootBuilder.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootBuilder.java" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameBuilder.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameBuilder.java" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameView.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameView.java" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/game_rib.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/game_rib.xml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,53 +200,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/Board.java">
+      <file leaf-file-name="GameInteractor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="418">
+              <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
               <folding>
-                <element signature="e#0#2111#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder.java">
+      <file leaf-file-name="home_rib.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/home_rib.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="45" column="76" lean-forward="false" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="76" />
+            <state relative-caret-position="209">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicTacToeInteractor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="61" column="33" lean-forward="false" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicTacToeRouter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeRouter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TicTacToeView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="505">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="106" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,11 +242,19 @@
       <file leaf-file-name="GameView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameRouter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameRouter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -192,8 +262,8 @@
       <file leaf-file-name="game_rib.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/game_rib.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="375">
+              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -202,26 +272,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="90">
+              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicTacToeInteractor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding>
-                <element signature="e#563#581#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ub__strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml">
+      <file leaf-file-name="BoardCoordinate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/BoardCoordinate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="60">
+              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -231,13 +318,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>detachHome</find>
-      <find>play(</find>
-      <find>play</find>
-      <find>parent com</find>
-      <find>attachLoggedIn</find>
-      <find>ParentComponent</find>
-      <find>homeview</find>
       <find>router</find>
       <find>gameview</find>
       <find>homeRouter</find>
@@ -251,7 +331,6 @@
       <find>loggedin</find>
       <find>board</find>
       <find>offgame</find>
-      <find>PercentRelativeLayout</find>
       <find>30%</find>
       <find>button11</find>
       <find>button12</find>
@@ -261,6 +340,14 @@
       <find>2dp</find>
       <find>8dp</find>
       <find>10dp</find>
+      <find>draw</find>
+      <find>android:background=&quot;#808080&quot;</find>
+      <find>PercentRelativeLayout</find>
+      <find>parentcomponent</find>
+      <find>HomeListener</find>
+      <find>markertype</find>
+      <find>board.</find>
+      <find>is play</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/tutorials/tutorial3-completed</dir>
@@ -11861,15 +11948,21 @@
         <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeView.java" />
         <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeInteractor.java" />
         <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameRouter.java" />
-        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootBuilder.java" />
-        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java" />
-        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameBuilder.java" />
         <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootRouter.java" />
-        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java" />
         <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/tic_tac_toe_rib.xml" />
         <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/Board.java" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/drawable/empty_piece" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/drawable/empty_piece.xml" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameBuilder.java" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootBuilder.java" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/BoardCoordinate.java" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/Board.java" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor.java" />
         <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameView.java" />
+        <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java" />
         <option value="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/game_rib.xml" />
       </list>
     </option>
@@ -11989,18 +12082,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rib" type="462c0819:PsiDirectoryNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tutorials" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tutorial3-completed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rib" type="462c0819:PsiDirectoryNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
               <item name="tic_tac_toe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -12057,6 +12138,9 @@
     <property name="android.profiler.active" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.uber.rib.root.game" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res" />
@@ -12471,31 +12555,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1529295" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16683218" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18073486" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35551143" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15491559" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -12511,54 +12596,43 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16683218" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35551143" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18073486" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15491559" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1529295" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial2/src/main/java/com/uber/rib/root/logged_out/LoggedOutBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial2/src/main/java/com/uber/rib/root/logged_out/LoggedOutInteractor.java" />
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/off_game_rib.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/RootBuilder_Module_LoggedOutListenerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -12736,17 +12810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/home_rib.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/off_game/OffGameBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -12759,24 +12822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -12797,42 +12842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeRouter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeInteractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="100" column="13" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -12864,87 +12877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="102" column="69" lean-forward="false" selection-start-line="102" selection-start-column="69" selection-end-line="102" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="36" column="63" lean-forward="false" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
-          <folding>
-            <element signature="e#1202#1203#0" expanded="false" />
-            <element signature="e#1242#1243#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/BoardCoordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="45" column="76" lean-forward="false" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="61" column="33" lean-forward="false" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#2111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -12953,7 +12885,7 @@
         <state relative-caret-position="210">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
-            <element signature="e#563#581#0" expanded="true" />
+            <element signature="e#563#581#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -12977,20 +12909,184 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameView.java">
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="105">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/drawable/empty_piece.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/BoardCoordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="62" column="28" lean-forward="false" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="76" column="44" lean-forward="false" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="45" column="76" lean-forward="false" selection-start-line="45" selection-start-column="75" selection-end-line="45" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="106" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/BoardCoordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/home_rib.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/game_rib.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="375">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding />
         </state>
       </provider>

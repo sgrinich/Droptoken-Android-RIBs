@@ -60,7 +60,7 @@ public class GameBuilder
 
   public interface ParentComponent {
     // TODO: Define dependencies required from your parent interactor here.
-//    GameInteractor.Listener gameListener();
+    GameInteractor.Listener gameListener();
   }
 
   @dagger.Module

@@ -1,4 +1,4 @@
-#Mon Apr 09 23:50:08 PDT 2018
+#Tue Apr 10 13:30:01 PDT 2018
 base.0=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3
 renamed.0=classes.dex
 file.0=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex
