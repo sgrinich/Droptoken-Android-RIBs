@@ -1,4 +1,4 @@
-#Mon Apr 09 16:49:33 PDT 2018
+#Mon Apr 09 22:26:26 PDT 2018
 base.0=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e364623db4de67e5ac7181c82ae1e3c127095383
 renamed.1=classes.dex
 renamed.0=classes2.dex

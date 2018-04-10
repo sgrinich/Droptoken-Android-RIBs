@@ -1,7 +1,6 @@
 package com.uber.rib.root;
 
 import com.uber.rib.root.home.HomeBuilder;
-import com.uber.rib.root.logged_in.LoggedInBuilder;
 
 import org.junit.Before;
 import org.mockito.Mock;

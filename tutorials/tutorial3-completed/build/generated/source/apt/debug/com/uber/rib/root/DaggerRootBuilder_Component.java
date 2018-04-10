@@ -21,8 +21,6 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
 
   private Provider<HomeInteractor.Listener> homeListenerProvider;
 
-  private RootView view;
-
   private Provider<RootBuilder.Component> componentProvider;
 
   private Provider<RootRouter> routerProvider;
@@ -42,7 +40,6 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
     this.interactorProvider = InstanceFactory.create(builder.interactor);
     this.homeListenerProvider =
         DoubleCheck.provider(RootBuilder_Module_HomeListenerFactory.create(interactorProvider));
-    this.view = builder.view;
     this.componentProvider = InstanceFactory.<RootBuilder.Component>create(this);
     this.routerProvider =
         DoubleCheck.provider(
@@ -58,11 +55,6 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
   @Override
   public HomeInteractor.Listener listener() {
     return homeListenerProvider.get();
-  }
-
-  @Override
-  public RootView rootView() {
-    return view;
   }
 
   @Override

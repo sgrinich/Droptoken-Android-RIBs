@@ -35,15 +35,17 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
   protected void didBecomeActive(@Nullable Bundle savedInstanceState) {
     super.didBecomeActive(savedInstanceState);
     getRouter().attachHome();
+
   }
 
   class HomeListener implements HomeInteractor.Listener {
 
+
     @Override
-    public void play(Integer firstPlayer, String userColor) {
+    public void play(Integer firstPlayer, Boolean playerIsRed) {
       // Switch to logged in. Let’s just ignore userName for now.
       getRouter().detachHome();
-      getRouter().attachLoggedIn();
+      getRouter().attachGame();
     }
   }
 

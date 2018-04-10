@@ -22,7 +22,8 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import com.uber.rib.core.InteractorBaseComponent;
 import com.uber.rib.core.ViewBuilder;
-import com.uber.rib.root.logged_in.LoggedInBuilder;
+import com.uber.rib.root.game.GameBuilder;
+import com.uber.rib.root.game.GameInteractor;
 import com.uber.rib.root.home.HomeBuilder;
 import com.uber.rib.root.home.HomeInteractor;
 import com.uber.rib.tutorial1.R;
@@ -76,6 +77,13 @@ public class RootBuilder extends ViewBuilder<RootView, RootRouter, RootBuilder.P
       return rootInteractor.new HomeListener();
     }
 
+//    @RootScope
+//    @Provides
+//    static GameInteractor.Listener gameListener(RootInteractor rootInteractor) {
+//        return null;
+//      //      return rootInteractor.new GameListener();
+//    }
+
     @RootScope
     @Binds
     abstract RootInteractor.RootPresenter presenter(RootView view);
@@ -88,7 +96,7 @@ public class RootBuilder extends ViewBuilder<RootView, RootRouter, RootBuilder.P
           interactor,
           component,
           new HomeBuilder(component),
-          new LoggedInBuilder(component));
+          new GameBuilder(component));
     }
   }
 
@@ -100,7 +108,7 @@ public class RootBuilder extends ViewBuilder<RootView, RootRouter, RootBuilder.P
   interface Component extends
       InteractorBaseComponent<RootInteractor>,
       HomeBuilder.ParentComponent,
-      LoggedInBuilder.ParentComponent,
+      GameBuilder.ParentComponent,
       BuilderComponent {
 
     @dagger.Component.Builder

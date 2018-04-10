@@ -19,7 +19,8 @@ package com.uber.rib.root;
 import android.support.annotation.Nullable;
 
 import com.uber.rib.core.ViewRouter;
-import com.uber.rib.root.logged_in.LoggedInBuilder;
+import com.uber.rib.root.game.GameBuilder;
+import com.uber.rib.root.game.GameRouter;
 import com.uber.rib.root.home.HomeBuilder;
 import com.uber.rib.root.home.HomeRouter;
 
@@ -29,18 +30,19 @@ import com.uber.rib.root.home.HomeRouter;
 public class RootRouter extends ViewRouter<RootView, RootInteractor, RootBuilder.Component> {
 
   private final HomeBuilder homeBuilder;
-  private final LoggedInBuilder loggedInBuilder;
+  private final GameBuilder gameBuilder;
   @Nullable private HomeRouter homeRouter;
+  @Nullable private GameRouter gameRouter;
 
   RootRouter(
       RootView view,
       RootInteractor interactor,
       RootBuilder.Component component,
       HomeBuilder homeBuilder,
-      LoggedInBuilder loggedInBuilder) {
+      GameBuilder gameBuilder) {
     super(view, interactor, component);
     this.homeBuilder = homeBuilder;
-    this.loggedInBuilder = loggedInBuilder;
+    this.gameBuilder = gameBuilder;
   }
 
   void attachHome() {
@@ -57,7 +59,9 @@ public class RootRouter extends ViewRouter<RootView, RootInteractor, RootBuilder
     }
   }
 
-  void attachLoggedIn() {
-    attachChild(loggedInBuilder.build());
+  void attachGame() {
+    gameRouter = gameBuilder.build(getView());
+    attachChild(gameRouter);
+    getView().addView(gameRouter.getView());
   }
 }

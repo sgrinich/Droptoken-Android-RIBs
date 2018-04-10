@@ -46,11 +46,11 @@ public class HomeInteractor
     super.didBecomeActive(savedInstanceState);
     presenter
         .playGame()
-        .subscribe(new Consumer<Pair<Integer, String>>() {
+        .subscribe(new Consumer<Integer>() {
           @Override
-          public void accept(Pair<Integer, String> names) throws Exception {
-            if (names.first != -1) {
-              listener.play(names.first, names.second);
+          public void accept(Integer firstPlayer) throws Exception {
+            if (firstPlayer.intValue() != -1) {
+              listener.play(firstPlayer, playerChoseRed);
             }
 
           }
@@ -80,7 +80,7 @@ public class HomeInteractor
     return string == null || string.length() == 0;
   }
 
-  private updateButtonColors() {
+  private void updateButtonColors() {
       if (playerChoseRed) {
         // TODO: Delegate to HomeView, set drawable to be deep red
       } else {
@@ -92,13 +92,13 @@ public class HomeInteractor
    * Presenter interface implemented by this RIB's view.
    */
   interface HomePresenter {
-    Observable<Pair<Integer, String>> playGame();
+    Observable<Integer> playGame();
     Observable<Boolean> choseRedColor();
     Observable<Boolean> choseBlueColor();
   }
 
   public interface Listener {
-    void play(Integer firstPlayer, String userColor);
+    void play(Integer firstPlayer, Boolean playerIsRed);
   }
 
 }
