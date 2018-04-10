@@ -82,10 +82,9 @@ public class HomeInteractor
 
   private updateButtonColors() {
       if (playerChoseRed) {
-        // set drawable to be deep red
-
+        // TODO: Delegate to HomeView, set drawable to be deep red
       } else {
-        // set drawable to be deep blue
+        // TODO: Delegate to HomeView, set drawable to be deep blue
       }
   }
 
