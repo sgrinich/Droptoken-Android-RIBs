@@ -12,6 +12,9 @@ import com.uber.rib.root.home.HomeInteractor;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+import io.reactivex.Observable;
+import io.reactivex.functions.Consumer;
+
 /**
  * Coordinates Business Logic for {@link GameScope}.
  *
@@ -36,13 +39,61 @@ public class GameInteractor
 
     this.isPlayerTurn = this.isFirstMoveUser();
 
-    Log.d("is player turn : ", "" + this.isPlayerTurn);
-
     if (this.isPlayerTurn) {
       presenter.setPromptPlayer();
     } else {
       presenter.setWaitingForMove();
     }
+
+    presenter
+            .pieceTouched()
+            .subscribe(
+                    new Consumer<BoardCoordinate>() {
+                      @Override
+                      public void accept(BoardCoordinate xy) throws Exception {
+                        if (isPlayerTurn) {
+                          if (board.cells[xy.getX()][xy.getY()] == null) {
+                            board.currentRow = xy.getX();
+                            board.currentCol = xy.getY();
+
+                            if (playerIsRed) {
+                              board.cells[xy.getX()][xy.getY()] = Board.MarkerType.RED;
+                              presenter.addRedPiece(xy);
+                            } else {
+                              board.cells[xy.getX()][xy.getY()] = Board.MarkerType.BLUE;
+                              presenter.addBluePiece(xy);
+                            }
+
+                          }
+
+
+                        }
+//                        if (board.cells[xy.getX()][xy.getY()] == null) {
+//                          if (currentPlayer == MarkerType.CROSS) {
+//                            board.cells[xy.getX()][xy.getY()] = MarkerType.CROSS;
+//                            board.currentRow = xy.getX();
+//                            board.currentCol = xy.getY();
+//                            presenter.addCross(xy);
+//                            currentPlayer = MarkerType.NOUGHT;
+//                          } else {
+//                            board.cells[xy.getX()][xy.getY()] = MarkerType.NOUGHT;
+//                            board.currentRow = xy.getX();
+//                            board.currentCol = xy.getY();
+//                            presenter.addNought(xy);
+//                            currentPlayer = MarkerType.CROSS;
+//                          }
+//                        }
+//                        if (board.hasWon(MarkerType.CROSS)) {
+//                          presenter.setPlayerWon(playerOne);
+//                        } else if (board.hasWon(MarkerType.NOUGHT)) {
+//                          presenter.setPlayerWon(playerTwo);
+//                        } else if (board.isDraw()) {
+//                          presenter.setPlayerTie();
+//                        } else {
+//                          updateCurrentPlayer();
+//                        }
+                      }
+                    });
 
   }
 
@@ -65,6 +116,10 @@ public class GameInteractor
   interface GamePresenter {
     void setPromptPlayer();
     void setWaitingForMove();
+    void addRedPiece(BoardCoordinate xy);
+    void addBluePiece(BoardCoordinate xy);
+    Observable<BoardCoordinate> pieceTouched();
+
   }
 
 
