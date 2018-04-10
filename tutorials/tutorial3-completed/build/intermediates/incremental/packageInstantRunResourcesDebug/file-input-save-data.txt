@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 09 23:36:03 PDT 2018
+#Tue Apr 10 00:04:06 PDT 2018
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_media_custom.xml
