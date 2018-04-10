@@ -24,7 +24,6 @@ import com.uber.rib.core.InteractorBaseComponent;
 import com.uber.rib.core.ViewBuilder;
 import com.uber.rib.root.game.GameBuilder;
 import com.uber.rib.root.game.GameInteractor;
-import com.uber.rib.root.logged_in.LoggedInBuilder;
 import com.uber.rib.root.home.HomeBuilder;
 import com.uber.rib.root.home.HomeInteractor;
 import com.uber.rib.tutorial1.R;
@@ -97,8 +96,7 @@ public class RootBuilder extends ViewBuilder<RootView, RootRouter, RootBuilder.P
           interactor,
           component,
           new HomeBuilder(component),
-          new GameBuilder(component),
-          new LoggedInBuilder(component));
+          new GameBuilder(component));
     }
   }
 
@@ -111,7 +109,6 @@ public class RootBuilder extends ViewBuilder<RootView, RootRouter, RootBuilder.P
       InteractorBaseComponent<RootInteractor>,
       HomeBuilder.ParentComponent,
       GameBuilder.ParentComponent,
-      LoggedInBuilder.ParentComponent,
       BuilderComponent {
 
     @dagger.Component.Builder
