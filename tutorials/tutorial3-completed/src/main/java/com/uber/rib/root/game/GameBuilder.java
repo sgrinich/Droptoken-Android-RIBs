@@ -12,6 +12,7 @@ import com.uber.rib.tutorial1.R;
 
 import java.lang.annotation.Retention;
 
+import javax.inject.Named;
 import javax.inject.Scope;
 import javax.inject.Qualifier;
 
@@ -39,12 +40,14 @@ public class GameBuilder
    * @param parentViewGroup parent view group that this router's view will be added to.
    * @return a new {@link GameRouter}.
    */
-  public GameRouter build(ViewGroup parentViewGroup) {
+  public GameRouter build(ViewGroup parentViewGroup, Integer firstPlayer, Boolean playerIsRed) {
     GameView view = createView(parentViewGroup);
     GameInteractor interactor = new GameInteractor();
     Component component = DaggerGameBuilder_Component.builder()
         .parentComponent(getDependency())
         .view(view)
+        .firstPlayer(firstPlayer)
+        .playerIsRed(playerIsRed)
         .interactor(interactor)
         .build();
     return component.gameRouter();
@@ -57,7 +60,7 @@ public class GameBuilder
 
   public interface ParentComponent {
     // TODO: Define dependencies required from your parent interactor here.
-//    GameInteractor.Listener gameListener();
+    GameInteractor.Listener gameListener();
   }
 
   @dagger.Module
@@ -92,6 +95,12 @@ public class GameBuilder
       Builder view(GameView view);
       Builder parentComponent(ParentComponent component);
       Component build();
+
+      @BindsInstance
+      Builder firstPlayer(@Named("first_player") Integer firstPlayer);
+
+      @BindsInstance
+      Builder playerIsRed(@Named("player_is_red") Boolean playerIsRed);
     }
   }
 

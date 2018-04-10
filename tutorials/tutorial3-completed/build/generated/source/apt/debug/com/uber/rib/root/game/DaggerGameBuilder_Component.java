@@ -16,6 +16,12 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
 
   private Provider<GameInteractor.GamePresenter> presenterProvider;
 
+  private Integer firstPlayer;
+
+  private Boolean playerIsRed;
+
+  private GameBuilder.ParentComponent parentComponent;
+
   private Provider<GameBuilder.Component> componentProvider;
 
   private Provider<GameInteractor> interactorProvider;
@@ -34,6 +40,9 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
   private void initialize(final Builder builder) {
     this.viewProvider = InstanceFactory.create(builder.view);
     this.presenterProvider = DoubleCheck.provider((Provider) viewProvider);
+    this.firstPlayer = builder.firstPlayer;
+    this.playerIsRed = builder.playerIsRed;
+    this.parentComponent = builder.parentComponent;
     this.componentProvider = InstanceFactory.<GameBuilder.Component>create(this);
     this.interactorProvider = InstanceFactory.create(builder.interactor);
     this.routerProvider =
@@ -54,6 +63,14 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
 
   private GameInteractor injectGameInteractor(GameInteractor instance) {
     Interactor_MembersInjector.injectPresenter(instance, presenterProvider.get());
+    GameInteractor_MembersInjector.injectFirstPlayer(instance, firstPlayer);
+    GameInteractor_MembersInjector.injectPlayerIsRed(instance, playerIsRed);
+    GameInteractor_MembersInjector.injectBoard(instance, new Board());
+    GameInteractor_MembersInjector.injectGameListener(
+        instance,
+        Preconditions.checkNotNull(
+            parentComponent.gameListener(),
+            "Cannot return null from a non-@Nullable component method"));
     GameInteractor_MembersInjector.injectPresenter(instance, presenterProvider.get());
     return instance;
   }
@@ -64,6 +81,10 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
     private GameInteractor interactor;
 
     private GameView view;
+
+    private Integer firstPlayer;
+
+    private Boolean playerIsRed;
 
     @Override
     public GameBuilder.Component build() {
@@ -76,6 +97,12 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
       }
       if (view == null) {
         throw new IllegalStateException(GameView.class.getCanonicalName() + " must be set");
+      }
+      if (firstPlayer == null) {
+        throw new IllegalStateException(Integer.class.getCanonicalName() + " must be set");
+      }
+      if (playerIsRed == null) {
+        throw new IllegalStateException(Boolean.class.getCanonicalName() + " must be set");
       }
       return new DaggerGameBuilder_Component(this);
     }
@@ -95,6 +122,18 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
     @Override
     public Builder parentComponent(GameBuilder.ParentComponent component) {
       this.parentComponent = Preconditions.checkNotNull(component);
+      return this;
+    }
+
+    @Override
+    public Builder firstPlayer(Integer firstPlayer) {
+      this.firstPlayer = Preconditions.checkNotNull(firstPlayer);
+      return this;
+    }
+
+    @Override
+    public Builder playerIsRed(Boolean playerIsRed) {
+      this.playerIsRed = Preconditions.checkNotNull(playerIsRed);
       return this;
     }
   }

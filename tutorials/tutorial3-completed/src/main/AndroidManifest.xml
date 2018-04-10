@@ -12,7 +12,6 @@
     <application
         android:name="com.uber.rib.SampleApplication"
         android:allowBackup="false"
-        android:icon="@drawable/ub__ic_launcher"
         android:label="@string/app_name"
         android:screenOrientation="portrait"
         android:theme="@style/Theme.AppCompat.Light"

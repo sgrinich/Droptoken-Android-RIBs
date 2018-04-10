@@ -20,6 +20,7 @@ import android.support.annotation.Nullable;
 import com.uber.rib.core.Bundle;
 import com.uber.rib.core.Interactor;
 import com.uber.rib.core.RibInteractor;
+import com.uber.rib.root.game.GameInteractor;
 import com.uber.rib.root.home.HomeInteractor;
 import javax.inject.Inject;
 
@@ -45,11 +46,17 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
     public void play(Integer firstPlayer, Boolean playerIsRed) {
       // Switch to logged in. Let’s just ignore userName for now.
       getRouter().detachHome();
-      getRouter().attachGame();
+      getRouter().attachGame(firstPlayer, playerIsRed);
     }
   }
 
-  /**
+  class GameListener implements GameInteractor.Listener {
+
+    // func call here
+  }
+
+
+    /**
    * Presenter interface implemented by this RIB's view.
    */
   interface RootPresenter {

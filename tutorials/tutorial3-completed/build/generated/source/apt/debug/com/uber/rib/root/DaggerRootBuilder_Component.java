@@ -1,6 +1,7 @@
 package com.uber.rib.root;
 
 import com.uber.rib.core.Interactor_MembersInjector;
+import com.uber.rib.root.game.GameInteractor;
 import com.uber.rib.root.home.HomeInteractor;
 import dagger.internal.DoubleCheck;
 import dagger.internal.InstanceFactory;
@@ -21,6 +22,8 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
 
   private Provider<HomeInteractor.Listener> homeListenerProvider;
 
+  private Provider<GameInteractor.Listener> gameListenerProvider;
+
   private Provider<RootBuilder.Component> componentProvider;
 
   private Provider<RootRouter> routerProvider;
@@ -40,6 +43,8 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
     this.interactorProvider = InstanceFactory.create(builder.interactor);
     this.homeListenerProvider =
         DoubleCheck.provider(RootBuilder_Module_HomeListenerFactory.create(interactorProvider));
+    this.gameListenerProvider =
+        DoubleCheck.provider(RootBuilder_Module_GameListenerFactory.create(interactorProvider));
     this.componentProvider = InstanceFactory.<RootBuilder.Component>create(this);
     this.routerProvider =
         DoubleCheck.provider(
@@ -55,6 +60,11 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
   @Override
   public HomeInteractor.Listener listener() {
     return homeListenerProvider.get();
+  }
+
+  @Override
+  public GameInteractor.Listener gameListener() {
+    return gameListenerProvider.get();
   }
 
   @Override

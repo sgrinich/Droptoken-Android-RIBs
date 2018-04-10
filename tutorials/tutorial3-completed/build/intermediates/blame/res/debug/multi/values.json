@@ -4035,8 +4035,8 @@
                     "startLine": 347,
                     "startColumn": 4,
                     "startOffset": 35070,
-                    "endColumn": 51,
-                    "endOffset": 35117
+                    "endColumn": 47,
+                    "endOffset": 35113
                 },
                 "from": {
                     "file": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml",
@@ -4044,8 +4044,8 @@
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endColumn": 51,
-                        "endOffset": 102
+                        "endColumn": 47,
+                        "endOffset": 98
                     }
                 }
             },
@@ -4053,18 +4053,18 @@
                 "to": {
                     "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 35122,
+                    "startOffset": 35118,
                     "endColumn": 39,
-                    "endOffset": 35157
+                    "endOffset": 35153
                 },
                 "from": {
                     "file": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 227,
+                        "startOffset": 223,
                         "endColumn": 39,
-                        "endOffset": 262
+                        "endOffset": 258
                     }
                 }
             },
@@ -4072,18 +4072,18 @@
                 "to": {
                     "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 35162,
+                    "startOffset": 35158,
                     "endColumn": 59,
-                    "endOffset": 35217
+                    "endOffset": 35213
                 },
                 "from": {
                     "file": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 107,
+                        "startOffset": 103,
                         "endColumn": 59,
-                        "endOffset": 162
+                        "endOffset": 158
                     }
                 }
             },
@@ -4091,18 +4091,18 @@
                 "to": {
                     "startLine": 350,
                     "startColumn": 4,
-                    "startOffset": 35222,
+                    "startOffset": 35218,
                     "endColumn": 59,
-                    "endOffset": 35277
+                    "endOffset": 35273
                 },
                 "from": {
                     "file": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 167,
+                        "startOffset": 163,
                         "endColumn": 59,
-                        "endOffset": 222
+                        "endOffset": 218
                     }
                 }
             },
@@ -4110,9 +4110,9 @@
                 "to": {
                     "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 35282,
+                    "startOffset": 35278,
                     "endColumn": 52,
-                    "endOffset": 35330
+                    "endOffset": 35326
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4129,18 +4129,18 @@
                 "to": {
                     "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 35335,
+                    "startOffset": 35331,
                     "endColumn": 49,
-                    "endOffset": 35380
+                    "endOffset": 35376
                 },
                 "from": {
                     "file": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 267,
+                        "startOffset": 263,
                         "endColumn": 49,
-                        "endOffset": 312
+                        "endOffset": 308
                     }
                 }
             },
@@ -4148,9 +4148,9 @@
                 "to": {
                     "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 35385,
+                    "startOffset": 35381,
                     "endColumn": 70,
-                    "endOffset": 35451
+                    "endOffset": 35447
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4167,18 +4167,18 @@
                 "to": {
                     "startLine": 354,
                     "startColumn": 4,
-                    "startOffset": 35456,
+                    "startOffset": 35452,
                     "endColumn": 65,
-                    "endOffset": 35517
+                    "endOffset": 35513
                 },
                 "from": {
                     "file": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 317,
+                        "startOffset": 313,
                         "endColumn": 65,
-                        "endOffset": 378
+                        "endOffset": 374
                     }
                 }
             },
@@ -4186,18 +4186,18 @@
                 "to": {
                     "startLine": 355,
                     "startColumn": 4,
-                    "startOffset": 35522,
+                    "startOffset": 35518,
                     "endColumn": 47,
-                    "endOffset": 35565
+                    "endOffset": 35561
                 },
                 "from": {
                     "file": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 383,
+                        "startOffset": 379,
                         "endColumn": 47,
-                        "endOffset": 426
+                        "endOffset": 422
                     }
                 }
             },
@@ -4205,9 +4205,9 @@
                 "to": {
                     "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 35570,
+                    "startOffset": 35566,
                     "endColumn": 77,
-                    "endOffset": 35643
+                    "endOffset": 35639
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4224,9 +4224,9 @@
                 "to": {
                     "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 35648,
+                    "startOffset": 35644,
                     "endColumn": 89,
-                    "endOffset": 35733
+                    "endOffset": 35729
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4243,9 +4243,9 @@
                 "to": {
                     "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 35738,
+                    "startOffset": 35734,
                     "endColumn": 87,
-                    "endOffset": 35821
+                    "endOffset": 35817
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4262,9 +4262,9 @@
                 "to": {
                     "startLine": 359,
                     "startColumn": 4,
-                    "startOffset": 35826,
+                    "startOffset": 35822,
                     "endColumn": 95,
-                    "endOffset": 35917
+                    "endOffset": 35913
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4281,10 +4281,10 @@
                 "to": {
                     "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 35922,
+                    "startOffset": 35918,
                     "endLine": 366,
                     "endColumn": 12,
-                    "endOffset": 36418
+                    "endOffset": 36414
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4302,9 +4302,9 @@
                 "to": {
                     "startLine": 367,
                     "startColumn": 4,
-                    "startOffset": 36423,
+                    "startOffset": 36419,
                     "endColumn": 88,
-                    "endOffset": 36507
+                    "endOffset": 36503
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4321,10 +4321,10 @@
                 "to": {
                     "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 36512,
+                    "startOffset": 36508,
                     "endLine": 371,
                     "endColumn": 12,
-                    "endOffset": 36754
+                    "endOffset": 36750
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4342,10 +4342,10 @@
                 "to": {
                     "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 36759,
+                    "startOffset": 36755,
                     "endLine": 375,
                     "endColumn": 12,
-                    "endOffset": 37035
+                    "endOffset": 37031
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4363,10 +4363,10 @@
                 "to": {
                     "startLine": 376,
                     "startColumn": 4,
-                    "startOffset": 37040,
+                    "startOffset": 37036,
                     "endLine": 380,
                     "endColumn": 12,
-                    "endOffset": 37320
+                    "endOffset": 37316
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4384,10 +4384,10 @@
                 "to": {
                     "startLine": 381,
                     "startColumn": 4,
-                    "startOffset": 37325,
+                    "startOffset": 37321,
                     "endLine": 386,
                     "endColumn": 12,
-                    "endOffset": 37713
+                    "endOffset": 37709
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4405,10 +4405,10 @@
                 "to": {
                     "startLine": 387,
                     "startColumn": 4,
-                    "startOffset": 37718,
+                    "startOffset": 37714,
                     "endLine": 393,
                     "endColumn": 12,
-                    "endOffset": 38190
+                    "endOffset": 38186
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4426,10 +4426,10 @@
                 "to": {
                     "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 38195,
+                    "startOffset": 38191,
                     "endLine": 397,
                     "endColumn": 12,
-                    "endOffset": 38412
+                    "endOffset": 38408
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4447,10 +4447,10 @@
                 "to": {
                     "startLine": 398,
                     "startColumn": 4,
-                    "startOffset": 38417,
+                    "startOffset": 38413,
                     "endLine": 401,
                     "endColumn": 12,
-                    "endOffset": 38634
+                    "endOffset": 38630
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4468,10 +4468,10 @@
                 "to": {
                     "startLine": 402,
                     "startColumn": 4,
-                    "startOffset": 38639,
+                    "startOffset": 38635,
                     "endLine": 406,
                     "endColumn": 12,
-                    "endOffset": 38902
+                    "endOffset": 38898
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4489,10 +4489,10 @@
                 "to": {
                     "startLine": 407,
                     "startColumn": 4,
-                    "startOffset": 38907,
+                    "startOffset": 38903,
                     "endLine": 410,
                     "endColumn": 12,
-                    "endOffset": 39129
+                    "endOffset": 39125
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4510,10 +4510,10 @@
                 "to": {
                     "startLine": 411,
                     "startColumn": 4,
-                    "startOffset": 39134,
+                    "startOffset": 39130,
                     "endLine": 414,
                     "endColumn": 12,
-                    "endOffset": 39359
+                    "endOffset": 39355
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4531,10 +4531,10 @@
                 "to": {
                     "startLine": 415,
                     "startColumn": 4,
-                    "startOffset": 39364,
+                    "startOffset": 39360,
                     "endLine": 418,
                     "endColumn": 12,
-                    "endOffset": 39589
+                    "endOffset": 39585
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4552,10 +4552,10 @@
                 "to": {
                     "startLine": 419,
                     "startColumn": 4,
-                    "startOffset": 39594,
+                    "startOffset": 39590,
                     "endLine": 422,
                     "endColumn": 12,
-                    "endOffset": 39819
+                    "endOffset": 39815
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4573,10 +4573,10 @@
                 "to": {
                     "startLine": 423,
                     "startColumn": 4,
-                    "startOffset": 39824,
+                    "startOffset": 39820,
                     "endLine": 426,
                     "endColumn": 12,
-                    "endOffset": 40049
+                    "endOffset": 40045
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4594,10 +4594,10 @@
                 "to": {
                     "startLine": 427,
                     "startColumn": 4,
-                    "startOffset": 40054,
+                    "startOffset": 40050,
                     "endLine": 430,
                     "endColumn": 12,
-                    "endOffset": 40276
+                    "endOffset": 40272
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4615,10 +4615,10 @@
                 "to": {
                     "startLine": 431,
                     "startColumn": 4,
-                    "startOffset": 40281,
+                    "startOffset": 40277,
                     "endLine": 434,
                     "endColumn": 12,
-                    "endOffset": 40515
+                    "endOffset": 40511
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4636,10 +4636,10 @@
                 "to": {
                     "startLine": 435,
                     "startColumn": 4,
-                    "startOffset": 40520,
+                    "startOffset": 40516,
                     "endLine": 438,
                     "endColumn": 12,
-                    "endOffset": 40741
+                    "endOffset": 40737
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4657,10 +4657,10 @@
                 "to": {
                     "startLine": 439,
                     "startColumn": 4,
-                    "startOffset": 40746,
+                    "startOffset": 40742,
                     "endLine": 442,
                     "endColumn": 12,
-                    "endOffset": 40986
+                    "endOffset": 40982
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4678,10 +4678,10 @@
                 "to": {
                     "startLine": 443,
                     "startColumn": 4,
-                    "startOffset": 40991,
+                    "startOffset": 40987,
                     "endLine": 446,
                     "endColumn": 12,
-                    "endOffset": 41216
+                    "endOffset": 41212
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4699,10 +4699,10 @@
                 "to": {
                     "startLine": 447,
                     "startColumn": 4,
-                    "startOffset": 41221,
+                    "startOffset": 41217,
                     "endLine": 450,
                     "endColumn": 12,
-                    "endOffset": 41464
+                    "endOffset": 41460
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4720,10 +4720,10 @@
                 "to": {
                     "startLine": 451,
                     "startColumn": 4,
-                    "startOffset": 41469,
+                    "startOffset": 41465,
                     "endLine": 454,
                     "endColumn": 12,
-                    "endOffset": 41683
+                    "endOffset": 41679
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4741,10 +4741,10 @@
                 "to": {
                     "startLine": 455,
                     "startColumn": 4,
-                    "startOffset": 41688,
+                    "startOffset": 41684,
                     "endLine": 459,
                     "endColumn": 12,
-                    "endOffset": 41966
+                    "endOffset": 41962
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4762,10 +4762,10 @@
                 "to": {
                     "startLine": 460,
                     "startColumn": 4,
-                    "startOffset": 41971,
+                    "startOffset": 41967,
                     "endLine": 463,
                     "endColumn": 12,
-                    "endOffset": 42174
+                    "endOffset": 42170
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4783,10 +4783,10 @@
                 "to": {
                     "startLine": 464,
                     "startColumn": 4,
-                    "startOffset": 42179,
+                    "startOffset": 42175,
                     "endLine": 466,
                     "endColumn": 12,
-                    "endOffset": 42305
+                    "endOffset": 42301
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4804,10 +4804,10 @@
                 "to": {
                     "startLine": 467,
                     "startColumn": 4,
-                    "startOffset": 42310,
+                    "startOffset": 42306,
                     "endLine": 470,
                     "endColumn": 12,
-                    "endOffset": 42532
+                    "endOffset": 42528
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4825,10 +4825,10 @@
                 "to": {
                     "startLine": 471,
                     "startColumn": 4,
-                    "startOffset": 42537,
+                    "startOffset": 42533,
                     "endLine": 474,
                     "endColumn": 12,
-                    "endOffset": 42778
+                    "endOffset": 42774
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4846,10 +4846,10 @@
                 "to": {
                     "startLine": 475,
                     "startColumn": 4,
-                    "startOffset": 42783,
+                    "startOffset": 42779,
                     "endLine": 478,
                     "endColumn": 12,
-                    "endOffset": 43003
+                    "endOffset": 42999
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4867,10 +4867,10 @@
                 "to": {
                     "startLine": 479,
                     "startColumn": 4,
-                    "startOffset": 43008,
+                    "startOffset": 43004,
                     "endLine": 482,
                     "endColumn": 12,
-                    "endOffset": 43250
+                    "endOffset": 43246
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4888,10 +4888,10 @@
                 "to": {
                     "startLine": 483,
                     "startColumn": 4,
-                    "startOffset": 43255,
+                    "startOffset": 43251,
                     "endLine": 486,
                     "endColumn": 12,
-                    "endOffset": 43471
+                    "endOffset": 43467
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4909,10 +4909,10 @@
                 "to": {
                     "startLine": 487,
                     "startColumn": 4,
-                    "startOffset": 43476,
+                    "startOffset": 43472,
                     "endLine": 490,
                     "endColumn": 12,
-                    "endOffset": 43716
+                    "endOffset": 43712
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4930,10 +4930,10 @@
                 "to": {
                     "startLine": 491,
                     "startColumn": 4,
-                    "startOffset": 43721,
+                    "startOffset": 43717,
                     "endLine": 494,
                     "endColumn": 12,
-                    "endOffset": 43992
+                    "endOffset": 43988
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4951,10 +4951,10 @@
                 "to": {
                     "startLine": 495,
                     "startColumn": 4,
-                    "startOffset": 43997,
+                    "startOffset": 43993,
                     "endLine": 498,
                     "endColumn": 12,
-                    "endOffset": 44293
+                    "endOffset": 44289
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4972,10 +4972,10 @@
                 "to": {
                     "startLine": 499,
                     "startColumn": 4,
-                    "startOffset": 44298,
+                    "startOffset": 44294,
                     "endLine": 502,
                     "endColumn": 12,
-                    "endOffset": 44617
+                    "endOffset": 44613
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -4993,10 +4993,10 @@
                 "to": {
                     "startLine": 503,
                     "startColumn": 4,
-                    "startOffset": 44622,
+                    "startOffset": 44618,
                     "endLine": 506,
                     "endColumn": 12,
-                    "endOffset": 44908
+                    "endOffset": 44904
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5014,10 +5014,10 @@
                 "to": {
                     "startLine": 507,
                     "startColumn": 4,
-                    "startOffset": 44913,
+                    "startOffset": 44909,
                     "endLine": 510,
                     "endColumn": 12,
-                    "endOffset": 45222
+                    "endOffset": 45218
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5035,9 +5035,9 @@
                 "to": {
                     "startLine": 511,
                     "startColumn": 4,
-                    "startOffset": 45227,
+                    "startOffset": 45223,
                     "endColumn": 136,
-                    "endOffset": 45359
+                    "endOffset": 45355
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5054,9 +5054,9 @@
                 "to": {
                     "startLine": 512,
                     "startColumn": 4,
-                    "startOffset": 45364,
+                    "startOffset": 45360,
                     "endColumn": 130,
-                    "endOffset": 45490
+                    "endOffset": 45486
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5073,9 +5073,9 @@
                 "to": {
                     "startLine": 513,
                     "startColumn": 4,
-                    "startOffset": 45495,
+                    "startOffset": 45491,
                     "endColumn": 104,
-                    "endOffset": 45595
+                    "endOffset": 45591
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5092,10 +5092,10 @@
                 "to": {
                     "startLine": 514,
                     "startColumn": 4,
-                    "startOffset": 45600,
+                    "startOffset": 45596,
                     "endLine": 516,
                     "endColumn": 12,
-                    "endOffset": 45837
+                    "endOffset": 45833
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5113,10 +5113,10 @@
                 "to": {
                     "startLine": 517,
                     "startColumn": 4,
-                    "startOffset": 45842,
+                    "startOffset": 45838,
                     "endLine": 519,
                     "endColumn": 12,
-                    "endOffset": 46004
+                    "endOffset": 46000
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5134,10 +5134,10 @@
                 "to": {
                     "startLine": 520,
                     "startColumn": 4,
-                    "startOffset": 46009,
+                    "startOffset": 46005,
                     "endLine": 522,
                     "endColumn": 12,
-                    "endOffset": 46208
+                    "endOffset": 46204
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5155,10 +5155,10 @@
                 "to": {
                     "startLine": 523,
                     "startColumn": 4,
-                    "startOffset": 46213,
+                    "startOffset": 46209,
                     "endLine": 525,
                     "endColumn": 12,
-                    "endOffset": 46416
+                    "endOffset": 46412
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5176,10 +5176,10 @@
                 "to": {
                     "startLine": 526,
                     "startColumn": 4,
-                    "startOffset": 46421,
+                    "startOffset": 46417,
                     "endLine": 529,
                     "endColumn": 12,
-                    "endOffset": 46687
+                    "endOffset": 46683
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5197,9 +5197,9 @@
                 "to": {
                     "startLine": 530,
                     "startColumn": 4,
-                    "startOffset": 46692,
+                    "startOffset": 46688,
                     "endColumn": 111,
-                    "endOffset": 46799
+                    "endOffset": 46795
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5216,9 +5216,9 @@
                 "to": {
                     "startLine": 531,
                     "startColumn": 4,
-                    "startOffset": 46804,
+                    "startOffset": 46800,
                     "endColumn": 111,
-                    "endOffset": 46911
+                    "endOffset": 46907
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5235,9 +5235,9 @@
                 "to": {
                     "startLine": 532,
                     "startColumn": 4,
-                    "startOffset": 46916,
+                    "startOffset": 46912,
                     "endColumn": 104,
-                    "endOffset": 47016
+                    "endOffset": 47012
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5254,9 +5254,9 @@
                 "to": {
                     "startLine": 533,
                     "startColumn": 4,
-                    "startOffset": 47021,
+                    "startOffset": 47017,
                     "endColumn": 116,
-                    "endOffset": 47133
+                    "endOffset": 47129
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5273,10 +5273,10 @@
                 "to": {
                     "startLine": 534,
                     "startColumn": 4,
-                    "startOffset": 47138,
+                    "startOffset": 47134,
                     "endLine": 536,
                     "endColumn": 12,
-                    "endOffset": 47347
+                    "endOffset": 47343
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5294,10 +5294,10 @@
                 "to": {
                     "startLine": 537,
                     "startColumn": 4,
-                    "startOffset": 47352,
+                    "startOffset": 47348,
                     "endLine": 538,
                     "endColumn": 12,
-                    "endOffset": 47493
+                    "endOffset": 47489
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5315,10 +5315,10 @@
                 "to": {
                     "startLine": 539,
                     "startColumn": 4,
-                    "startOffset": 47498,
+                    "startOffset": 47494,
                     "endLine": 540,
                     "endColumn": 12,
-                    "endOffset": 47633
+                    "endOffset": 47629
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5336,10 +5336,10 @@
                 "to": {
                     "startLine": 541,
                     "startColumn": 4,
-                    "startOffset": 47638,
+                    "startOffset": 47634,
                     "endLine": 542,
                     "endColumn": 12,
-                    "endOffset": 47719
+                    "endOffset": 47715
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5357,10 +5357,10 @@
                 "to": {
                     "startLine": 543,
                     "startColumn": 4,
-                    "startOffset": 47724,
+                    "startOffset": 47720,
                     "endLine": 547,
                     "endColumn": 12,
-                    "endOffset": 48067
+                    "endOffset": 48063
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5378,9 +5378,9 @@
                 "to": {
                     "startLine": 548,
                     "startColumn": 4,
-                    "startOffset": 48072,
+                    "startOffset": 48068,
                     "endColumn": 87,
-                    "endOffset": 48155
+                    "endOffset": 48151
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5397,10 +5397,10 @@
                 "to": {
                     "startLine": 549,
                     "startColumn": 4,
-                    "startOffset": 48160,
+                    "startOffset": 48156,
                     "endLine": 552,
                     "endColumn": 12,
-                    "endOffset": 48385
+                    "endOffset": 48381
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5418,10 +5418,10 @@
                 "to": {
                     "startLine": 553,
                     "startColumn": 4,
-                    "startOffset": 48390,
+                    "startOffset": 48386,
                     "endLine": 558,
                     "endColumn": 12,
-                    "endOffset": 48803
+                    "endOffset": 48799
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5439,10 +5439,10 @@
                 "to": {
                     "startLine": 559,
                     "startColumn": 4,
-                    "startOffset": 48808,
+                    "startOffset": 48804,
                     "endLine": 562,
                     "endColumn": 12,
-                    "endOffset": 49036
+                    "endOffset": 49032
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5460,9 +5460,9 @@
                 "to": {
                     "startLine": 563,
                     "startColumn": 4,
-                    "startOffset": 49041,
+                    "startOffset": 49037,
                     "endColumn": 81,
-                    "endOffset": 49118
+                    "endOffset": 49114
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5479,10 +5479,10 @@
                 "to": {
                     "startLine": 564,
                     "startColumn": 4,
-                    "startOffset": 49123,
+                    "startOffset": 49119,
                     "endLine": 565,
                     "endColumn": 12,
-                    "endOffset": 49216
+                    "endOffset": 49212
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5500,10 +5500,10 @@
                 "to": {
                     "startLine": 566,
                     "startColumn": 4,
-                    "startOffset": 49221,
+                    "startOffset": 49217,
                     "endLine": 576,
                     "endColumn": 12,
-                    "endOffset": 49833
+                    "endOffset": 49829
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5521,9 +5521,9 @@
                 "to": {
                     "startLine": 577,
                     "startColumn": 4,
-                    "startOffset": 49838,
+                    "startOffset": 49834,
                     "endColumn": 99,
-                    "endOffset": 49933
+                    "endOffset": 49929
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5540,10 +5540,10 @@
                 "to": {
                     "startLine": 578,
                     "startColumn": 4,
-                    "startOffset": 49938,
+                    "startOffset": 49934,
                     "endLine": 581,
                     "endColumn": 12,
-                    "endOffset": 50169
+                    "endOffset": 50165
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5561,10 +5561,10 @@
                 "to": {
                     "startLine": 582,
                     "startColumn": 4,
-                    "startOffset": 50174,
+                    "startOffset": 50170,
                     "endLine": 587,
                     "endColumn": 12,
-                    "endOffset": 50593
+                    "endOffset": 50589
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5582,10 +5582,10 @@
                 "to": {
                     "startLine": 588,
                     "startColumn": 4,
-                    "startOffset": 50598,
+                    "startOffset": 50594,
                     "endLine": 591,
                     "endColumn": 12,
-                    "endOffset": 50832
+                    "endOffset": 50828
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5603,9 +5603,9 @@
                 "to": {
                     "startLine": 592,
                     "startColumn": 4,
-                    "startOffset": 50837,
+                    "startOffset": 50833,
                     "endColumn": 93,
-                    "endOffset": 50926
+                    "endOffset": 50922
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5622,9 +5622,9 @@
                 "to": {
                     "startLine": 593,
                     "startColumn": 4,
-                    "startOffset": 50931,
+                    "startOffset": 50927,
                     "endColumn": 88,
-                    "endOffset": 51015
+                    "endOffset": 51011
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5641,10 +5641,10 @@
                 "to": {
                     "startLine": 594,
                     "startColumn": 4,
-                    "startOffset": 51020,
+                    "startOffset": 51016,
                     "endLine": 597,
                     "endColumn": 12,
-                    "endOffset": 51252
+                    "endOffset": 51248
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5662,10 +5662,10 @@
                 "to": {
                     "startLine": 598,
                     "startColumn": 4,
-                    "startOffset": 51257,
+                    "startOffset": 51253,
                     "endLine": 624,
                     "endColumn": 12,
-                    "endOffset": 53304
+                    "endOffset": 53300
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5683,10 +5683,10 @@
                 "to": {
                     "startLine": 625,
                     "startColumn": 4,
-                    "startOffset": 53309,
+                    "startOffset": 53305,
                     "endLine": 628,
                     "endColumn": 12,
-                    "endOffset": 53546
+                    "endOffset": 53542
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5704,9 +5704,9 @@
                 "to": {
                     "startLine": 629,
                     "startColumn": 4,
-                    "startOffset": 53551,
+                    "startOffset": 53547,
                     "endColumn": 101,
-                    "endOffset": 53648
+                    "endOffset": 53644
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5723,10 +5723,10 @@
                 "to": {
                     "startLine": 630,
                     "startColumn": 4,
-                    "startOffset": 53653,
+                    "startOffset": 53649,
                     "endLine": 633,
                     "endColumn": 12,
-                    "endOffset": 53885
+                    "endOffset": 53881
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5744,10 +5744,10 @@
                 "to": {
                     "startLine": 634,
                     "startColumn": 4,
-                    "startOffset": 53890,
+                    "startOffset": 53886,
                     "endLine": 661,
                     "endColumn": 12,
-                    "endOffset": 56069
+                    "endOffset": 56065
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5765,10 +5765,10 @@
                 "to": {
                     "startLine": 662,
                     "startColumn": 4,
-                    "startOffset": 56074,
+                    "startOffset": 56070,
                     "endLine": 820,
                     "endColumn": 12,
-                    "endOffset": 66238
+                    "endOffset": 66234
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5786,10 +5786,10 @@
                 "to": {
                     "startLine": 821,
                     "startColumn": 4,
-                    "startOffset": 66243,
+                    "startOffset": 66239,
                     "endLine": 842,
                     "endColumn": 12,
-                    "endOffset": 67489
+                    "endOffset": 67485
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5807,10 +5807,10 @@
                 "to": {
                     "startLine": 843,
                     "startColumn": 4,
-                    "startOffset": 67494,
+                    "startOffset": 67490,
                     "endLine": 1001,
                     "endColumn": 12,
-                    "endOffset": 77757
+                    "endOffset": 77753
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5828,10 +5828,10 @@
                 "to": {
                     "startLine": 1002,
                     "startColumn": 4,
-                    "startOffset": 77762,
+                    "startOffset": 77758,
                     "endLine": 1023,
                     "endColumn": 12,
-                    "endOffset": 79020
+                    "endOffset": 79016
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5849,10 +5849,10 @@
                 "to": {
                     "startLine": 1024,
                     "startColumn": 4,
-                    "startOffset": 79025,
+                    "startOffset": 79021,
                     "endLine": 1050,
                     "endColumn": 12,
-                    "endOffset": 80512
+                    "endOffset": 80508
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5870,10 +5870,10 @@
                 "to": {
                     "startLine": 1051,
                     "startColumn": 4,
-                    "startOffset": 80517,
+                    "startOffset": 80513,
                     "endLine": 1057,
                     "endColumn": 12,
-                    "endOffset": 81048
+                    "endOffset": 81044
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5891,10 +5891,10 @@
                 "to": {
                     "startLine": 1058,
                     "startColumn": 4,
-                    "startOffset": 81053,
+                    "startOffset": 81049,
                     "endLine": 1062,
                     "endColumn": 12,
-                    "endOffset": 81378
+                    "endOffset": 81374
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5912,10 +5912,10 @@
                 "to": {
                     "startLine": 1063,
                     "startColumn": 4,
-                    "startOffset": 81383,
+                    "startOffset": 81379,
                     "endLine": 1084,
                     "endColumn": 12,
-                    "endOffset": 82643
+                    "endOffset": 82639
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5933,10 +5933,10 @@
                 "to": {
                     "startLine": 1085,
                     "startColumn": 4,
-                    "startOffset": 82648,
+                    "startOffset": 82644,
                     "endLine": 1089,
                     "endColumn": 12,
-                    "endOffset": 82899
+                    "endOffset": 82895
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5954,10 +5954,10 @@
                 "to": {
                     "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 82904,
+                    "startOffset": 82900,
                     "endLine": 1094,
                     "endColumn": 12,
-                    "endOffset": 83135
+                    "endOffset": 83131
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5975,10 +5975,10 @@
                 "to": {
                     "startLine": 1095,
                     "startColumn": 4,
-                    "startOffset": 83140,
+                    "startOffset": 83136,
                     "endLine": 1104,
                     "endColumn": 12,
-                    "endOffset": 83682
+                    "endOffset": 83678
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -5996,10 +5996,10 @@
                 "to": {
                     "startLine": 1105,
                     "startColumn": 4,
-                    "startOffset": 83687,
+                    "startOffset": 83683,
                     "endLine": 1113,
                     "endColumn": 12,
-                    "endOffset": 84176
+                    "endOffset": 84172
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6017,10 +6017,10 @@
                 "to": {
                     "startLine": 1114,
                     "startColumn": 4,
-                    "startOffset": 84181,
+                    "startOffset": 84177,
                     "endLine": 1122,
                     "endColumn": 12,
-                    "endOffset": 84781
+                    "endOffset": 84777
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6038,10 +6038,10 @@
                 "to": {
                     "startLine": 1123,
                     "startColumn": 4,
-                    "startOffset": 84786,
+                    "startOffset": 84782,
                     "endLine": 1126,
                     "endColumn": 12,
-                    "endOffset": 84979
+                    "endOffset": 84975
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6059,10 +6059,10 @@
                 "to": {
                     "startLine": 1127,
                     "startColumn": 4,
-                    "startOffset": 84984,
+                    "startOffset": 84980,
                     "endLine": 1133,
                     "endColumn": 12,
-                    "endOffset": 85559
+                    "endOffset": 85555
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6080,10 +6080,10 @@
                 "to": {
                     "startLine": 1134,
                     "startColumn": 4,
-                    "startOffset": 85564,
+                    "startOffset": 85560,
                     "endLine": 1141,
                     "endColumn": 12,
-                    "endOffset": 86123
+                    "endOffset": 86119
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6101,10 +6101,10 @@
                 "to": {
                     "startLine": 1142,
                     "startColumn": 4,
-                    "startOffset": 86128,
+                    "startOffset": 86124,
                     "endLine": 1148,
                     "endColumn": 12,
-                    "endOffset": 86498
+                    "endOffset": 86494
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6122,9 +6122,9 @@
                 "to": {
                     "startLine": 1149,
                     "startColumn": 4,
-                    "startOffset": 86503,
+                    "startOffset": 86499,
                     "endColumn": 117,
-                    "endOffset": 86616
+                    "endOffset": 86612
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6141,10 +6141,10 @@
                 "to": {
                     "startLine": 1150,
                     "startColumn": 4,
-                    "startOffset": 86621,
+                    "startOffset": 86617,
                     "endLine": 1158,
                     "endColumn": 12,
-                    "endOffset": 87154
+                    "endOffset": 87150
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6162,10 +6162,10 @@
                 "to": {
                     "startLine": 1159,
                     "startColumn": 4,
-                    "startOffset": 87159,
+                    "startOffset": 87155,
                     "endLine": 1161,
                     "endColumn": 12,
-                    "endOffset": 87311
+                    "endOffset": 87307
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6183,10 +6183,10 @@
                 "to": {
                     "startLine": 1162,
                     "startColumn": 4,
-                    "startOffset": 87316,
+                    "startOffset": 87312,
                     "endLine": 1164,
                     "endColumn": 12,
-                    "endOffset": 87507
+                    "endOffset": 87503
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6204,10 +6204,10 @@
                 "to": {
                     "startLine": 1165,
                     "startColumn": 4,
-                    "startOffset": 87512,
+                    "startOffset": 87508,
                     "endLine": 1168,
                     "endColumn": 12,
-                    "endOffset": 87780
+                    "endOffset": 87776
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6225,10 +6225,10 @@
                 "to": {
                     "startLine": 1169,
                     "startColumn": 4,
-                    "startOffset": 87785,
+                    "startOffset": 87781,
                     "endLine": 1172,
                     "endColumn": 12,
-                    "endOffset": 88036
+                    "endOffset": 88032
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6246,10 +6246,10 @@
                 "to": {
                     "startLine": 1173,
                     "startColumn": 4,
-                    "startOffset": 88041,
+                    "startOffset": 88037,
                     "endLine": 1176,
                     "endColumn": 12,
-                    "endOffset": 88206
+                    "endOffset": 88202
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6267,10 +6267,10 @@
                 "to": {
                     "startLine": 1177,
                     "startColumn": 4,
-                    "startOffset": 88211,
+                    "startOffset": 88207,
                     "endLine": 1179,
                     "endColumn": 12,
-                    "endOffset": 88347
+                    "endOffset": 88343
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6288,9 +6288,9 @@
                 "to": {
                     "startLine": 1180,
                     "startColumn": 4,
-                    "startOffset": 88352,
+                    "startOffset": 88348,
                     "endColumn": 63,
-                    "endOffset": 88411
+                    "endOffset": 88407
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6307,10 +6307,10 @@
                 "to": {
                     "startLine": 1181,
                     "startColumn": 4,
-                    "startOffset": 88416,
+                    "startOffset": 88412,
                     "endLine": 1184,
                     "endColumn": 12,
-                    "endOffset": 88693
+                    "endOffset": 88689
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6328,10 +6328,10 @@
                 "to": {
                     "startLine": 1185,
                     "startColumn": 4,
-                    "startOffset": 88698,
+                    "startOffset": 88694,
                     "endLine": 1188,
                     "endColumn": 12,
-                    "endOffset": 88979
+                    "endOffset": 88975
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6349,10 +6349,10 @@
                 "to": {
                     "startLine": 1189,
                     "startColumn": 4,
-                    "startOffset": 88984,
+                    "startOffset": 88980,
                     "endLine": 1198,
                     "endColumn": 12,
-                    "endOffset": 89655
+                    "endOffset": 89651
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6370,10 +6370,10 @@
                 "to": {
                     "startLine": 1199,
                     "startColumn": 4,
-                    "startOffset": 89660,
+                    "startOffset": 89656,
                     "endLine": 1203,
                     "endColumn": 12,
-                    "endOffset": 89919
+                    "endOffset": 89915
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6391,10 +6391,10 @@
                 "to": {
                     "startLine": 1204,
                     "startColumn": 4,
-                    "startOffset": 89924,
+                    "startOffset": 89920,
                     "endLine": 1210,
                     "endColumn": 12,
-                    "endOffset": 90257
+                    "endOffset": 90253
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6412,10 +6412,10 @@
                 "to": {
                     "startLine": 1211,
                     "startColumn": 4,
-                    "startOffset": 90262,
+                    "startOffset": 90258,
                     "endLine": 1216,
                     "endColumn": 12,
-                    "endOffset": 90610
+                    "endOffset": 90606
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6433,9 +6433,9 @@
                 "to": {
                     "startLine": 1217,
                     "startColumn": 4,
-                    "startOffset": 90615,
+                    "startOffset": 90611,
                     "endColumn": 93,
-                    "endOffset": 90704
+                    "endOffset": 90700
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6452,10 +6452,10 @@
                 "to": {
                     "startLine": 1218,
                     "startColumn": 4,
-                    "startOffset": 90709,
+                    "startOffset": 90705,
                     "endLine": 1220,
                     "endColumn": 12,
-                    "endOffset": 90890
+                    "endOffset": 90886
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6473,10 +6473,10 @@
                 "to": {
                     "startLine": 1221,
                     "startColumn": 4,
-                    "startOffset": 90895,
+                    "startOffset": 90891,
                     "endLine": 1224,
                     "endColumn": 12,
-                    "endOffset": 91196
+                    "endOffset": 91192
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6494,10 +6494,10 @@
                 "to": {
                     "startLine": 1225,
                     "startColumn": 4,
-                    "startOffset": 91201,
+                    "startOffset": 91197,
                     "endLine": 1229,
                     "endColumn": 12,
-                    "endOffset": 91458
+                    "endOffset": 91454
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6515,10 +6515,10 @@
                 "to": {
                     "startLine": 1230,
                     "startColumn": 4,
-                    "startOffset": 91463,
+                    "startOffset": 91459,
                     "endLine": 1231,
                     "endColumn": 12,
-                    "endOffset": 91583
+                    "endOffset": 91579
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6536,10 +6536,10 @@
                 "to": {
                     "startLine": 1232,
                     "startColumn": 4,
-                    "startOffset": 91588,
+                    "startOffset": 91584,
                     "endLine": 1233,
                     "endColumn": 12,
-                    "endOffset": 91710
+                    "endOffset": 91706
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6557,10 +6557,10 @@
                 "to": {
                     "startLine": 1234,
                     "startColumn": 4,
-                    "startOffset": 91715,
+                    "startOffset": 91711,
                     "endLine": 1236,
                     "endColumn": 12,
-                    "endOffset": 91949
+                    "endOffset": 91945
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6578,10 +6578,10 @@
                 "to": {
                     "startLine": 1237,
                     "startColumn": 4,
-                    "startOffset": 91954,
+                    "startOffset": 91950,
                     "endLine": 1239,
                     "endColumn": 12,
-                    "endOffset": 92160
+                    "endOffset": 92156
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6599,10 +6599,10 @@
                 "to": {
                     "startLine": 1240,
                     "startColumn": 4,
-                    "startOffset": 92165,
+                    "startOffset": 92161,
                     "endLine": 1241,
                     "endColumn": 12,
-                    "endOffset": 92279
+                    "endOffset": 92275
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6620,10 +6620,10 @@
                 "to": {
                     "startLine": 1242,
                     "startColumn": 4,
-                    "startOffset": 92284,
+                    "startOffset": 92280,
                     "endLine": 1245,
                     "endColumn": 12,
-                    "endOffset": 92472
+                    "endOffset": 92468
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6641,10 +6641,10 @@
                 "to": {
                     "startLine": 1246,
                     "startColumn": 4,
-                    "startOffset": 92477,
+                    "startOffset": 92473,
                     "endLine": 1248,
                     "endColumn": 12,
-                    "endOffset": 92649
+                    "endOffset": 92645
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6662,10 +6662,10 @@
                 "to": {
                     "startLine": 1249,
                     "startColumn": 4,
-                    "startOffset": 92654,
+                    "startOffset": 92650,
                     "endLine": 1255,
                     "endColumn": 12,
-                    "endOffset": 93104
+                    "endOffset": 93100
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6683,10 +6683,10 @@
                 "to": {
                     "startLine": 1256,
                     "startColumn": 4,
-                    "startOffset": 93109,
+                    "startOffset": 93105,
                     "endLine": 1258,
                     "endColumn": 12,
-                    "endOffset": 93285
+                    "endOffset": 93281
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6704,10 +6704,10 @@
                 "to": {
                     "startLine": 1259,
                     "startColumn": 4,
-                    "startOffset": 93290,
+                    "startOffset": 93286,
                     "endLine": 1261,
                     "endColumn": 12,
-                    "endOffset": 93407
+                    "endOffset": 93403
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6725,10 +6725,10 @@
                 "to": {
                     "startLine": 1262,
                     "startColumn": 4,
-                    "startOffset": 93412,
+                    "startOffset": 93408,
                     "endLine": 1265,
                     "endColumn": 12,
-                    "endOffset": 93666
+                    "endOffset": 93662
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6746,10 +6746,10 @@
                 "to": {
                     "startLine": 1266,
                     "startColumn": 4,
-                    "startOffset": 93671,
+                    "startOffset": 93667,
                     "endLine": 1267,
                     "endColumn": 12,
-                    "endOffset": 93779
+                    "endOffset": 93775
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6767,10 +6767,10 @@
                 "to": {
                     "startLine": 1268,
                     "startColumn": 4,
-                    "startOffset": 93784,
+                    "startOffset": 93780,
                     "endLine": 1271,
                     "endColumn": 12,
-                    "endOffset": 93966
+                    "endOffset": 93962
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6788,10 +6788,10 @@
                 "to": {
                     "startLine": 1272,
                     "startColumn": 4,
-                    "startOffset": 93971,
+                    "startOffset": 93967,
                     "endLine": 1273,
                     "endColumn": 12,
-                    "endOffset": 94068
+                    "endOffset": 94064
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6809,10 +6809,10 @@
                 "to": {
                     "startLine": 1274,
                     "startColumn": 4,
-                    "startOffset": 94073,
+                    "startOffset": 94069,
                     "endLine": 1279,
                     "endColumn": 12,
-                    "endOffset": 94512
+                    "endOffset": 94508
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6830,10 +6830,10 @@
                 "to": {
                     "startLine": 1280,
                     "startColumn": 4,
-                    "startOffset": 94517,
+                    "startOffset": 94513,
                     "endLine": 1281,
                     "endColumn": 12,
-                    "endOffset": 94636
+                    "endOffset": 94632
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6851,10 +6851,10 @@
                 "to": {
                     "startLine": 1282,
                     "startColumn": 4,
-                    "startOffset": 94641,
+                    "startOffset": 94637,
                     "endLine": 1285,
                     "endColumn": 12,
-                    "endOffset": 94911
+                    "endOffset": 94907
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6872,10 +6872,10 @@
                 "to": {
                     "startLine": 1286,
                     "startColumn": 4,
-                    "startOffset": 94916,
+                    "startOffset": 94912,
                     "endLine": 1293,
                     "endColumn": 12,
-                    "endOffset": 95419
+                    "endOffset": 95415
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6893,10 +6893,10 @@
                 "to": {
                     "startLine": 1294,
                     "startColumn": 4,
-                    "startOffset": 95424,
+                    "startOffset": 95420,
                     "endLine": 1301,
                     "endColumn": 12,
-                    "endOffset": 95915
+                    "endOffset": 95911
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6914,10 +6914,10 @@
                 "to": {
                     "startLine": 1302,
                     "startColumn": 4,
-                    "startOffset": 95920,
+                    "startOffset": 95916,
                     "endLine": 1313,
                     "endColumn": 12,
-                    "endOffset": 96792
+                    "endOffset": 96788
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6935,10 +6935,10 @@
                 "to": {
                     "startLine": 1314,
                     "startColumn": 4,
-                    "startOffset": 96797,
+                    "startOffset": 96793,
                     "endLine": 1319,
                     "endColumn": 12,
-                    "endOffset": 97086
+                    "endOffset": 97082
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6956,10 +6956,10 @@
                 "to": {
                     "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 97091,
+                    "startOffset": 97087,
                     "endLine": 1328,
                     "endColumn": 12,
-                    "endOffset": 97656
+                    "endOffset": 97652
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6977,10 +6977,10 @@
                 "to": {
                     "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 97661,
+                    "startOffset": 97657,
                     "endLine": 1331,
                     "endColumn": 12,
-                    "endOffset": 97805
+                    "endOffset": 97801
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -6998,10 +6998,10 @@
                 "to": {
                     "startLine": 1332,
                     "startColumn": 4,
-                    "startOffset": 97810,
+                    "startOffset": 97806,
                     "endLine": 1342,
                     "endColumn": 12,
-                    "endOffset": 98537
+                    "endOffset": 98533
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7019,10 +7019,10 @@
                 "to": {
                     "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 98542,
+                    "startOffset": 98538,
                     "endLine": 1345,
                     "endColumn": 12,
-                    "endOffset": 98709
+                    "endOffset": 98705
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7040,10 +7040,10 @@
                 "to": {
                     "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 98714,
+                    "startOffset": 98710,
                     "endLine": 1350,
                     "endColumn": 12,
-                    "endOffset": 99045
+                    "endOffset": 99041
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7061,10 +7061,10 @@
                 "to": {
                     "startLine": 1351,
                     "startColumn": 4,
-                    "startOffset": 99050,
+                    "startOffset": 99046,
                     "endLine": 1364,
                     "endColumn": 12,
-                    "endOffset": 100103
+                    "endOffset": 100099
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7082,10 +7082,10 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 100108,
+                    "startOffset": 100104,
                     "endLine": 1369,
                     "endColumn": 12,
-                    "endOffset": 100381
+                    "endOffset": 100377
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7103,10 +7103,10 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 100386,
+                    "startOffset": 100382,
                     "endLine": 1411,
                     "endColumn": 12,
-                    "endOffset": 103567
+                    "endOffset": 103563
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7124,10 +7124,10 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 103572,
+                    "startOffset": 103568,
                     "endLine": 1454,
                     "endColumn": 12,
-                    "endOffset": 106896
+                    "endOffset": 106892
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7145,9 +7145,9 @@
                 "to": {
                     "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 106901,
+                    "startOffset": 106897,
                     "endColumn": 61,
-                    "endOffset": 106958
+                    "endOffset": 106954
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7164,10 +7164,10 @@
                 "to": {
                     "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 106963,
+                    "startOffset": 106959,
                     "endLine": 1465,
                     "endColumn": 12,
-                    "endOffset": 107588
+                    "endOffset": 107584
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7185,10 +7185,10 @@
                 "to": {
                     "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 107593,
+                    "startOffset": 107589,
                     "endLine": 1474,
                     "endColumn": 12,
-                    "endOffset": 108202
+                    "endOffset": 108198
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7206,9 +7206,9 @@
                 "to": {
                     "startLine": 1475,
                     "startColumn": 4,
-                    "startOffset": 108207,
+                    "startOffset": 108203,
                     "endColumn": 85,
-                    "endOffset": 108288
+                    "endOffset": 108284
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7225,10 +7225,10 @@
                 "to": {
                     "startLine": 1476,
                     "startColumn": 4,
-                    "startOffset": 108293,
+                    "startOffset": 108289,
                     "endLine": 1477,
                     "endColumn": 12,
-                    "endOffset": 108401
+                    "endOffset": 108397
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7246,10 +7246,10 @@
                 "to": {
                     "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 108406,
+                    "startOffset": 108402,
                     "endLine": 1481,
                     "endColumn": 12,
-                    "endOffset": 108630
+                    "endOffset": 108626
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7267,10 +7267,10 @@
                 "to": {
                     "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 108635,
+                    "startOffset": 108631,
                     "endLine": 1484,
                     "endColumn": 12,
-                    "endOffset": 108790
+                    "endOffset": 108786
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7288,10 +7288,10 @@
                 "to": {
                     "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 108795,
+                    "startOffset": 108791,
                     "endLine": 1487,
                     "endColumn": 12,
-                    "endOffset": 108942
+                    "endOffset": 108938
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7309,10 +7309,10 @@
                 "to": {
                     "startLine": 1488,
                     "startColumn": 4,
-                    "startOffset": 108947,
+                    "startOffset": 108943,
                     "endLine": 1490,
                     "endColumn": 12,
-                    "endOffset": 109113
+                    "endOffset": 109109
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7330,10 +7330,10 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 109118,
+                    "startOffset": 109114,
                     "endLine": 1493,
                     "endColumn": 12,
-                    "endOffset": 109280
+                    "endOffset": 109276
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7351,10 +7351,10 @@
                 "to": {
                     "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 109285,
+                    "startOffset": 109281,
                     "endLine": 1497,
                     "endColumn": 12,
-                    "endOffset": 109523
+                    "endOffset": 109519
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7372,10 +7372,10 @@
                 "to": {
                     "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 109528,
+                    "startOffset": 109524,
                     "endLine": 1500,
                     "endColumn": 12,
-                    "endOffset": 109693
+                    "endOffset": 109689
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7393,10 +7393,10 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 109698,
+                    "startOffset": 109694,
                     "endLine": 1503,
                     "endColumn": 12,
-                    "endOffset": 109866
+                    "endOffset": 109862
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7414,10 +7414,10 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 109871,
+                    "startOffset": 109867,
                     "endLine": 1506,
                     "endColumn": 12,
-                    "endOffset": 110037
+                    "endOffset": 110033
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7435,10 +7435,10 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 110042,
+                    "startOffset": 110038,
                     "endLine": 1510,
                     "endColumn": 12,
-                    "endOffset": 110311
+                    "endOffset": 110307
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7456,10 +7456,10 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 110316,
+                    "startOffset": 110312,
                     "endLine": 1513,
                     "endColumn": 12,
-                    "endOffset": 110510
+                    "endOffset": 110506
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7477,10 +7477,10 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 110515,
+                    "startOffset": 110511,
                     "endLine": 1517,
                     "endColumn": 12,
-                    "endOffset": 110715
+                    "endOffset": 110711
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7498,10 +7498,10 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 110720,
+                    "startOffset": 110716,
                     "endLine": 1521,
                     "endColumn": 12,
-                    "endOffset": 111045
+                    "endOffset": 111041
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7519,9 +7519,9 @@
                 "to": {
                     "startLine": 1522,
                     "startColumn": 4,
-                    "startOffset": 111050,
+                    "startOffset": 111046,
                     "endColumn": 83,
-                    "endOffset": 111129
+                    "endOffset": 111125
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7538,9 +7538,9 @@
                 "to": {
                     "startLine": 1523,
                     "startColumn": 4,
-                    "startOffset": 111134,
+                    "startOffset": 111130,
                     "endColumn": 95,
-                    "endOffset": 111225
+                    "endOffset": 111221
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7557,9 +7557,9 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 111230,
+                    "startOffset": 111226,
                     "endColumn": 95,
-                    "endOffset": 111321
+                    "endOffset": 111317
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7576,9 +7576,9 @@
                 "to": {
                     "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 111326,
+                    "startOffset": 111322,
                     "endColumn": 97,
-                    "endOffset": 111419
+                    "endOffset": 111415
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7595,9 +7595,9 @@
                 "to": {
                     "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 111424,
+                    "startOffset": 111420,
                     "endColumn": 99,
-                    "endOffset": 111519
+                    "endOffset": 111515
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7614,9 +7614,9 @@
                 "to": {
                     "startLine": 1527,
                     "startColumn": 4,
-                    "startOffset": 111524,
+                    "startOffset": 111520,
                     "endColumn": 101,
-                    "endOffset": 111621
+                    "endOffset": 111617
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7633,9 +7633,9 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 111626,
+                    "startOffset": 111622,
                     "endColumn": 101,
-                    "endOffset": 111723
+                    "endOffset": 111719
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7652,9 +7652,9 @@
                 "to": {
                     "startLine": 1529,
                     "startColumn": 4,
-                    "startOffset": 111728,
+                    "startOffset": 111724,
                     "endColumn": 101,
-                    "endOffset": 111825
+                    "endOffset": 111821
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7671,9 +7671,9 @@
                 "to": {
                     "startLine": 1530,
                     "startColumn": 4,
-                    "startOffset": 111830,
+                    "startOffset": 111826,
                     "endColumn": 101,
-                    "endOffset": 111927
+                    "endOffset": 111923
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7690,9 +7690,9 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 111932,
+                    "startOffset": 111928,
                     "endColumn": 101,
-                    "endOffset": 112029
+                    "endOffset": 112025
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7709,9 +7709,9 @@
                 "to": {
                     "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 112034,
+                    "startOffset": 112030,
                     "endColumn": 99,
-                    "endOffset": 112129
+                    "endOffset": 112125
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7728,9 +7728,9 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 112134,
+                    "startOffset": 112130,
                     "endColumn": 95,
-                    "endOffset": 112225
+                    "endOffset": 112221
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7747,9 +7747,9 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 112230,
+                    "startOffset": 112226,
                     "endColumn": 111,
-                    "endOffset": 112337
+                    "endOffset": 112333
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7766,9 +7766,9 @@
                 "to": {
                     "startLine": 1535,
                     "startColumn": 4,
-                    "startOffset": 112342,
+                    "startOffset": 112338,
                     "endColumn": 128,
-                    "endOffset": 112466
+                    "endOffset": 112462
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7785,9 +7785,9 @@
                 "to": {
                     "startLine": 1536,
                     "startColumn": 4,
-                    "startOffset": 112471,
+                    "startOffset": 112467,
                     "endColumn": 122,
-                    "endOffset": 112589
+                    "endOffset": 112585
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7804,9 +7804,9 @@
                 "to": {
                     "startLine": 1537,
                     "startColumn": 4,
-                    "startOffset": 112594,
+                    "startOffset": 112590,
                     "endColumn": 130,
-                    "endOffset": 112720
+                    "endOffset": 112716
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7823,9 +7823,9 @@
                 "to": {
                     "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 112725,
+                    "startOffset": 112721,
                     "endColumn": 130,
-                    "endOffset": 112851
+                    "endOffset": 112847
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7842,9 +7842,9 @@
                 "to": {
                     "startLine": 1539,
                     "startColumn": 4,
-                    "startOffset": 112856,
+                    "startOffset": 112852,
                     "endColumn": 97,
-                    "endOffset": 112949
+                    "endOffset": 112945
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7861,9 +7861,9 @@
                 "to": {
                     "startLine": 1540,
                     "startColumn": 4,
-                    "startOffset": 112954,
+                    "startOffset": 112950,
                     "endColumn": 113,
-                    "endOffset": 113063
+                    "endOffset": 113059
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7880,9 +7880,9 @@
                 "to": {
                     "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 113068,
+                    "startOffset": 113064,
                     "endColumn": 93,
-                    "endOffset": 113157
+                    "endOffset": 113153
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7899,10 +7899,10 @@
                 "to": {
                     "startLine": 1542,
                     "startColumn": 4,
-                    "startOffset": 113162,
+                    "startOffset": 113158,
                     "endLine": 1545,
                     "endColumn": 12,
-                    "endOffset": 113356
+                    "endOffset": 113352
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7920,10 +7920,10 @@
                 "to": {
                     "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 113361,
+                    "startOffset": 113357,
                     "endLine": 1549,
                     "endColumn": 12,
-                    "endOffset": 113560
+                    "endOffset": 113556
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7941,9 +7941,9 @@
                 "to": {
                     "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 113565,
+                    "startOffset": 113561,
                     "endColumn": 68,
-                    "endOffset": 113629
+                    "endOffset": 113625
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7960,9 +7960,9 @@
                 "to": {
                     "startLine": 1551,
                     "startColumn": 4,
-                    "startOffset": 113634,
+                    "startOffset": 113630,
                     "endColumn": 115,
-                    "endOffset": 113745
+                    "endOffset": 113741
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7979,9 +7979,9 @@
                 "to": {
                     "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 113750,
+                    "startOffset": 113746,
                     "endColumn": 127,
-                    "endOffset": 113873
+                    "endOffset": 113869
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -7998,9 +7998,9 @@
                 "to": {
                     "startLine": 1553,
                     "startColumn": 4,
-                    "startOffset": 113878,
+                    "startOffset": 113874,
                     "endColumn": 63,
-                    "endOffset": 113937
+                    "endOffset": 113933
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8017,10 +8017,10 @@
                 "to": {
                     "startLine": 1554,
                     "startColumn": 4,
-                    "startOffset": 113942,
+                    "startOffset": 113938,
                     "endLine": 1557,
                     "endColumn": 12,
-                    "endOffset": 114141
+                    "endOffset": 114137
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8038,9 +8038,9 @@
                 "to": {
                     "startLine": 1558,
                     "startColumn": 4,
-                    "startOffset": 114146,
+                    "startOffset": 114142,
                     "endColumn": 68,
-                    "endOffset": 114210
+                    "endOffset": 114206
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8057,10 +8057,10 @@
                 "to": {
                     "startLine": 1559,
                     "startColumn": 4,
-                    "startOffset": 114215,
+                    "startOffset": 114211,
                     "endLine": 1562,
                     "endColumn": 12,
-                    "endOffset": 114413
+                    "endOffset": 114409
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8078,9 +8078,9 @@
                 "to": {
                     "startLine": 1563,
                     "startColumn": 4,
-                    "startOffset": 114418,
+                    "startOffset": 114414,
                     "endColumn": 69,
-                    "endOffset": 114483
+                    "endOffset": 114479
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8097,10 +8097,10 @@
                 "to": {
                     "startLine": 1564,
                     "startColumn": 4,
-                    "startOffset": 114488,
+                    "startOffset": 114484,
                     "endLine": 1565,
                     "endColumn": 12,
-                    "endOffset": 114623
+                    "endOffset": 114619
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8118,10 +8118,10 @@
                 "to": {
                     "startLine": 1566,
                     "startColumn": 4,
-                    "startOffset": 114628,
+                    "startOffset": 114624,
                     "endLine": 1567,
                     "endColumn": 12,
-                    "endOffset": 114757
+                    "endOffset": 114753
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8139,9 +8139,9 @@
                 "to": {
                     "startLine": 1568,
                     "startColumn": 4,
-                    "startOffset": 114762,
+                    "startOffset": 114758,
                     "endColumn": 95,
-                    "endOffset": 114853
+                    "endOffset": 114849
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8158,9 +8158,9 @@
                 "to": {
                     "startLine": 1569,
                     "startColumn": 4,
-                    "startOffset": 114858,
+                    "startOffset": 114854,
                     "endColumn": 111,
-                    "endOffset": 114965
+                    "endOffset": 114961
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8177,9 +8177,9 @@
                 "to": {
                     "startLine": 1570,
                     "startColumn": 4,
-                    "startOffset": 114970,
+                    "startOffset": 114966,
                     "endColumn": 99,
-                    "endOffset": 115065
+                    "endOffset": 115061
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8196,9 +8196,9 @@
                 "to": {
                     "startLine": 1571,
                     "startColumn": 4,
-                    "startOffset": 115070,
+                    "startOffset": 115066,
                     "endColumn": 115,
-                    "endOffset": 115181
+                    "endOffset": 115177
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8215,9 +8215,9 @@
                 "to": {
                     "startLine": 1572,
                     "startColumn": 4,
-                    "startOffset": 115186,
+                    "startOffset": 115182,
                     "endColumn": 95,
-                    "endOffset": 115277
+                    "endOffset": 115273
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8234,9 +8234,9 @@
                 "to": {
                     "startLine": 1573,
                     "startColumn": 4,
-                    "startOffset": 115282,
+                    "startOffset": 115278,
                     "endColumn": 111,
-                    "endOffset": 115389
+                    "endOffset": 115385
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8253,10 +8253,10 @@
                 "to": {
                     "startLine": 1574,
                     "startColumn": 4,
-                    "startOffset": 115394,
+                    "startOffset": 115390,
                     "endLine": 1575,
                     "endColumn": 12,
-                    "endOffset": 115529
+                    "endOffset": 115525
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8274,9 +8274,9 @@
                 "to": {
                     "startLine": 1576,
                     "startColumn": 4,
-                    "startOffset": 115534,
+                    "startOffset": 115530,
                     "endColumn": 135,
-                    "endOffset": 115665
+                    "endOffset": 115661
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8293,10 +8293,10 @@
                 "to": {
                     "startLine": 1577,
                     "startColumn": 4,
-                    "startOffset": 115670,
+                    "startOffset": 115666,
                     "endLine": 1578,
                     "endColumn": 12,
-                    "endOffset": 115829
+                    "endOffset": 115825
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8314,9 +8314,9 @@
                 "to": {
                     "startLine": 1579,
                     "startColumn": 4,
-                    "startOffset": 115834,
+                    "startOffset": 115830,
                     "endColumn": 129,
-                    "endOffset": 115959
+                    "endOffset": 115955
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8333,10 +8333,10 @@
                 "to": {
                     "startLine": 1580,
                     "startColumn": 4,
-                    "startOffset": 115964,
+                    "startOffset": 115960,
                     "endLine": 1581,
                     "endColumn": 12,
-                    "endOffset": 116117
+                    "endOffset": 116113
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8354,10 +8354,10 @@
                 "to": {
                     "startLine": 1582,
                     "startColumn": 4,
-                    "startOffset": 116122,
+                    "startOffset": 116118,
                     "endLine": 1583,
                     "endColumn": 12,
-                    "endOffset": 116267
+                    "endOffset": 116263
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8375,9 +8375,9 @@
                 "to": {
                     "startLine": 1584,
                     "startColumn": 4,
-                    "startOffset": 116272,
+                    "startOffset": 116268,
                     "endColumn": 140,
-                    "endOffset": 116408
+                    "endOffset": 116404
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8394,10 +8394,10 @@
                 "to": {
                     "startLine": 1585,
                     "startColumn": 4,
-                    "startOffset": 116413,
+                    "startOffset": 116409,
                     "endLine": 1586,
                     "endColumn": 12,
-                    "endOffset": 116552
+                    "endOffset": 116548
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8415,9 +8415,9 @@
                 "to": {
                     "startLine": 1587,
                     "startColumn": 4,
-                    "startOffset": 116557,
+                    "startOffset": 116553,
                     "endColumn": 134,
-                    "endOffset": 116687
+                    "endOffset": 116683
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8434,9 +8434,9 @@
                 "to": {
                     "startLine": 1588,
                     "startColumn": 4,
-                    "startOffset": 116692,
+                    "startOffset": 116688,
                     "endColumn": 111,
-                    "endOffset": 116799
+                    "endOffset": 116795
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8453,9 +8453,9 @@
                 "to": {
                     "startLine": 1589,
                     "startColumn": 4,
-                    "startOffset": 116804,
+                    "startOffset": 116800,
                     "endColumn": 149,
-                    "endOffset": 116949
+                    "endOffset": 116945
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8472,9 +8472,9 @@
                 "to": {
                     "startLine": 1590,
                     "startColumn": 4,
-                    "startOffset": 116954,
+                    "startOffset": 116950,
                     "endColumn": 127,
-                    "endOffset": 117077
+                    "endOffset": 117073
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8491,9 +8491,9 @@
                 "to": {
                     "startLine": 1591,
                     "startColumn": 4,
-                    "startOffset": 117082,
+                    "startOffset": 117078,
                     "endColumn": 127,
-                    "endOffset": 117205
+                    "endOffset": 117201
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8510,10 +8510,10 @@
                 "to": {
                     "startLine": 1592,
                     "startColumn": 4,
-                    "startOffset": 117210,
+                    "startOffset": 117206,
                     "endLine": 1593,
                     "endColumn": 12,
-                    "endOffset": 117341
+                    "endOffset": 117337
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8531,9 +8531,9 @@
                 "to": {
                     "startLine": 1594,
                     "startColumn": 4,
-                    "startOffset": 117346,
+                    "startOffset": 117342,
                     "endColumn": 131,
-                    "endOffset": 117473
+                    "endOffset": 117469
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8550,9 +8550,9 @@
                 "to": {
                     "startLine": 1595,
                     "startColumn": 4,
-                    "startOffset": 117478,
+                    "startOffset": 117474,
                     "endColumn": 129,
-                    "endOffset": 117603
+                    "endOffset": 117599
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8569,9 +8569,9 @@
                 "to": {
                     "startLine": 1596,
                     "startColumn": 4,
-                    "startOffset": 117608,
+                    "startOffset": 117604,
                     "endColumn": 129,
-                    "endOffset": 117733
+                    "endOffset": 117729
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8588,9 +8588,9 @@
                 "to": {
                     "startLine": 1597,
                     "startColumn": 4,
-                    "startOffset": 117738,
+                    "startOffset": 117734,
                     "endColumn": 111,
-                    "endOffset": 117845
+                    "endOffset": 117841
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8607,9 +8607,9 @@
                 "to": {
                     "startLine": 1598,
                     "startColumn": 4,
-                    "startOffset": 117850,
+                    "startOffset": 117846,
                     "endColumn": 139,
-                    "endOffset": 117985
+                    "endOffset": 117981
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8626,9 +8626,9 @@
                 "to": {
                     "startLine": 1599,
                     "startColumn": 4,
-                    "startOffset": 117990,
+                    "startOffset": 117986,
                     "endColumn": 67,
-                    "endOffset": 118053
+                    "endOffset": 118049
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8645,9 +8645,9 @@
                 "to": {
                     "startLine": 1600,
                     "startColumn": 4,
-                    "startOffset": 118058,
+                    "startOffset": 118054,
                     "endColumn": 72,
-                    "endOffset": 118126
+                    "endOffset": 118122
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8664,9 +8664,9 @@
                 "to": {
                     "startLine": 1601,
                     "startColumn": 4,
-                    "startOffset": 118131,
+                    "startOffset": 118127,
                     "endColumn": 73,
-                    "endOffset": 118200
+                    "endOffset": 118196
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8683,9 +8683,9 @@
                 "to": {
                     "startLine": 1602,
                     "startColumn": 4,
-                    "startOffset": 118205,
+                    "startOffset": 118201,
                     "endColumn": 72,
-                    "endOffset": 118273
+                    "endOffset": 118269
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8702,9 +8702,9 @@
                 "to": {
                     "startLine": 1603,
                     "startColumn": 4,
-                    "startOffset": 118278,
+                    "startOffset": 118274,
                     "endColumn": 73,
-                    "endOffset": 118347
+                    "endOffset": 118343
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8721,10 +8721,10 @@
                 "to": {
                     "startLine": 1604,
                     "startColumn": 4,
-                    "startOffset": 118352,
+                    "startOffset": 118348,
                     "endLine": 1605,
                     "endColumn": 12,
-                    "endOffset": 118493
+                    "endOffset": 118489
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8742,10 +8742,10 @@
                 "to": {
                     "startLine": 1606,
                     "startColumn": 4,
-                    "startOffset": 118498,
+                    "startOffset": 118494,
                     "endLine": 1607,
                     "endColumn": 12,
-                    "endOffset": 118637
+                    "endOffset": 118633
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8763,10 +8763,10 @@
                 "to": {
                     "startLine": 1608,
                     "startColumn": 4,
-                    "startOffset": 118642,
+                    "startOffset": 118638,
                     "endLine": 1609,
                     "endColumn": 12,
-                    "endOffset": 118775
+                    "endOffset": 118771
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8784,9 +8784,9 @@
                 "to": {
                     "startLine": 1610,
                     "startColumn": 4,
-                    "startOffset": 118780,
+                    "startOffset": 118776,
                     "endColumn": 65,
-                    "endOffset": 118841
+                    "endOffset": 118837
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8803,9 +8803,9 @@
                 "to": {
                     "startLine": 1611,
                     "startColumn": 4,
-                    "startOffset": 118846,
+                    "startOffset": 118842,
                     "endColumn": 89,
-                    "endOffset": 118931
+                    "endOffset": 118927
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8822,9 +8822,9 @@
                 "to": {
                     "startLine": 1612,
                     "startColumn": 4,
-                    "startOffset": 118936,
+                    "startOffset": 118932,
                     "endColumn": 75,
-                    "endOffset": 119007
+                    "endOffset": 119003
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8841,9 +8841,9 @@
                 "to": {
                     "startLine": 1613,
                     "startColumn": 4,
-                    "startOffset": 119012,
+                    "startOffset": 119008,
                     "endColumn": 103,
-                    "endOffset": 119111
+                    "endOffset": 119107
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8860,9 +8860,9 @@
                 "to": {
                     "startLine": 1614,
                     "startColumn": 4,
-                    "startOffset": 119116,
+                    "startOffset": 119112,
                     "endColumn": 89,
-                    "endOffset": 119201
+                    "endOffset": 119197
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8879,9 +8879,9 @@
                 "to": {
                     "startLine": 1615,
                     "startColumn": 4,
-                    "startOffset": 119206,
+                    "startOffset": 119202,
                     "endColumn": 101,
-                    "endOffset": 119303
+                    "endOffset": 119299
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8898,9 +8898,9 @@
                 "to": {
                     "startLine": 1616,
                     "startColumn": 4,
-                    "startOffset": 119308,
+                    "startOffset": 119304,
                     "endColumn": 107,
-                    "endOffset": 119411
+                    "endOffset": 119407
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8917,9 +8917,9 @@
                 "to": {
                     "startLine": 1617,
                     "startColumn": 4,
-                    "startOffset": 119416,
+                    "startOffset": 119412,
                     "endColumn": 107,
-                    "endOffset": 119519
+                    "endOffset": 119515
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8936,9 +8936,9 @@
                 "to": {
                     "startLine": 1618,
                     "startColumn": 4,
-                    "startOffset": 119524,
+                    "startOffset": 119520,
                     "endColumn": 99,
-                    "endOffset": 119619
+                    "endOffset": 119615
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8955,9 +8955,9 @@
                 "to": {
                     "startLine": 1619,
                     "startColumn": 4,
-                    "startOffset": 119624,
+                    "startOffset": 119620,
                     "endColumn": 79,
-                    "endOffset": 119699
+                    "endOffset": 119695
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8974,9 +8974,9 @@
                 "to": {
                     "startLine": 1620,
                     "startColumn": 4,
-                    "startOffset": 119704,
+                    "startOffset": 119700,
                     "endColumn": 91,
-                    "endOffset": 119791
+                    "endOffset": 119787
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -8993,9 +8993,9 @@
                 "to": {
                     "startLine": 1621,
                     "startColumn": 4,
-                    "startOffset": 119796,
+                    "startOffset": 119792,
                     "endColumn": 97,
-                    "endOffset": 119889
+                    "endOffset": 119885
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9012,10 +9012,10 @@
                 "to": {
                     "startLine": 1622,
                     "startColumn": 4,
-                    "startOffset": 119894,
+                    "startOffset": 119890,
                     "endLine": 1623,
                     "endColumn": 12,
-                    "endOffset": 119999
+                    "endOffset": 119995
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9033,9 +9033,9 @@
                 "to": {
                     "startLine": 1624,
                     "startColumn": 4,
-                    "startOffset": 120004,
+                    "startOffset": 120000,
                     "endColumn": 77,
-                    "endOffset": 120077
+                    "endOffset": 120073
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9052,9 +9052,9 @@
                 "to": {
                     "startLine": 1625,
                     "startColumn": 4,
-                    "startOffset": 120082,
+                    "startOffset": 120078,
                     "endColumn": 105,
-                    "endOffset": 120183
+                    "endOffset": 120179
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9071,9 +9071,9 @@
                 "to": {
                     "startLine": 1626,
                     "startColumn": 4,
-                    "startOffset": 120188,
+                    "startOffset": 120184,
                     "endColumn": 91,
-                    "endOffset": 120275
+                    "endOffset": 120271
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9090,9 +9090,9 @@
                 "to": {
                     "startLine": 1627,
                     "startColumn": 4,
-                    "startOffset": 120280,
+                    "startOffset": 120276,
                     "endColumn": 103,
-                    "endOffset": 120379
+                    "endOffset": 120375
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9109,9 +9109,9 @@
                 "to": {
                     "startLine": 1628,
                     "startColumn": 4,
-                    "startOffset": 120384,
+                    "startOffset": 120380,
                     "endColumn": 109,
-                    "endOffset": 120489
+                    "endOffset": 120485
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9128,10 +9128,10 @@
                 "to": {
                     "startLine": 1629,
                     "startColumn": 4,
-                    "startOffset": 120494,
+                    "startOffset": 120490,
                     "endLine": 1630,
                     "endColumn": 12,
-                    "endOffset": 120611
+                    "endOffset": 120607
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9149,10 +9149,10 @@
                 "to": {
                     "startLine": 1631,
                     "startColumn": 4,
-                    "startOffset": 120616,
+                    "startOffset": 120612,
                     "endLine": 1634,
                     "endColumn": 12,
-                    "endOffset": 120774
+                    "endOffset": 120770
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9170,10 +9170,10 @@
                 "to": {
                     "startLine": 1635,
                     "startColumn": 4,
-                    "startOffset": 120779,
+                    "startOffset": 120775,
                     "endLine": 1638,
                     "endColumn": 12,
-                    "endOffset": 120931
+                    "endOffset": 120927
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9191,9 +9191,9 @@
                 "to": {
                     "startLine": 1639,
                     "startColumn": 4,
-                    "startOffset": 120936,
+                    "startOffset": 120932,
                     "endColumn": 79,
-                    "endOffset": 121011
+                    "endOffset": 121007
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9210,9 +9210,9 @@
                 "to": {
                     "startLine": 1640,
                     "startColumn": 4,
-                    "startOffset": 121016,
+                    "startOffset": 121012,
                     "endColumn": 99,
-                    "endOffset": 121111
+                    "endOffset": 121107
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9229,9 +9229,9 @@
                 "to": {
                     "startLine": 1641,
                     "startColumn": 4,
-                    "startOffset": 121116,
+                    "startOffset": 121112,
                     "endColumn": 89,
-                    "endOffset": 121201
+                    "endOffset": 121197
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9248,9 +9248,9 @@
                 "to": {
                     "startLine": 1642,
                     "startColumn": 4,
-                    "startOffset": 121206,
+                    "startOffset": 121202,
                     "endColumn": 109,
-                    "endOffset": 121311
+                    "endOffset": 121307
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9267,9 +9267,9 @@
                 "to": {
                     "startLine": 1643,
                     "startColumn": 4,
-                    "startOffset": 121316,
+                    "startOffset": 121312,
                     "endColumn": 93,
-                    "endOffset": 121405
+                    "endOffset": 121401
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9286,9 +9286,9 @@
                 "to": {
                     "startLine": 1644,
                     "startColumn": 4,
-                    "startOffset": 121410,
+                    "startOffset": 121406,
                     "endColumn": 105,
-                    "endOffset": 121511
+                    "endOffset": 121507
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9305,9 +9305,9 @@
                 "to": {
                     "startLine": 1645,
                     "startColumn": 4,
-                    "startOffset": 121516,
+                    "startOffset": 121512,
                     "endColumn": 91,
-                    "endOffset": 121603
+                    "endOffset": 121599
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9324,10 +9324,10 @@
                 "to": {
                     "startLine": 1646,
                     "startColumn": 4,
-                    "startOffset": 121608,
+                    "startOffset": 121604,
                     "endLine": 1647,
                     "endColumn": 12,
-                    "endOffset": 121703
+                    "endOffset": 121699
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9345,10 +9345,10 @@
                 "to": {
                     "startLine": 1648,
                     "startColumn": 4,
-                    "startOffset": 121708,
+                    "startOffset": 121704,
                     "endLine": 1649,
                     "endColumn": 12,
-                    "endOffset": 121815
+                    "endOffset": 121811
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9366,10 +9366,10 @@
                 "to": {
                     "startLine": 1650,
                     "startColumn": 4,
-                    "startOffset": 121820,
+                    "startOffset": 121816,
                     "endLine": 1651,
                     "endColumn": 12,
-                    "endOffset": 121929
+                    "endOffset": 121925
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9387,10 +9387,10 @@
                 "to": {
                     "startLine": 1652,
                     "startColumn": 4,
-                    "startOffset": 121934,
+                    "startOffset": 121930,
                     "endLine": 1653,
                     "endColumn": 12,
-                    "endOffset": 122045
+                    "endOffset": 122041
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9408,10 +9408,10 @@
                 "to": {
                     "startLine": 1654,
                     "startColumn": 4,
-                    "startOffset": 122050,
+                    "startOffset": 122046,
                     "endLine": 1655,
                     "endColumn": 12,
-                    "endOffset": 122161
+                    "endOffset": 122157
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9429,9 +9429,9 @@
                 "to": {
                     "startLine": 1656,
                     "startColumn": 4,
-                    "startOffset": 122166,
+                    "startOffset": 122162,
                     "endColumn": 93,
-                    "endOffset": 122255
+                    "endOffset": 122251
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9448,9 +9448,9 @@
                 "to": {
                     "startLine": 1657,
                     "startColumn": 4,
-                    "startOffset": 122260,
+                    "startOffset": 122256,
                     "endColumn": 113,
-                    "endOffset": 122369
+                    "endOffset": 122365
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9467,9 +9467,9 @@
                 "to": {
                     "startLine": 1658,
                     "startColumn": 4,
-                    "startOffset": 122374,
+                    "startOffset": 122370,
                     "endColumn": 111,
-                    "endOffset": 122481
+                    "endOffset": 122477
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9486,10 +9486,10 @@
                 "to": {
                     "startLine": 1659,
                     "startColumn": 4,
-                    "startOffset": 122486,
+                    "startOffset": 122482,
                     "endLine": 1660,
                     "endColumn": 12,
-                    "endOffset": 122583
+                    "endOffset": 122579
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9507,10 +9507,10 @@
                 "to": {
                     "startLine": 1661,
                     "startColumn": 4,
-                    "startOffset": 122588,
+                    "startOffset": 122584,
                     "endLine": 1662,
                     "endColumn": 12,
-                    "endOffset": 122703
+                    "endOffset": 122699
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9528,10 +9528,10 @@
                 "to": {
                     "startLine": 1663,
                     "startColumn": 4,
-                    "startOffset": 122708,
+                    "startOffset": 122704,
                     "endLine": 1664,
                     "endColumn": 12,
-                    "endOffset": 122825
+                    "endOffset": 122821
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9549,9 +9549,9 @@
                 "to": {
                     "startLine": 1665,
                     "startColumn": 4,
-                    "startOffset": 122830,
+                    "startOffset": 122826,
                     "endColumn": 81,
-                    "endOffset": 122907
+                    "endOffset": 122903
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9568,9 +9568,9 @@
                 "to": {
                     "startLine": 1666,
                     "startColumn": 4,
-                    "startOffset": 122912,
+                    "startOffset": 122908,
                     "endColumn": 103,
-                    "endOffset": 123011
+                    "endOffset": 123007
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9587,9 +9587,9 @@
                 "to": {
                     "startLine": 1667,
                     "startColumn": 4,
-                    "startOffset": 123016,
+                    "startOffset": 123012,
                     "endColumn": 119,
-                    "endOffset": 123131
+                    "endOffset": 123127
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9606,9 +9606,9 @@
                 "to": {
                     "startLine": 1668,
                     "startColumn": 4,
-                    "startOffset": 123136,
+                    "startOffset": 123132,
                     "endColumn": 125,
-                    "endOffset": 123257
+                    "endOffset": 123253
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9625,9 +9625,9 @@
                 "to": {
                     "startLine": 1669,
                     "startColumn": 4,
-                    "startOffset": 123262,
+                    "startOffset": 123258,
                     "endColumn": 97,
-                    "endOffset": 123355
+                    "endOffset": 123351
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9644,9 +9644,9 @@
                 "to": {
                     "startLine": 1670,
                     "startColumn": 4,
-                    "startOffset": 123360,
+                    "startOffset": 123356,
                     "endColumn": 93,
-                    "endOffset": 123449
+                    "endOffset": 123445
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9663,9 +9663,9 @@
                 "to": {
                     "startLine": 1671,
                     "startColumn": 4,
-                    "startOffset": 123454,
+                    "startOffset": 123450,
                     "endColumn": 87,
-                    "endOffset": 123537
+                    "endOffset": 123533
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9682,9 +9682,9 @@
                 "to": {
                     "startLine": 1672,
                     "startColumn": 4,
-                    "startOffset": 123542,
+                    "startOffset": 123538,
                     "endColumn": 111,
-                    "endOffset": 123649
+                    "endOffset": 123645
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9701,9 +9701,9 @@
                 "to": {
                     "startLine": 1673,
                     "startColumn": 4,
-                    "startOffset": 123654,
+                    "startOffset": 123650,
                     "endColumn": 115,
-                    "endOffset": 123765
+                    "endOffset": 123761
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9720,9 +9720,9 @@
                 "to": {
                     "startLine": 1674,
                     "startColumn": 4,
-                    "startOffset": 123770,
+                    "startOffset": 123766,
                     "endColumn": 121,
-                    "endOffset": 123887
+                    "endOffset": 123883
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9739,9 +9739,9 @@
                 "to": {
                     "startLine": 1675,
                     "startColumn": 4,
-                    "startOffset": 123892,
+                    "startOffset": 123888,
                     "endColumn": 111,
-                    "endOffset": 123999
+                    "endOffset": 123995
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9758,10 +9758,10 @@
                 "to": {
                     "startLine": 1676,
                     "startColumn": 4,
-                    "startOffset": 124004,
+                    "startOffset": 124000,
                     "endLine": 1678,
                     "endColumn": 12,
-                    "endOffset": 124174
+                    "endOffset": 124170
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9779,9 +9779,9 @@
                 "to": {
                     "startLine": 1679,
                     "startColumn": 4,
-                    "startOffset": 124179,
+                    "startOffset": 124175,
                     "endColumn": 115,
-                    "endOffset": 124290
+                    "endOffset": 124286
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9798,9 +9798,9 @@
                 "to": {
                     "startLine": 1680,
                     "startColumn": 4,
-                    "startOffset": 124295,
+                    "startOffset": 124291,
                     "endColumn": 85,
-                    "endOffset": 124376
+                    "endOffset": 124372
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9817,9 +9817,9 @@
                 "to": {
                     "startLine": 1681,
                     "startColumn": 4,
-                    "startOffset": 124381,
+                    "startOffset": 124377,
                     "endColumn": 91,
-                    "endOffset": 124468
+                    "endOffset": 124464
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9836,10 +9836,10 @@
                 "to": {
                     "startLine": 1682,
                     "startColumn": 4,
-                    "startOffset": 124473,
+                    "startOffset": 124469,
                     "endLine": 1683,
                     "endColumn": 12,
-                    "endOffset": 124580
+                    "endOffset": 124576
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9857,10 +9857,10 @@
                 "to": {
                     "startLine": 1684,
                     "startColumn": 4,
-                    "startOffset": 124585,
+                    "startOffset": 124581,
                     "endLine": 1685,
                     "endColumn": 12,
-                    "endOffset": 124704
+                    "endOffset": 124700
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9878,9 +9878,9 @@
                 "to": {
                     "startLine": 1686,
                     "startColumn": 4,
-                    "startOffset": 124709,
+                    "startOffset": 124705,
                     "endColumn": 66,
-                    "endOffset": 124771
+                    "endOffset": 124767
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9897,10 +9897,10 @@
                 "to": {
                     "startLine": 1687,
                     "startColumn": 4,
-                    "startOffset": 124776,
+                    "startOffset": 124772,
                     "endLine": 1688,
                     "endColumn": 12,
-                    "endOffset": 124897
+                    "endOffset": 124893
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9918,9 +9918,9 @@
                 "to": {
                     "startLine": 1689,
                     "startColumn": 4,
-                    "startOffset": 124902,
+                    "startOffset": 124898,
                     "endColumn": 67,
-                    "endOffset": 124965
+                    "endOffset": 124961
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9937,10 +9937,10 @@
                 "to": {
                     "startLine": 1690,
                     "startColumn": 4,
-                    "startOffset": 124970,
+                    "startOffset": 124966,
                     "endLine": 1691,
                     "endColumn": 12,
-                    "endOffset": 125093
+                    "endOffset": 125089
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9958,10 +9958,10 @@
                 "to": {
                     "startLine": 1692,
                     "startColumn": 4,
-                    "startOffset": 125098,
+                    "startOffset": 125094,
                     "endLine": 1693,
                     "endColumn": 12,
-                    "endOffset": 125237
+                    "endOffset": 125233
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -9979,10 +9979,10 @@
                 "to": {
                     "startLine": 1694,
                     "startColumn": 4,
-                    "startOffset": 125242,
+                    "startOffset": 125238,
                     "endLine": 1695,
                     "endColumn": 12,
-                    "endOffset": 125365
+                    "endOffset": 125361
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10000,9 +10000,9 @@
                 "to": {
                     "startLine": 1696,
                     "startColumn": 4,
-                    "startOffset": 125370,
+                    "startOffset": 125366,
                     "endColumn": 68,
-                    "endOffset": 125434
+                    "endOffset": 125430
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10019,9 +10019,9 @@
                 "to": {
                     "startLine": 1697,
                     "startColumn": 4,
-                    "startOffset": 125439,
+                    "startOffset": 125435,
                     "endColumn": 94,
-                    "endOffset": 125529
+                    "endOffset": 125525
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10038,9 +10038,9 @@
                 "to": {
                     "startLine": 1698,
                     "startColumn": 4,
-                    "startOffset": 125534,
+                    "startOffset": 125530,
                     "endColumn": 114,
-                    "endOffset": 125644
+                    "endOffset": 125640
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10057,9 +10057,9 @@
                 "to": {
                     "startLine": 1699,
                     "startColumn": 4,
-                    "startOffset": 125649,
+                    "startOffset": 125645,
                     "endColumn": 112,
-                    "endOffset": 125757
+                    "endOffset": 125753
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10076,9 +10076,9 @@
                 "to": {
                     "startLine": 1700,
                     "startColumn": 4,
-                    "startOffset": 125762,
+                    "startOffset": 125758,
                     "endColumn": 98,
-                    "endOffset": 125856
+                    "endOffset": 125852
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10095,9 +10095,9 @@
                 "to": {
                     "startLine": 1701,
                     "startColumn": 4,
-                    "startOffset": 125861,
+                    "startOffset": 125857,
                     "endColumn": 108,
-                    "endOffset": 125965
+                    "endOffset": 125961
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10114,9 +10114,9 @@
                 "to": {
                     "startLine": 1702,
                     "startColumn": 4,
-                    "startOffset": 125970,
+                    "startOffset": 125966,
                     "endColumn": 110,
-                    "endOffset": 126076
+                    "endOffset": 126072
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10133,9 +10133,9 @@
                 "to": {
                     "startLine": 1703,
                     "startColumn": 4,
-                    "startOffset": 126081,
+                    "startOffset": 126077,
                     "endColumn": 110,
-                    "endOffset": 126187
+                    "endOffset": 126183
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10152,9 +10152,9 @@
                 "to": {
                     "startLine": 1704,
                     "startColumn": 4,
-                    "startOffset": 126192,
+                    "startOffset": 126188,
                     "endColumn": 100,
-                    "endOffset": 126288
+                    "endOffset": 126284
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10171,9 +10171,9 @@
                 "to": {
                     "startLine": 1705,
                     "startColumn": 4,
-                    "startOffset": 126293,
+                    "startOffset": 126289,
                     "endColumn": 104,
-                    "endOffset": 126393
+                    "endOffset": 126389
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10190,9 +10190,9 @@
                 "to": {
                     "startLine": 1706,
                     "startColumn": 4,
-                    "startOffset": 126398,
+                    "startOffset": 126394,
                     "endColumn": 99,
-                    "endOffset": 126493
+                    "endOffset": 126489
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10209,10 +10209,10 @@
                 "to": {
                     "startLine": 1707,
                     "startColumn": 4,
-                    "startOffset": 126498,
+                    "startOffset": 126494,
                     "endLine": 1708,
                     "endColumn": 12,
-                    "endOffset": 126623
+                    "endOffset": 126619
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10230,9 +10230,9 @@
                 "to": {
                     "startLine": 1709,
                     "startColumn": 4,
-                    "startOffset": 126628,
+                    "startOffset": 126624,
                     "endColumn": 90,
-                    "endOffset": 126714
+                    "endOffset": 126710
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10249,9 +10249,9 @@
                 "to": {
                     "startLine": 1710,
                     "startColumn": 4,
-                    "startOffset": 126719,
+                    "startOffset": 126715,
                     "endColumn": 122,
-                    "endOffset": 126837
+                    "endOffset": 126833
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10268,9 +10268,9 @@
                 "to": {
                     "startLine": 1711,
                     "startColumn": 4,
-                    "startOffset": 126842,
+                    "startOffset": 126838,
                     "endColumn": 93,
-                    "endOffset": 126931
+                    "endOffset": 126927
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10287,10 +10287,10 @@
                 "to": {
                     "startLine": 1712,
                     "startColumn": 4,
-                    "startOffset": 126936,
+                    "startOffset": 126932,
                     "endLine": 1713,
                     "endColumn": 12,
-                    "endOffset": 127043
+                    "endOffset": 127039
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10308,9 +10308,9 @@
                 "to": {
                     "startLine": 1714,
                     "startColumn": 4,
-                    "startOffset": 127048,
+                    "startOffset": 127044,
                     "endColumn": 85,
-                    "endOffset": 127129
+                    "endOffset": 127125
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10327,9 +10327,9 @@
                 "to": {
                     "startLine": 1715,
                     "startColumn": 4,
-                    "startOffset": 127134,
+                    "startOffset": 127130,
                     "endColumn": 103,
-                    "endOffset": 127233
+                    "endOffset": 127229
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10346,9 +10346,9 @@
                 "to": {
                     "startLine": 1716,
                     "startColumn": 4,
-                    "startOffset": 127238,
+                    "startOffset": 127234,
                     "endColumn": 95,
-                    "endOffset": 127329
+                    "endOffset": 127325
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10365,9 +10365,9 @@
                 "to": {
                     "startLine": 1717,
                     "startColumn": 4,
-                    "startOffset": 127334,
+                    "startOffset": 127330,
                     "endColumn": 74,
-                    "endOffset": 127404
+                    "endOffset": 127400
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10384,9 +10384,9 @@
                 "to": {
                     "startLine": 1718,
                     "startColumn": 4,
-                    "startOffset": 127409,
+                    "startOffset": 127405,
                     "endColumn": 69,
-                    "endOffset": 127474
+                    "endOffset": 127470
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10403,9 +10403,9 @@
                 "to": {
                     "startLine": 1719,
                     "startColumn": 4,
-                    "startOffset": 127479,
+                    "startOffset": 127475,
                     "endColumn": 87,
-                    "endOffset": 127562
+                    "endOffset": 127558
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10422,10 +10422,10 @@
                 "to": {
                     "startLine": 1720,
                     "startColumn": 4,
-                    "startOffset": 127567,
+                    "startOffset": 127563,
                     "endLine": 1721,
                     "endColumn": 12,
-                    "endOffset": 127680
+                    "endOffset": 127676
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10443,10 +10443,10 @@
                 "to": {
                     "startLine": 1722,
                     "startColumn": 4,
-                    "startOffset": 127685,
+                    "startOffset": 127681,
                     "endLine": 1723,
                     "endColumn": 12,
-                    "endOffset": 127784
+                    "endOffset": 127780
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10464,10 +10464,10 @@
                 "to": {
                     "startLine": 1724,
                     "startColumn": 4,
-                    "startOffset": 127789,
+                    "startOffset": 127785,
                     "endLine": 1725,
                     "endColumn": 12,
-                    "endOffset": 127888
+                    "endOffset": 127884
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10485,10 +10485,10 @@
                 "to": {
                     "startLine": 1726,
                     "startColumn": 4,
-                    "startOffset": 127893,
+                    "startOffset": 127889,
                     "endLine": 1727,
                     "endColumn": 12,
-                    "endOffset": 128014
+                    "endOffset": 128010
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10506,9 +10506,9 @@
                 "to": {
                     "startLine": 1728,
                     "startColumn": 4,
-                    "startOffset": 128019,
+                    "startOffset": 128015,
                     "endColumn": 87,
-                    "endOffset": 128102
+                    "endOffset": 128098
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10525,9 +10525,9 @@
                 "to": {
                     "startLine": 1729,
                     "startColumn": 4,
-                    "startOffset": 128107,
+                    "startOffset": 128103,
                     "endColumn": 107,
-                    "endOffset": 128210
+                    "endOffset": 128206
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10544,9 +10544,9 @@
                 "to": {
                     "startLine": 1730,
                     "startColumn": 4,
-                    "startOffset": 128215,
+                    "startOffset": 128211,
                     "endColumn": 99,
-                    "endOffset": 128310
+                    "endOffset": 128306
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10563,9 +10563,9 @@
                 "to": {
                     "startLine": 1731,
                     "startColumn": 4,
-                    "startOffset": 128315,
+                    "startOffset": 128311,
                     "endColumn": 89,
-                    "endOffset": 128400
+                    "endOffset": 128396
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10582,9 +10582,9 @@
                 "to": {
                     "startLine": 1732,
                     "startColumn": 4,
-                    "startOffset": 128405,
+                    "startOffset": 128401,
                     "endColumn": 109,
-                    "endOffset": 128510
+                    "endOffset": 128506
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10601,9 +10601,9 @@
                 "to": {
                     "startLine": 1733,
                     "startColumn": 4,
-                    "startOffset": 128515,
+                    "startOffset": 128511,
                     "endColumn": 83,
-                    "endOffset": 128594
+                    "endOffset": 128590
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10620,9 +10620,9 @@
                 "to": {
                     "startLine": 1734,
                     "startColumn": 4,
-                    "startOffset": 128599,
+                    "startOffset": 128595,
                     "endColumn": 101,
-                    "endOffset": 128696
+                    "endOffset": 128692
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10639,9 +10639,9 @@
                 "to": {
                     "startLine": 1735,
                     "startColumn": 4,
-                    "startOffset": 128701,
+                    "startOffset": 128697,
                     "endColumn": 83,
-                    "endOffset": 128780
+                    "endOffset": 128776
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10658,9 +10658,9 @@
                 "to": {
                     "startLine": 1736,
                     "startColumn": 4,
-                    "startOffset": 128785,
+                    "startOffset": 128781,
                     "endColumn": 53,
-                    "endOffset": 128834
+                    "endOffset": 128830
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10677,9 +10677,9 @@
                 "to": {
                     "startLine": 1737,
                     "startColumn": 4,
-                    "startOffset": 128839,
+                    "startOffset": 128835,
                     "endColumn": 63,
-                    "endOffset": 128898
+                    "endOffset": 128894
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10696,9 +10696,9 @@
                 "to": {
                     "startLine": 1738,
                     "startColumn": 4,
-                    "startOffset": 128903,
+                    "startOffset": 128899,
                     "endColumn": 105,
-                    "endOffset": 129004
+                    "endOffset": 129000
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10715,9 +10715,9 @@
                 "to": {
                     "startLine": 1739,
                     "startColumn": 4,
-                    "startOffset": 129009,
+                    "startOffset": 129005,
                     "endColumn": 109,
-                    "endOffset": 129114
+                    "endOffset": 129110
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10734,9 +10734,9 @@
                 "to": {
                     "startLine": 1740,
                     "startColumn": 4,
-                    "startOffset": 129119,
+                    "startOffset": 129115,
                     "endColumn": 83,
-                    "endOffset": 129198
+                    "endOffset": 129194
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",
@@ -10753,9 +10753,9 @@
                 "to": {
                     "startLine": 1741,
                     "startColumn": 4,
-                    "startOffset": 129203,
+                    "startOffset": 129199,
                     "endColumn": 119,
-                    "endOffset": 129318
+                    "endOffset": 129314
                 },
                 "from": {
                     "file": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/values/values.xml",

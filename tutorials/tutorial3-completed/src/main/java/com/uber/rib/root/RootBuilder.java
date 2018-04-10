@@ -77,12 +77,11 @@ public class RootBuilder extends ViewBuilder<RootView, RootRouter, RootBuilder.P
       return rootInteractor.new HomeListener();
     }
 
-//    @RootScope
-//    @Provides
-//    static GameInteractor.Listener gameListener(RootInteractor rootInteractor) {
-//        return null;
-//      //      return rootInteractor.new GameListener();
-//    }
+    @RootScope
+    @Provides
+    static GameInteractor.Listener gameListener(RootInteractor rootInteractor) {
+        return rootInteractor.new GameListener();
+    }
 
     @RootScope
     @Binds
