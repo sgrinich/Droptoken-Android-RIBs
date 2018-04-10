@@ -16,6 +16,8 @@
 
 package com.uber.rib.root.game;
 
+import android.util.Log;
+
 import javax.inject.Inject;
 
 public class Board {
@@ -49,6 +51,34 @@ public class Board {
       }
     }
     return !hasWon(MarkerType.RED) && !hasWon(MarkerType.BLUE);
+  }
+
+  boolean canPlace(Integer column) {
+      return cells[0][column] == null;
+  }
+
+  BoardCoordinate placePiece(Integer column, MarkerType type) {
+
+    BoardCoordinate coordinate;
+    for (int row = (ROWS - 1); row >= 0; row--) {
+
+
+        if (cells[row][column] == null) {
+            cells[row][column] = type;
+            coordinate = new BoardCoordinate(row, column);
+
+
+          Log.d("Placing in row: ", Integer.toString(row));
+          Log.d("Placing in col: ", Integer.toString(column));
+
+          return coordinate;
+        }
+    }
+
+    Log.e("ERROR: ", "Could not place piece on board");
+    coordinate = new BoardCoordinate(-1, -1);
+
+    return coordinate;
   }
 
   /**

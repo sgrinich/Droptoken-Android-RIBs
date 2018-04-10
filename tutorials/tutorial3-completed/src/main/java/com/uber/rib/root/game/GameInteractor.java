@@ -1,5 +1,6 @@
 package com.uber.rib.root.game;
 
+import android.os.AsyncTask;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
@@ -9,6 +10,18 @@ import com.uber.rib.core.RibInteractor;
 import com.uber.rib.core.Presenter;
 import com.uber.rib.core.Router;
 import com.uber.rib.root.home.HomeInteractor;
+
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -22,7 +35,7 @@ import io.reactivex.functions.Consumer;
  */
 @RibInteractor
 public class GameInteractor
-    extends Interactor<GameInteractor.GamePresenter, GameRouter> {
+    extends Interactor<GameInteractor.GamePresenter, GameRouter> implements OnComputerMoveCompleted {
 
   @Inject @Named("first_player") Integer firstPlayer;
   @Inject @Named("player_is_red") Boolean playerIsRed;
@@ -31,13 +44,16 @@ public class GameInteractor
   @Inject GameInteractor.Listener gameListener;
   @Inject GamePresenter presenter;
 
+  private static final String COMPUTER_MOVE_URL_BASE = "https://w0ayb2ph1k.execute-api.us-west-2.amazonaws.com/production";
   private Boolean isPlayerTurn;
+  private ArrayList<Integer> movesArray;
 
   @Override
   protected void didBecomeActive(@Nullable Bundle savedInstanceState) {
     super.didBecomeActive(savedInstanceState);
 
     this.isPlayerTurn = this.isFirstMoveUser();
+    this.movesArray = new ArrayList<Integer>();
 
     if (this.isPlayerTurn) {
       presenter.setPromptPlayer();
@@ -50,23 +66,32 @@ public class GameInteractor
             .subscribe(
                     new Consumer<BoardCoordinate>() {
                       @Override
-                      public void accept(BoardCoordinate xy) throws Exception {
+                      public void accept(BoardCoordinate coordinate) throws Exception {
                         if (isPlayerTurn) {
-                          if (board.cells[xy.getX()][xy.getY()] == null) {
-                            board.currentRow = xy.getX();
-                            board.currentCol = xy.getY();
 
-                            if (playerIsRed) {
-                              board.cells[xy.getX()][xy.getY()] = Board.MarkerType.RED;
-                              presenter.addRedPiece(xy);
-                            } else {
-                              board.cells[xy.getX()][xy.getY()] = Board.MarkerType.BLUE;
-                              presenter.addBluePiece(xy);
-                            }
+                          // call function below here
 
+                          if (board.canPlace(coordinate.getCol())) {
+                            playMove(coordinate.getCol());
+
+//                            board.placePiece(xy);
+//                            board.currentRow = coordinate.getRow();
+//                            board.currentCol = coordinate.getCol();
+//
+//                            movesArray.add(coordinate.getCol());
+//
+//                            if (playerIsRed) {
+//                              board.cells[coordinate.getRow()][coordinate.getCol()] = Board.MarkerType.RED;
+//                              presenter.addRedPiece(coordinate);
+//                            } else {
+//                              board.cells[coordinate.getRow()][coordinate.getCol()] = Board.MarkerType.BLUE;
+//                              presenter.addBluePiece(coordinate);
+//                            }
                           }
 
-
+//                          isPlayerTurn = false;
+//                          presenter.setWaitingForMove();
+//                          getComputerMove();
                         }
 //                        if (board.cells[xy.getX()][xy.getY()] == null) {
 //                          if (currentPlayer == MarkerType.CROSS) {
@@ -104,10 +129,67 @@ public class GameInteractor
     // TODO: Perform any required clean up here, or delete this method entirely if not needed.
   }
 
-  private Boolean isFirstMoveUser(){
+  private Boolean isFirstMoveUser() {
     return (this.firstPlayer > 1);
   }
 
+  private String getUrlWithMoves() {
+    return COMPUTER_MOVE_URL_BASE.concat("?moves=").concat(movesArray.toString());
+  }
+
+  private void getComputerMove() {
+    AsyncTask task = new ComputerMoveTask(this).execute(this.getUrlWithMoves());
+  }
+
+  @Override
+  public void onComputerMoveCompleted(String response) {
+    Integer lastComputerMove = this.getLastComputerMove(response);
+
+    this.playMove(lastComputerMove);
+  }
+
+  private void playMove(Integer col) {
+    if (board.canPlace(col)) {
+      movesArray.add(col);
+
+      if (isPlayerTurn) {
+        if (playerIsRed) {
+          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.RED);
+          presenter.addRedPiece(coordinate);
+        } else {
+          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.BLUE);
+          presenter.addBluePiece(coordinate);
+        }
+
+        isPlayerTurn = false;
+        presenter.setWaitingForMove();
+        getComputerMove();
+      } else {
+        if (playerIsRed) {
+          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.BLUE);
+          presenter.addBluePiece(coordinate);
+        } else {
+          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.RED);
+          presenter.addRedPiece(coordinate);
+        }
+
+
+        isPlayerTurn = true;
+        presenter.setPromptPlayer();
+      }
+
+    }
+  }
+
+
+
+  private Integer getLastComputerMove(String response) {
+    String[] responseAsArray = response.replace("[","").replace("]","").split(",");
+    Log.d("Response ARray: ", responseAsArray.toString());
+    String lastMoveString = responseAsArray[responseAsArray.length - 1].replaceAll("\\s","");
+    Integer lastMoveInteger = Integer.parseInt(lastMoveString);
+    return lastMoveInteger;
+  }
 
 
   /**
@@ -134,4 +216,7 @@ public class GameInteractor
   }
 
 }
+
+
+
 

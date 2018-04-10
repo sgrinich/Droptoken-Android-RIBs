@@ -6,22 +6,22 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1523393736378"
+    timestamp="1523404600866"
     token="-1355393689127578968"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1647" />
+        duration="1870" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="18" />
+        duration="31" />
     <task
         name="verifier"
-        duration="2" />
+        duration="1" />
 
     <artifact
         location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -89,7 +89,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1523393661303"
+        timestamp="1523402976698"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/outputs/apk/tutorial3-completed-debug.apk"
@@ -97,7 +97,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1523393736378"
+        timestamp="1523404600866"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_3.apk"

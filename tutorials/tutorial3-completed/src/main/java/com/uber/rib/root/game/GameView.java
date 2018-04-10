@@ -91,17 +91,17 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
   @Override
   public Observable<BoardCoordinate> pieceTouched() {
     ArrayList<Observable<BoardCoordinate>> observables = new ArrayList<>();
-    for (int i = 0; i < 4; i++) {
-      for (int j = 0; j < 4; j++) {
-        final int finalI = i;
-        final int finalJ = j;
+    for (int row = 0; row < 4; row++) {
+      for (int col = 0; col < 4; col++) {
+        final int finalRow = row;
+        final int finalCol = col;
         observables.add(
-                RxView.clicks(imageButtons[i][j])
+                RxView.clicks(imageButtons[row][col])
                         .map(
                           new Function<Object, BoardCoordinate>() {
                             @Override
                             public BoardCoordinate apply(Object irrelevant) throws Exception {
-                              return new BoardCoordinate(finalI, finalJ);
+                              return new BoardCoordinate(finalRow, finalCol);
                             }
                           }));
       }
@@ -110,17 +110,16 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
   }
 
   @Override
-  public void addRedPiece(BoardCoordinate xy) {
-    TextView textView = imageButtons[xy.getX()][xy.getY()];
+  public void addRedPiece(BoardCoordinate coordinate) {
+    TextView textView = imageButtons[coordinate.getRow()][coordinate.getCol()];
     textView.setBackground(getResources().getDrawable(R.drawable.red_piece));
     textView.setClickable(false);
-    // set background to
   }
 
   @Override
-  public void addBluePiece(BoardCoordinate xy) {
-    TextView textView = imageButtons[xy.getX()][xy.getY()];
-    textView.setText("O");
+  public void addBluePiece(BoardCoordinate coordinate) {
+    TextView textView = imageButtons[coordinate.getRow()][coordinate.getCol()];
+    textView.setBackground(getResources().getDrawable(R.drawable.blue_piece));
     textView.setClickable(false);
   }
 

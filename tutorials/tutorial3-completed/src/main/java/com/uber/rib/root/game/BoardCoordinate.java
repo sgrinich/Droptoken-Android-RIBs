@@ -18,19 +18,19 @@ package com.uber.rib.root.game;
 
 public class BoardCoordinate {
 
-  private final int x;
-  private final int y;
+  private final int row;
+  private final int col;
 
-  BoardCoordinate(int x, int y) {
-    this.x = x;
-    this.y = y;
+  BoardCoordinate(int row, int col) {
+    this.row = row;
+    this.col = col;
   }
 
-  int getX() {
-    return x;
+  int getRow() {
+    return row;
   }
 
-  int getY() {
-    return y;
+  int getCol() {
+    return col;
   }
 }
