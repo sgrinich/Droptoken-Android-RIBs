@@ -19,7 +19,7 @@
         android:layout_margin="8dp"
         android:layout_below="@+id/title"
         app:layout_aspectRatio="100%"
-        app:layout_widthPercent="30%"
+        app:layout_widthPercent="25%"
         android:background="#808080"/>
 
     <TextView
@@ -30,7 +30,7 @@
         android:layout_below="@+id/title"
         android:layout_toRightOf="@id/button11"
         app:layout_aspectRatio="100%"
-        app:layout_widthPercent="30%"
+        app:layout_widthPercent="25%"
         android:background="#808080"/>
 
     <TextView
@@ -41,9 +41,19 @@
         android:layout_below="@+id/title"
         android:layout_toRightOf="@id/button12"
         app:layout_aspectRatio="100%"
-        app:layout_widthPercent="30%"
+        app:layout_widthPercent="25%"
         android:background="#808080"/>
 
+    <TextView
+        android:id="@+id/button14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@id/button12"
+        app:layout_aspectRatio="100%"
+        app:layout_widthPercent="25%"
+        android:background="#808080"/>
     <TextView
         android:id="@+id/button21"
         android:layout_width="0dp"
@@ -51,7 +61,7 @@
         android:layout_margin="8dp"
         android:layout_below="@id/button11"
         app:layout_aspectRatio="100%"
-        app:layout_widthPercent="30%"
+        app:layout_widthPercent="25%"
         android:background="#808080"/>
 
     <TextView
@@ -62,7 +72,7 @@
         android:layout_below="@id/button11"
         android:layout_toRightOf="@id/button21"
         app:layout_aspectRatio="100%"
-        app:layout_widthPercent="30%"
+        app:layout_widthPercent="25%"
         android:background="#808080"/>
 
     <TextView
@@ -73,9 +83,19 @@
         android:layout_below="@id/button13"
         android:layout_toRightOf="@id/button22"
         app:layout_aspectRatio="100%"
-        app:layout_widthPercent="30%"
+        app:layout_widthPercent="25%"
         android:background="#808080"/>
 
+    <TextView
+        android:id="@+id/button24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_below="@id/button14"
+        android:layout_toRightOf="@id/button23"
+        app:layout_aspectRatio="100%"
+        app:layout_widthPercent="25%"
+        android:background="#808080"/>
     <TextView
         android:id="@+id/button31"
         android:layout_width="0dp"
@@ -83,7 +103,7 @@
         android:layout_margin="8dp"
         android:layout_below="@id/button21"
         app:layout_aspectRatio="100%"
-        app:layout_widthPercent="30%"
+        app:layout_widthPercent="25%"
         android:background="#808080"/>
 
     <TextView
@@ -94,7 +114,7 @@
         android:layout_below="@id/button22"
         android:layout_toRightOf="@id/button21"
         app:layout_aspectRatio="100%"
-        app:layout_widthPercent="30%"
+        app:layout_widthPercent="25%"
         android:background="#808080"/>
 
     <TextView
@@ -105,7 +125,17 @@
         android:layout_below="@id/button23"
         android:layout_toRightOf="@id/button22"
         app:layout_aspectRatio="100%"
-        app:layout_widthPercent="30%"
+        app:layout_widthPercent="25%"
         android:background="#808080"/>
 
+    <TextView
+        android:id="@+id/button34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_below="@id/button24"
+        android:layout_toRightOf="@id/button33"
+        app:layout_aspectRatio="100%"
+        app:layout_widthPercent="25%"
+        android:background="#808080"/>
 </com.uber.rib.root.logged_in.tic_tac_toe.TicTacToeView>
