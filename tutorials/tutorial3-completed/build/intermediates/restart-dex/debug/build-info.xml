@@ -6,26 +6,23 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1523339626716"
+    timestamp="1523341212754"
     token="-1355393689127578968"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1492" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="21" />
+        duration="8" />
     <task
         name="verifier"
-        duration="6" />
+        duration="2" />
 
-    <artifact
-        location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
     <artifact
         location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
@@ -92,11 +89,27 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1523339626716"
+        timestamp="1523339909577"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1523341105834"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1523341212754"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />

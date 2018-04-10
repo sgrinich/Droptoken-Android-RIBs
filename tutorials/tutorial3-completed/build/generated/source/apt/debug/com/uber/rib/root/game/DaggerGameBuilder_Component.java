@@ -16,6 +16,10 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
 
   private Provider<GameInteractor.GamePresenter> presenterProvider;
 
+  private Integer firstPlayer;
+
+  private Boolean playerIsRed;
+
   private Provider<GameBuilder.Component> componentProvider;
 
   private Provider<GameInteractor> interactorProvider;
@@ -34,6 +38,8 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
   private void initialize(final Builder builder) {
     this.viewProvider = InstanceFactory.create(builder.view);
     this.presenterProvider = DoubleCheck.provider((Provider) viewProvider);
+    this.firstPlayer = builder.firstPlayer;
+    this.playerIsRed = builder.playerIsRed;
     this.componentProvider = InstanceFactory.<GameBuilder.Component>create(this);
     this.interactorProvider = InstanceFactory.create(builder.interactor);
     this.routerProvider =
@@ -54,6 +60,8 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
 
   private GameInteractor injectGameInteractor(GameInteractor instance) {
     Interactor_MembersInjector.injectPresenter(instance, presenterProvider.get());
+    GameInteractor_MembersInjector.injectFirstPlayer(instance, firstPlayer);
+    GameInteractor_MembersInjector.injectPlayerIsRed(instance, playerIsRed);
     GameInteractor_MembersInjector.injectPresenter(instance, presenterProvider.get());
     return instance;
   }
