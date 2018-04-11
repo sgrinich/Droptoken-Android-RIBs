@@ -180,10 +180,6 @@
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/off_game_rib.xml",
-        "source": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/layout/off_game_rib.xml"
-    },
-    {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/layout/select_dialog_item_material.xml"
     },
@@ -230,10 +226,6 @@
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/tic_tac_toe_rib.xml",
-        "source": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/src/main/res/layout/tic_tac_toe_rib.xml"
     },
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",

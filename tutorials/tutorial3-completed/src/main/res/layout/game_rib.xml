@@ -6,12 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <Button
         android:id="@+id/go_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home"
+        android:text="@string/home_label"
         android:textSize="20sp"
         android:textColor="#fff"
         android:layout_marginLeft="10dp"
@@ -26,7 +25,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="New Game"
+        android:text="@string/new_game_label"
         android:textSize="20sp"
         android:textColor="#fff"
         android:layout_marginRight="10dp"
@@ -51,7 +50,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="80dp"
         android:layout_marginBottom="50dp"
-        android:text="It's your turn"
+        android:text="@string/your_turn_label"
         android:textSize="32sp"
         android:gravity="center_horizontal"/>
 
