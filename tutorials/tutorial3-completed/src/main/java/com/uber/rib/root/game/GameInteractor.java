@@ -53,15 +53,7 @@ public class GameInteractor
   protected void didBecomeActive(@Nullable Bundle savedInstanceState) {
     super.didBecomeActive(savedInstanceState);
 
-    this.isPlayerTurn = this.isFirstMoveUser();
-    this.movesArray = new ArrayList<Integer>();
-
-    if (this.isPlayerTurn) {
-      presenter.setPromptPlayer();
-    } else {
-      presenter.setWaitingForMove();
-      this.getComputerMove();
-    }
+    this.initNewGame();
 
     presenter
             .pieceTouched()
@@ -81,7 +73,6 @@ public class GameInteractor
               new Consumer<Boolean>() {
                 @Override
                 public void accept(Boolean _) throws Exception {
-                  Log.d("New Game ", "Test");
                   resetBoard();
                 }
               }
@@ -108,8 +99,8 @@ public class GameInteractor
     AsyncTask task = new ComputerMoveTask(this).execute(this.getUrlWithMoves());
   }
 
-  private void resetBoard() {
-    this.board = new Board();
+  private void initNewGame() {
+    this.isPlayerTurn = this.isFirstMoveUser();
     this.movesArray = new ArrayList<Integer>();
 
     if (this.isPlayerTurn) {
@@ -120,7 +111,11 @@ public class GameInteractor
     }
 
     presenter.removeAllPieces();
+  }
 
+  private void resetBoard() {
+    this.initNewGame();
+    this.board = new Board();
   }
 
   @Override
@@ -150,6 +145,7 @@ public class GameInteractor
         if (board.hasWon()) {
           presenter.setPlayerWon();
         } else if (board.isDraw()) {
+          Log.e("DRAW: ", "setting draw A");
           presenter.setDraw();
         } else {
           isPlayerTurn = false;
@@ -173,8 +169,9 @@ public class GameInteractor
         if (board.hasWon()) {
           presenter.setComputerWon();
         } else if (board.isDraw()) {
+          Log.e("DRAW: ", "setting draw B");
           presenter.setDraw();
-        }  else {
+        } else {
           isPlayerTurn = true;
           presenter.setPromptPlayer();
         }

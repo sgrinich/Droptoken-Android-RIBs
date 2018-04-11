@@ -44,7 +44,7 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
   @Override
   public void setPromptPlayer() {
     this.hideProgressBar();
-    this.showPlayerPrompt();
+    this.showTextWithMessage("Your move");
   }
 
   @Override
@@ -135,21 +135,17 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
 
   @Override
   public void setPlayerWon() {
-    TextView textView = (TextView) findViewById(R.id.prompt);
-    textView.setText("You won!");
+    this.showTextWithMessage("You won");
   }
 
   @Override
   public void setComputerWon() {
-    TextView textView = (TextView) findViewById(R.id.prompt);
-    textView.setText("You lost");
-    Log.d("", "you lost set");
+    this.showTextWithMessage("You lost");
   }
 
   @Override
   public void setDraw() {
-    TextView textView = (TextView) findViewById(R.id.prompt);
-    textView.setText("Draw");
+    this.showTextWithMessage("Draw");
   }
 
   @Override
@@ -175,9 +171,10 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
     progressBar.setVisibility(View.VISIBLE);
   }
 
-  private void showPlayerPrompt() {
+  private void showTextWithMessage(String message) {
+    this.hideProgressBar();
     TextView textView = (TextView) findViewById(R.id.prompt);
-    textView.setText("It's your turn");
+    textView.setText(message);
     textView.setVisibility(View.VISIBLE);
   }
 
