@@ -38,8 +38,7 @@ public class HomeInteractor
   private Boolean playerChoseRed = true;
 
   @Inject Listener listener;
-  @Inject
-  HomePresenter presenter;
+  @Inject HomePresenter presenter;
 
   @Override
   protected void didBecomeActive(@Nullable Bundle savedInstanceState) {
@@ -75,14 +74,6 @@ public class HomeInteractor
 
   private boolean isEmpty(@Nullable String string) {
     return string == null || string.length() == 0;
-  }
-
-  private void updateButtonColors() {
-      if (playerChoseRed) {
-        // TODO: Delegate to HomeView, set drawable to be deep red
-      } else {
-        // TODO: Delegate to HomeView, set drawable to be deep blue
-      }
   }
 
   /**

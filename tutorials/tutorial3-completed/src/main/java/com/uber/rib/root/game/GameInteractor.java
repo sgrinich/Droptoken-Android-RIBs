@@ -7,19 +7,8 @@ import android.util.Log;
 import com.uber.rib.core.Bundle;
 import com.uber.rib.core.Interactor;
 import com.uber.rib.core.RibInteractor;
-import com.uber.rib.core.Presenter;
-import com.uber.rib.core.Router;
-import com.uber.rib.root.home.HomeInteractor;
 
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
 
 import javax.inject.Inject;
@@ -94,6 +83,11 @@ public class GameInteractor
     super.willResignActive();
   }
 
+  @Override
+  public void onComputerMoveCompleted(String response) {
+    Integer lastComputerMove = this.getLastComputerMove(response);
+    this.playMove(lastComputerMove);
+  }
 
   private String getUrlWithMoves() {
     return COMPUTER_MOVE_URL_BASE.concat("?moves=").concat(movesArray.toString());
@@ -121,11 +115,6 @@ public class GameInteractor
     presenter.removeAllPieces();
   }
 
-  @Override
-  public void onComputerMoveCompleted(String response) {
-    Integer lastComputerMove = this.getLastComputerMove(response);
-    this.playMove(lastComputerMove);
-  }
 
   private void playMove(Integer col) {
     if (board.canPlace(col)) {
@@ -133,14 +122,14 @@ public class GameInteractor
 
       if (isPlayerTurn) {
         BoardCoordinate coordinate;
-        Board.MarkerType type;
+        Board.Color type;
 
         if (playerIsRed) {
-          type = Board.MarkerType.RED;
+          type = Board.Color.RED;
           coordinate = board.placePiece(col, type);
           presenter.addRedPiece(coordinate);
         } else {
-          type = Board.MarkerType.BLUE;
+          type = Board.Color.BLUE;
           coordinate = board.placePiece(col, type);
           presenter.addBluePiece(coordinate);
         }
@@ -156,14 +145,14 @@ public class GameInteractor
         }
       } else {
         BoardCoordinate coordinate;
-        Board.MarkerType type;
+        Board.Color type;
 
         if (playerIsRed) {
-          type = type = Board.MarkerType.BLUE;
+          type = type = Board.Color.BLUE;
           coordinate = board.placePiece(col, type);
           presenter.addBluePiece(coordinate);
         } else {
-          type = Board.MarkerType.RED;
+          type = Board.Color.RED;
           coordinate = board.placePiece(col, type);
           presenter.addRedPiece(coordinate);
         }
@@ -180,11 +169,8 @@ public class GameInteractor
     }
   }
 
-
-
   private Integer getLastComputerMove(String response) {
     String[] responseAsArray = response.replace("[","").replace("]","").split(",");
-    Log.d("Response ARray: ", responseAsArray.toString());
     String lastMoveString = responseAsArray[responseAsArray.length - 1].replaceAll("\\s","");
     Integer lastMoveInteger = Integer.parseInt(lastMoveString);
     return lastMoveInteger;
@@ -195,14 +181,15 @@ public class GameInteractor
    * Presenter interface implemented by this RIB's view.
    */
   interface GamePresenter {
+    Observable<BoardCoordinate> pieceTouched();
+    Observable newGame();
+    Observable goHome();
+
     void setPromptPlayer();
     void setWaitingForMove();
     void addRedPiece(BoardCoordinate xy);
     void addBluePiece(BoardCoordinate xy);
     void removeAllPieces();
-    Observable<BoardCoordinate> pieceTouched();
-    Observable newGame();
-    Observable goHome();
     void setPlayerWon();
     void setComputerWon();
     void setDraw();

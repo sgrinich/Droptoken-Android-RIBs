@@ -50,9 +50,6 @@ public class ComputerMoveTask extends AsyncTask<String , Void ,String> {
     protected void onPostExecute(String s) {
         super.onPostExecute(s);
         listener.onComputerMoveCompleted(server_response);
-
-//        Log.d("Response", "" + server_response);
-
     }
 
     private String readStream(InputStream in) {

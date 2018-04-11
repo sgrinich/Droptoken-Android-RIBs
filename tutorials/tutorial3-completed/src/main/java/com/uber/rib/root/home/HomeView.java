@@ -54,7 +54,6 @@ public class HomeView extends LinearLayout implements HomeInteractor.HomePresent
           @Override
           public Boolean apply(Object o) throws Exception {
               RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radio_group);
-
               RadioButton radioButton = (RadioButton) findViewById(radioGroup.getCheckedRadioButtonId());
 
               return radioButton.getText().equals("You");

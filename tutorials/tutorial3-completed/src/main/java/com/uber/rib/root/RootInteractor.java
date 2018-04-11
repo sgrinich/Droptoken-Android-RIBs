@@ -44,7 +44,6 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
 
     @Override
     public void play(Boolean firstPlayer, Boolean playerIsRed) {
-      // Switch to logged in. Let’s just ignore userName for now.
       getRouter().detachHome();
       getRouter().attachGame(firstPlayer, playerIsRed);
     }
@@ -58,7 +57,6 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
       getRouter().attachHome();;
     }
   }
-
 
     /**
    * Presenter interface implemented by this RIB's view.

@@ -193,6 +193,4 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
     TextView textView = (TextView) findViewById(R.id.prompt);
     textView.setVisibility(View.INVISIBLE);
   }
-
-
 }

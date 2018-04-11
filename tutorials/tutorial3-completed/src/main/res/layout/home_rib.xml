@@ -85,5 +85,6 @@
         android:layout_gravity="bottom"
         android:text="Play"
         android:textColor="#fff"
-        android:layout_margin="16dp"/>
+        android:layout_margin="16dp"
+        android:background="#2ecc71"/>
 </com.uber.rib.root.home.HomeView>
