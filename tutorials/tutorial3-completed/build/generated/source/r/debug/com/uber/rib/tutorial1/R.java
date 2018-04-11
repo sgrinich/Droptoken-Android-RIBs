@@ -1930,12 +1930,11 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f02005a;
         public static final int notification_bg_normal_pressed=0x7f02005b;
         public static final int notification_icon_background=0x7f02005c;
-        public static final int notification_template_icon_bg=0x7f020061;
-        public static final int notification_template_icon_low_bg=0x7f020062;
+        public static final int notification_template_icon_bg=0x7f020060;
+        public static final int notification_template_icon_low_bg=0x7f020061;
         public static final int notification_tile_bg=0x7f02005d;
         public static final int notify_panel_notification_icon_bg=0x7f02005e;
         public static final int red_piece=0x7f02005f;
-        public static final int ub__ic_launcher=0x7f020060;
     }
     public static final class id {
         public static final int action0=0x7f0a0074;
@@ -2021,10 +2020,6 @@ containing a value of this type.
         public static final int notification_main_column_container=0x7f0a0079;
         public static final int parentPanel=0x7f0a0030;
         public static final int play_button=0x7f0a0070;
-        public static final int player_one_name=0x7f0a0088;
-        public static final int player_one_win_count=0x7f0a0089;
-        public static final int player_two_name=0x7f0a008a;
-        public static final int player_two_win_count=0x7f0a008b;
         public static final int progress_circular=0x7f0a0005;
         public static final int progress_horizontal=0x7f0a0006;
         public static final int progress_loader=0x7f0a0059;
@@ -2058,7 +2053,6 @@ containing a value of this type.
         public static final int src_atop=0x7f0a0016;
         public static final int src_in=0x7f0a0017;
         public static final int src_over=0x7f0a0018;
-        public static final int start_game_button=0x7f0a008c;
         public static final int status_bar_latest_event_content=0x7f0a0076;
         public static final int submenuarrow=0x7f0a0041;
         public static final int submit_area=0x7f0a0052;
@@ -2131,13 +2125,11 @@ containing a value of this type.
         public static final int notification_template_media_custom=0x7f030029;
         public static final int notification_template_part_chronometer=0x7f03002a;
         public static final int notification_template_part_time=0x7f03002b;
-        public static final int off_game_rib=0x7f03002c;
-        public static final int root_rib=0x7f03002d;
-        public static final int select_dialog_item_material=0x7f03002e;
-        public static final int select_dialog_multichoice_material=0x7f03002f;
-        public static final int select_dialog_singlechoice_material=0x7f030030;
-        public static final int support_simple_spinner_dropdown_item=0x7f030031;
-        public static final int tic_tac_toe_rib=0x7f030032;
+        public static final int root_rib=0x7f03002c;
+        public static final int select_dialog_item_material=0x7f03002d;
+        public static final int select_dialog_multichoice_material=0x7f03002e;
+        public static final int select_dialog_singlechoice_material=0x7f03002f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030030;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f050000;
@@ -2172,14 +2164,9 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f050011;
         public static final int abc_toolbar_collapse_description=0x7f050012;
         public static final int app_name=0x7f050021;
-        public static final int login=0x7f050022;
-        public static final int player_one_name=0x7f050023;
-        public static final int player_two_name=0x7f050024;
+        public static final int color_choice_label=0x7f050022;
         public static final int search_menu_title=0x7f050013;
-        public static final int start_game=0x7f050025;
         public static final int status_bar_notification_info_overflow=0x7f050014;
-        public static final int welcome_to_off_game=0x7f050026;
-        public static final int win_count=0x7f050027;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f07009f;
