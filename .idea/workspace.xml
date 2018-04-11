@@ -16,56 +16,120 @@
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/Board$MarkerType.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/Board.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/Board.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor$1.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor$1.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor$2.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor$2.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor$3.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor$3.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/GameInteractor.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/Board$MarkerType.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/Board.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/Board.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor$1.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor$1.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor$2.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor$2.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor$3.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor$3.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/game/GameInteractor.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/Board$MarkerType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/Board.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/BoardCoordinate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/Board_Factory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TestTicTacToeInteractor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$BuilderComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Component$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Component.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Module.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$ParentComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$TicTacToeInternal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$TicTacToeScope.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder_Module_RouterFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$Listener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$TicTacToePresenter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor_MembersInjector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeRouter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/Board$MarkerType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/Board.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/BoardCoordinate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/Board_Factory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TestTicTacToeInteractor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$BuilderComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Component$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Component.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Module.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$ParentComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$TicTacToeInternal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$TicTacToeScope.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder_Module_RouterFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$Listener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$TicTacToePresenter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor_MembersInjector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeRouter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental-verifier/debug/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageDebug/zip-cache/JADJUv1E2sCxF9740RVdXzw+xO4=" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageDebug/zip-cache/JADJUv1E2sCxF9740RVdXzw+xO4=" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/JADJUv1E2sCxF9740RVdXzw+xO4=" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/JADJUv1E2sCxF9740RVdXzw+xO4=" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/game_rib.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/game_rib.xml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/home_rib.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/layout/home_rib.xml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/pre-dexed/debug/debug_7abfec929086fdba2b35c5c6165f4a892dbb63d2.jar" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/pre-dexed/debug/debug_7abfec929086fdba2b35c5c6165f4a892dbb63d2.jar" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_3.apk" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/Board$MarkerType.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/Board.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/Board.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor$1.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor$1.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor$2.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor$2.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor$3.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor$3.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/game/GameInteractor.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/buildId.txt" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/Board$MarkerType.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/Board.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/Board.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor$1.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor$1.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor$2.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor$2.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor$3.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor$3.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/uber/rib/root/game/GameInteractor.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_4.apk" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/Board$MarkerType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/Board.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/BoardCoordinate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/Board_Factory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TestTicTacToeInteractor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$BuilderComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Component$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Component.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Module.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$ParentComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$TicTacToeInternal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$TicTacToeScope.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder_Module_RouterFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$Listener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$TicTacToePresenter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor_MembersInjector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeRouter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/Board$MarkerType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/Board.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/BoardCoordinate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/Board_Factory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/DaggerTicTacToeBuilder_Component.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TestTicTacToeInteractor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$BuilderComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Component$Builder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Component.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$Module.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$ParentComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$TicTacToeInternal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder$TicTacToeScope.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder_Module_RouterFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$Listener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor$TicTacToePresenter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor_MembersInjector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeRouter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/outputs/apk/tutorial3-completed-debug.apk" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/outputs/apk/tutorial3-completed-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/Board.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/Board.java" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/ComputerMoveTask.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/ComputerMoveTask.java" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameView.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameView.java" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeInteractor.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeInteractor.java" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeView.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/home/HomeView.java" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/game_rib.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/game_rib.xml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/home_rib.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/home_rib.xml" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/Board.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/BoardCoordinate.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeBuilder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeInteractor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeRouter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,16 +172,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardCoordinate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/BoardCoordinate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RootActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/RootActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,11 +182,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SampleApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SampleApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/SampleApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,8 +205,8 @@
       <file leaf-file-name="RootBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+            <state relative-caret-position="15">
+              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -161,18 +215,18 @@
       <file leaf-file-name="RootInteractor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RootRouter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RootRouter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootRouter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="15">
+              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -199,7 +253,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>parentcomponent</find>
       <find>board.</find>
       <find>com.uber.rib.root.logged_in.tic_tac_toe.BoardCoordinate</find>
       <find>is play</find>
@@ -229,6 +282,7 @@
       <find>markertype</find>
       <find>firstplayer</find>
       <find>isfirstmove</find>
+      <find>logged</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/tutorials/tutorial3-completed</dir>
@@ -11975,18 +12029,6 @@
               <item name="tutorial3-completed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rib" type="462c0819:PsiDirectoryNode" />
-              <item name="root" type="462c0819:PsiDirectoryNode" />
-              <item name="tic_tac_toe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tutorials" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="tutorial3-completed" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -12465,7 +12507,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -12483,7 +12524,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21299255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12313803" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12313803" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -12957,30 +12998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -12999,8 +13016,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/SampleApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/RootRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
           <folding />
         </state>
       </provider>
