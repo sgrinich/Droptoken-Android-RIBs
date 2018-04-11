@@ -43,8 +43,7 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
 
 
     @Override
-    public void play(Integer firstPlayer, Boolean playerIsRed) {
-      // Switch to logged in. Let’s just ignore userName for now.
+    public void play(Boolean firstPlayer, Boolean playerIsRed) {
       getRouter().detachHome();
       getRouter().attachGame(firstPlayer, playerIsRed);
     }
@@ -52,9 +51,12 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
 
   class GameListener implements GameInteractor.Listener {
 
-    // func call here
+    @Override
+    public void goHome() {
+      getRouter().detachGame();
+      getRouter().attachHome();;
+    }
   }
-
 
     /**
    * Presenter interface implemented by this RIB's view.

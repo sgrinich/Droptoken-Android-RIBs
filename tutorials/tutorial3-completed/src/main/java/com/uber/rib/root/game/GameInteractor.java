@@ -7,19 +7,8 @@ import android.util.Log;
 import com.uber.rib.core.Bundle;
 import com.uber.rib.core.Interactor;
 import com.uber.rib.core.RibInteractor;
-import com.uber.rib.core.Presenter;
-import com.uber.rib.core.Router;
-import com.uber.rib.root.home.HomeInteractor;
 
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
 
 import javax.inject.Inject;
@@ -37,16 +26,15 @@ import io.reactivex.functions.Consumer;
 public class GameInteractor
     extends Interactor<GameInteractor.GamePresenter, GameRouter> implements OnComputerMoveCompleted {
 
-  @Inject @Named("first_player") Integer firstPlayer;
+  @Inject @Named("first_player") Boolean playerIsFirst;
   @Inject @Named("player_is_red") Boolean playerIsRed;
 
   @Inject Board board;
-  @Inject GameInteractor.Listener gameListener;
+  @Inject Listener gameListener;
   @Inject GamePresenter presenter;
 
   private static final String COMPUTER_MOVE_URL_BASE = "https://w0ayb2ph1k.execute-api.us-west-2.amazonaws.com/production";
   private Boolean isPlayerTurn;
-  private Boolean gameInSession;
   private ArrayList<Integer> movesArray;
 
   @Override
@@ -78,17 +66,27 @@ public class GameInteractor
               }
             );
 
+    presenter
+            .goHome()
+            .subscribe(
+                    new Consumer<Boolean>() {
+                      @Override
+                      public void accept(Boolean _) throws Exception {
+                        gameListener.goHome();
+                      }
+                    }
+            );
   }
 
   @Override
   protected void willResignActive() {
     super.willResignActive();
-
-    // TODO: Perform any required clean up here, or delete this method entirely if not needed.
   }
 
-  private Boolean isFirstMoveUser() {
-    return (this.firstPlayer > 1);
+  @Override
+  public void onComputerMoveCompleted(String response) {
+    Integer lastComputerMove = this.getLastComputerMove(response);
+    this.playMove(lastComputerMove);
   }
 
   private String getUrlWithMoves() {
@@ -100,7 +98,7 @@ public class GameInteractor
   }
 
   private void initNewGame() {
-    this.isPlayerTurn = this.isFirstMoveUser();
+    this.isPlayerTurn = this.playerIsFirst;
     this.movesArray = new ArrayList<Integer>();
 
     if (this.isPlayerTurn) {
@@ -109,20 +107,14 @@ public class GameInteractor
       presenter.setWaitingForMove();
       this.getComputerMove();
     }
-
-    presenter.removeAllPieces();
   }
 
   private void resetBoard() {
     this.initNewGame();
     this.board = new Board();
+    presenter.removeAllPieces();
   }
 
-  @Override
-  public void onComputerMoveCompleted(String response) {
-    Integer lastComputerMove = this.getLastComputerMove(response);
-    this.playMove(lastComputerMove);
-  }
 
   private void playMove(Integer col) {
     if (board.canPlace(col)) {
@@ -130,14 +122,14 @@ public class GameInteractor
 
       if (isPlayerTurn) {
         BoardCoordinate coordinate;
-        Board.MarkerType type;
+        Board.Color type;
 
         if (playerIsRed) {
-          type = Board.MarkerType.RED;
+          type = Board.Color.RED;
           coordinate = board.placePiece(col, type);
           presenter.addRedPiece(coordinate);
         } else {
-          type = Board.MarkerType.BLUE;
+          type = Board.Color.BLUE;
           coordinate = board.placePiece(col, type);
           presenter.addBluePiece(coordinate);
         }
@@ -145,7 +137,6 @@ public class GameInteractor
         if (board.hasWon()) {
           presenter.setPlayerWon();
         } else if (board.isDraw()) {
-          Log.e("DRAW: ", "setting draw A");
           presenter.setDraw();
         } else {
           isPlayerTurn = false;
@@ -154,14 +145,14 @@ public class GameInteractor
         }
       } else {
         BoardCoordinate coordinate;
-        Board.MarkerType type;
+        Board.Color type;
 
         if (playerIsRed) {
-          type = type = Board.MarkerType.BLUE;
+          type = type = Board.Color.BLUE;
           coordinate = board.placePiece(col, type);
           presenter.addBluePiece(coordinate);
         } else {
-          type = Board.MarkerType.RED;
+          type = Board.Color.RED;
           coordinate = board.placePiece(col, type);
           presenter.addRedPiece(coordinate);
         }
@@ -169,7 +160,6 @@ public class GameInteractor
         if (board.hasWon()) {
           presenter.setComputerWon();
         } else if (board.isDraw()) {
-          Log.e("DRAW: ", "setting draw B");
           presenter.setDraw();
         } else {
           isPlayerTurn = true;
@@ -179,11 +169,8 @@ public class GameInteractor
     }
   }
 
-
-
   private Integer getLastComputerMove(String response) {
     String[] responseAsArray = response.replace("[","").replace("]","").split(",");
-    Log.d("Response ARray: ", responseAsArray.toString());
     String lastMoveString = responseAsArray[responseAsArray.length - 1].replaceAll("\\s","");
     Integer lastMoveInteger = Integer.parseInt(lastMoveString);
     return lastMoveInteger;
@@ -194,13 +181,15 @@ public class GameInteractor
    * Presenter interface implemented by this RIB's view.
    */
   interface GamePresenter {
+    Observable<BoardCoordinate> pieceTouched();
+    Observable newGame();
+    Observable goHome();
+
     void setPromptPlayer();
     void setWaitingForMove();
     void addRedPiece(BoardCoordinate xy);
     void addBluePiece(BoardCoordinate xy);
     void removeAllPieces();
-    Observable<BoardCoordinate> pieceTouched();
-    Observable newGame();
     void setPlayerWon();
     void setComputerWon();
     void setDraw();
@@ -208,13 +197,7 @@ public class GameInteractor
 
 
   public interface Listener {
-
-    /**
-     * Called when the game is over.
-     *
-     * @param winner player that won, or null if it's a tie.
-     */
-//    void gameWon(@Nullable String winner);
+    void goHome();
   }
 
 }

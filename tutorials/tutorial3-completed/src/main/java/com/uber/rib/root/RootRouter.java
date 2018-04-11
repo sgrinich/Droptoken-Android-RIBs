@@ -59,7 +59,15 @@ public class RootRouter extends ViewRouter<RootView, RootInteractor, RootBuilder
     }
   }
 
-  void attachGame(Integer firstPlayer, Boolean playerIsRed) {
+  void detachGame() {
+    if (gameRouter != null) {
+      detachChild(gameRouter);
+      getView().removeView(gameRouter.getView());
+      gameRouter = null;
+    }
+  }
+
+  void attachGame(Boolean firstPlayer, Boolean playerIsRed) {
     gameRouter = gameBuilder.build(getView(), firstPlayer, playerIsRed);
     attachChild(gameRouter);
     getView().addView(gameRouter.getView());

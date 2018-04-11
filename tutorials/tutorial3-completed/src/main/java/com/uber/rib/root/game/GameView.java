@@ -122,6 +122,17 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
   }
 
   @Override
+  public Observable goHome() {
+    return RxView.clicks(findViewById(R.id.go_home))
+            .map(new Function<Object, Boolean>() {
+              @Override
+              public Boolean apply(Object o) throws Exception {
+                return true;
+              }
+            });
+  }
+
+  @Override
   public void addRedPiece(BoardCoordinate coordinate) {
     TextView textView = imageButtons[coordinate.getRow()][coordinate.getCol()];
     textView.setBackground(getResources().getDrawable(R.drawable.red_piece));
@@ -182,6 +193,4 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
     TextView textView = (TextView) findViewById(R.id.prompt);
     textView.setVisibility(View.INVISIBLE);
   }
-
-
 }

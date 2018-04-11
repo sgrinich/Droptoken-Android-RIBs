@@ -8,7 +8,7 @@
 
 
     <Button
-        android:id="@+id/home"
+        android:id="@+id/go_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Home"
@@ -17,19 +17,23 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"/>
+        android:layout_alignParentTop="true"
+        android:background="#f39c12"/>
 
     <Button
         android:id="@+id/new_game"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:text="New Game"
         android:textSize="20sp"
         android:textColor="#fff"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"/>
+        android:layout_alignParentTop="true"
+        android:background="#f39c12"/>
 
 
     <ProgressBar
@@ -45,7 +49,7 @@
         android:id="@+id/prompt"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="80dp"
         android:layout_marginBottom="50dp"
         android:text="It's your turn"
         android:textSize="32sp"

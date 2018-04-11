@@ -40,7 +40,7 @@ public class GameBuilder
    * @param parentViewGroup parent view group that this router's view will be added to.
    * @return a new {@link GameRouter}.
    */
-  public GameRouter build(ViewGroup parentViewGroup, Integer firstPlayer, Boolean playerIsRed) {
+  public GameRouter build(ViewGroup parentViewGroup, Boolean firstPlayer, Boolean playerIsRed) {
     GameView view = createView(parentViewGroup);
     GameInteractor interactor = new GameInteractor();
     Component component = DaggerGameBuilder_Component.builder()
@@ -97,7 +97,7 @@ public class GameBuilder
       Component build();
 
       @BindsInstance
-      Builder firstPlayer(@Named("first_player") Integer firstPlayer);
+      Builder firstPlayer(@Named("first_player") Boolean firstPlayer);
 
       @BindsInstance
       Builder playerIsRed(@Named("player_is_red") Boolean playerIsRed);

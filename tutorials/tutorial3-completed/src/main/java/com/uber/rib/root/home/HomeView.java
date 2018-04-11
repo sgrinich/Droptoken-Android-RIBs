@@ -5,7 +5,9 @@ import android.support.annotation.Nullable;
 import android.support.v4.util.Pair;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 /*
  * Copyright (C) 2017. Uber Technologies
@@ -46,15 +48,16 @@ public class HomeView extends LinearLayout implements HomeInteractor.HomePresent
   }
 
   @Override
-  public Observable<Integer> playGame() {
+  public Observable<Boolean> playGame() {
     return RxView.clicks(findViewById(R.id.play_button))
-        .map(new Function<Object, Integer>() {
+        .map(new Function<Object, Boolean>() {
           @Override
-          public Integer apply(Object o) throws Exception {
+          public Boolean apply(Object o) throws Exception {
               RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radio_group);
-              int selectedId = radioGroup.getCheckedRadioButtonId();
+              RadioButton radioButton = (RadioButton) findViewById(radioGroup.getCheckedRadioButtonId());
 
-              return new Integer(selectedId);
+              return radioButton.getText().equals("You");
+
           }
         });
   }

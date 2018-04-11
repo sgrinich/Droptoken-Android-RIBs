@@ -38,21 +38,17 @@ public class HomeInteractor
   private Boolean playerChoseRed = true;
 
   @Inject Listener listener;
-  @Inject
-  HomePresenter presenter;
+  @Inject HomePresenter presenter;
 
   @Override
   protected void didBecomeActive(@Nullable Bundle savedInstanceState) {
     super.didBecomeActive(savedInstanceState);
     presenter
         .playGame()
-        .subscribe(new Consumer<Integer>() {
+        .subscribe(new Consumer<Boolean>() {
           @Override
-          public void accept(Integer firstPlayer) throws Exception {
-            if (firstPlayer.intValue() != -1) {
+          public void accept(Boolean firstPlayer) throws Exception {
               listener.play(firstPlayer, playerChoseRed);
-            }
-
           }
         });
 
@@ -80,25 +76,17 @@ public class HomeInteractor
     return string == null || string.length() == 0;
   }
 
-  private void updateButtonColors() {
-      if (playerChoseRed) {
-        // TODO: Delegate to HomeView, set drawable to be deep red
-      } else {
-        // TODO: Delegate to HomeView, set drawable to be deep blue
-      }
-  }
-
   /**
    * Presenter interface implemented by this RIB's view.
    */
   interface HomePresenter {
-    Observable<Integer> playGame();
+    Observable<Boolean> playGame();
     Observable<Boolean> choseRedColor();
     Observable<Boolean> choseBlueColor();
   }
 
   public interface Listener {
-    void play(Integer firstPlayer, Boolean playerIsRed);
+    void play(Boolean firstPlayer, Boolean playerIsRed);
   }
 
 }
