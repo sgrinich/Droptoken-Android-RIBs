@@ -86,17 +86,4 @@
         android:text="Play"
         android:textColor="#fff"
         android:layout_margin="16dp"/>
-
-    <!--<EditText-->
-    <!--android:id="@+id/edit_text"-->
-    <!--android:hint="Enter your name"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_margin="16dp"/>-->
-    <!--<Button-->
-    <!--android:id="@+id/login_button"-->
-    <!--android:text="Login"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_margin="16dp"/>-->
 </com.uber.rib.root.home.HomeView>

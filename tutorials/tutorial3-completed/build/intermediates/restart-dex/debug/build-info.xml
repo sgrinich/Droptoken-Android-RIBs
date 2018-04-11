@@ -6,26 +6,30 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1523404659580"
+    timestamp="1523413808854"
     token="-1355393689127578968"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1449" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="11" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
+
+    <artifact
+        location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1523387302561"
+        timestamp="1523409600275"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -66,15 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1523391359052"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1523391518948"
+        timestamp="1523411149555"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -85,7 +81,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1523402976698"
+        timestamp="1523412675142"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/outputs/apk/tutorial3-completed-debug.apk"
@@ -93,15 +89,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1523404600866"
+        timestamp="1523413808854"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1523404659580"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

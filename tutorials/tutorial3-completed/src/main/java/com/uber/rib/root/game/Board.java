@@ -26,8 +26,6 @@ public class Board {
   static final int COLS = 4;
 
   MarkerType[][] cells;
-  int currentRow;
-  int currentCol;
 
   @Inject
   Board() {
@@ -50,7 +48,7 @@ public class Board {
         }
       }
     }
-    return !hasWon(MarkerType.RED) && !hasWon(MarkerType.BLUE);
+    return !hasWon();
   }
 
   boolean canPlace(Integer column) {
@@ -62,16 +60,11 @@ public class Board {
     BoardCoordinate coordinate;
     for (int row = (ROWS - 1); row >= 0; row--) {
 
-
         if (cells[row][column] == null) {
             cells[row][column] = type;
             coordinate = new BoardCoordinate(row, column);
 
-
-          Log.d("Placing in row: ", Integer.toString(row));
-          Log.d("Placing in col: ", Integer.toString(column));
-
-          return coordinate;
+            return coordinate;
         }
     }
 
@@ -81,9 +74,38 @@ public class Board {
     return coordinate;
   }
 
-  /**
-   * Return true if the player with "theSeed" has won after placing at (currentRow, currentCol)
-   */
+
+  boolean hasWon() {
+    // Check for horizontal wins
+    for (int row = 0; row < ROWS; row++) {
+        if ((this.cells[row][0] != null) && (this.cells[row][1] == this.cells[row][0]) && (this.cells[row][2] == this.cells[row][0]) && (this.cells[row][3] == this.cells[row][0])) {
+            return true;
+        }
+    }
+
+    // Check for vertical wins
+    for (int col = 0; col < COLS; col++) {
+        if ((this.cells[0][col] != null) && (this.cells[1][col] == this.cells[0][col]) && (this.cells[2][col] == this.cells[0][col]) && (this.cells[3][col] == this.cells[0][col])) {
+            return true;
+        }
+    }
+
+    // Check right diagonal win
+    if ((this.cells[0][0] != null) && (this.cells[1][1] == this.cells[0][0]) && (this.cells[2][2] == this.cells[0][0]) && (this.cells[3][3] == this.cells[0][0])) {
+        return true;
+    }
+
+    // Check left diagonal win
+    if ((this.cells[0][3] != null) && (this.cells[1][2] == this.cells[0][3]) && (this.cells[2][1] == this.cells[0][3])  && (this.cells[3][0] == this.cells[3][3])) {
+        return true;
+    }
+
+    return false;
+  }
+
+
+
+
 
   // TODO: Replace this with the recursive function
   boolean hasWon(MarkerType theSeed) {

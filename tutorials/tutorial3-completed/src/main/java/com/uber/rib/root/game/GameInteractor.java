@@ -46,20 +46,14 @@ public class GameInteractor
 
   private static final String COMPUTER_MOVE_URL_BASE = "https://w0ayb2ph1k.execute-api.us-west-2.amazonaws.com/production";
   private Boolean isPlayerTurn;
+  private Boolean gameInSession;
   private ArrayList<Integer> movesArray;
 
   @Override
   protected void didBecomeActive(@Nullable Bundle savedInstanceState) {
     super.didBecomeActive(savedInstanceState);
 
-    this.isPlayerTurn = this.isFirstMoveUser();
-    this.movesArray = new ArrayList<Integer>();
-
-    if (this.isPlayerTurn) {
-      presenter.setPromptPlayer();
-    } else {
-      presenter.setWaitingForMove();
-    }
+    this.initNewGame();
 
     presenter
             .pieceTouched()
@@ -67,58 +61,22 @@ public class GameInteractor
                     new Consumer<BoardCoordinate>() {
                       @Override
                       public void accept(BoardCoordinate coordinate) throws Exception {
-                        if (isPlayerTurn) {
-
-                          // call function below here
-
-                          if (board.canPlace(coordinate.getCol())) {
-                            playMove(coordinate.getCol());
-
-//                            board.placePiece(xy);
-//                            board.currentRow = coordinate.getRow();
-//                            board.currentCol = coordinate.getCol();
-//
-//                            movesArray.add(coordinate.getCol());
-//
-//                            if (playerIsRed) {
-//                              board.cells[coordinate.getRow()][coordinate.getCol()] = Board.MarkerType.RED;
-//                              presenter.addRedPiece(coordinate);
-//                            } else {
-//                              board.cells[coordinate.getRow()][coordinate.getCol()] = Board.MarkerType.BLUE;
-//                              presenter.addBluePiece(coordinate);
-//                            }
-                          }
-
-//                          isPlayerTurn = false;
-//                          presenter.setWaitingForMove();
-//                          getComputerMove();
+                        if (!board.hasWon() && isPlayerTurn && board.canPlace(coordinate.getCol())) {
+                          playMove(coordinate.getCol());
                         }
-//                        if (board.cells[xy.getX()][xy.getY()] == null) {
-//                          if (currentPlayer == MarkerType.CROSS) {
-//                            board.cells[xy.getX()][xy.getY()] = MarkerType.CROSS;
-//                            board.currentRow = xy.getX();
-//                            board.currentCol = xy.getY();
-//                            presenter.addCross(xy);
-//                            currentPlayer = MarkerType.NOUGHT;
-//                          } else {
-//                            board.cells[xy.getX()][xy.getY()] = MarkerType.NOUGHT;
-//                            board.currentRow = xy.getX();
-//                            board.currentCol = xy.getY();
-//                            presenter.addNought(xy);
-//                            currentPlayer = MarkerType.CROSS;
-//                          }
-//                        }
-//                        if (board.hasWon(MarkerType.CROSS)) {
-//                          presenter.setPlayerWon(playerOne);
-//                        } else if (board.hasWon(MarkerType.NOUGHT)) {
-//                          presenter.setPlayerWon(playerTwo);
-//                        } else if (board.isDraw()) {
-//                          presenter.setPlayerTie();
-//                        } else {
-//                          updateCurrentPlayer();
-//                        }
                       }
                     });
+
+  presenter
+          .newGame()
+            .subscribe(
+              new Consumer<Boolean>() {
+                @Override
+                public void accept(Boolean _) throws Exception {
+                  resetBoard();
+                }
+              }
+            );
 
   }
 
@@ -141,10 +99,28 @@ public class GameInteractor
     AsyncTask task = new ComputerMoveTask(this).execute(this.getUrlWithMoves());
   }
 
+  private void initNewGame() {
+    this.isPlayerTurn = this.isFirstMoveUser();
+    this.movesArray = new ArrayList<Integer>();
+
+    if (this.isPlayerTurn) {
+      presenter.setPromptPlayer();
+    } else {
+      presenter.setWaitingForMove();
+      this.getComputerMove();
+    }
+
+    presenter.removeAllPieces();
+  }
+
+  private void resetBoard() {
+    this.initNewGame();
+    this.board = new Board();
+  }
+
   @Override
   public void onComputerMoveCompleted(String response) {
     Integer lastComputerMove = this.getLastComputerMove(response);
-
     this.playMove(lastComputerMove);
   }
 
@@ -153,31 +129,53 @@ public class GameInteractor
       movesArray.add(col);
 
       if (isPlayerTurn) {
+        BoardCoordinate coordinate;
+        Board.MarkerType type;
+
         if (playerIsRed) {
-          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.RED);
+          type = Board.MarkerType.RED;
+          coordinate = board.placePiece(col, type);
           presenter.addRedPiece(coordinate);
         } else {
-          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.BLUE);
+          type = Board.MarkerType.BLUE;
+          coordinate = board.placePiece(col, type);
           presenter.addBluePiece(coordinate);
         }
 
-        isPlayerTurn = false;
-        presenter.setWaitingForMove();
-        getComputerMove();
+        if (board.hasWon()) {
+          presenter.setPlayerWon();
+        } else if (board.isDraw()) {
+          Log.e("DRAW: ", "setting draw A");
+          presenter.setDraw();
+        } else {
+          isPlayerTurn = false;
+          presenter.setWaitingForMove();
+          getComputerMove();
+        }
       } else {
+        BoardCoordinate coordinate;
+        Board.MarkerType type;
+
         if (playerIsRed) {
-          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.BLUE);
+          type = type = Board.MarkerType.BLUE;
+          coordinate = board.placePiece(col, type);
           presenter.addBluePiece(coordinate);
         } else {
-          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.RED);
+          type = Board.MarkerType.RED;
+          coordinate = board.placePiece(col, type);
           presenter.addRedPiece(coordinate);
         }
 
-
-        isPlayerTurn = true;
-        presenter.setPromptPlayer();
+        if (board.hasWon()) {
+          presenter.setComputerWon();
+        } else if (board.isDraw()) {
+          Log.e("DRAW: ", "setting draw B");
+          presenter.setDraw();
+        } else {
+          isPlayerTurn = true;
+          presenter.setPromptPlayer();
+        }
       }
-
     }
   }
 
@@ -200,8 +198,12 @@ public class GameInteractor
     void setWaitingForMove();
     void addRedPiece(BoardCoordinate xy);
     void addBluePiece(BoardCoordinate xy);
+    void removeAllPieces();
     Observable<BoardCoordinate> pieceTouched();
-
+    Observable newGame();
+    void setPlayerWon();
+    void setComputerWon();
+    void setDraw();
   }
 
 
