@@ -180,7 +180,7 @@ public class GameInteractor
   /**
    * Presenter interface implemented by this RIB's view.
    */
-  interface GamePresenter {
+  public interface GamePresenter {
     Observable<BoardCoordinate> pieceTouched();
     Observable newGame();
     Observable goHome();

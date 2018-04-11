@@ -2165,8 +2165,15 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f050012;
         public static final int app_name=0x7f050021;
         public static final int color_choice_label=0x7f050022;
+        public static final int computer_choice_label=0x7f050023;
+        public static final int home_label=0x7f050024;
+        public static final int new_game_label=0x7f050025;
+        public static final int play_button_label=0x7f050026;
         public static final int search_menu_title=0x7f050013;
         public static final int status_bar_notification_info_overflow=0x7f050014;
+        public static final int turn_choice_label=0x7f050027;
+        public static final int you_choice_label=0x7f050028;
+        public static final int your_turn_label=0x7f050029;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f07009f;
