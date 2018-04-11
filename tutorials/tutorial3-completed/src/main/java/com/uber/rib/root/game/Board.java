@@ -26,8 +26,6 @@ public class Board {
   static final int COLS = 4;
 
   MarkerType[][] cells;
-  int currentRow;
-  int currentCol;
 
   @Inject
   Board() {
@@ -62,16 +60,11 @@ public class Board {
     BoardCoordinate coordinate;
     for (int row = (ROWS - 1); row >= 0; row--) {
 
-
         if (cells[row][column] == null) {
             cells[row][column] = type;
             coordinate = new BoardCoordinate(row, column);
 
-
-          Log.d("Placing in row: ", Integer.toString(row));
-          Log.d("Placing in col: ", Integer.toString(column));
-
-          return coordinate;
+            return coordinate;
         }
     }
 
@@ -81,9 +74,13 @@ public class Board {
     return coordinate;
   }
 
-  /**
-   * Return true if the player with "theSeed" has won after placing at (currentRow, currentCol)
-   */
+
+  boolean hasWon(BoardCoordinate coordinate, MarkerType type) {
+    int leftValues = this.getLeftValues(coordinate, type);
+  }
+
+
+
 
   // TODO: Replace this with the recursive function
   boolean hasWon(MarkerType theSeed) {

@@ -123,6 +123,16 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
     textView.setClickable(false);
   }
 
+  @Override
+  public void setPlayerWon() {
+
+  }
+
+  @Override
+  public void setComputerWon() {
+
+  }
+
   private void hideProgressBar() {
     ProgressBar progressBar = (ProgressBar) findViewById(R.id.progress_loader);
     progressBar.setVisibility(View.INVISIBLE);

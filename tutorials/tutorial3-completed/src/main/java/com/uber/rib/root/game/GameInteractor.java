@@ -67,56 +67,11 @@ public class GameInteractor
                     new Consumer<BoardCoordinate>() {
                       @Override
                       public void accept(BoardCoordinate coordinate) throws Exception {
-                        if (isPlayerTurn) {
+                        if (isPlayerTurn && board.canPlace(coordinate.getCol())) {
+                          playMove(coordinate.getCol());
 
-                          // call function below here
 
-                          if (board.canPlace(coordinate.getCol())) {
-                            playMove(coordinate.getCol());
-
-//                            board.placePiece(xy);
-//                            board.currentRow = coordinate.getRow();
-//                            board.currentCol = coordinate.getCol();
-//
-//                            movesArray.add(coordinate.getCol());
-//
-//                            if (playerIsRed) {
-//                              board.cells[coordinate.getRow()][coordinate.getCol()] = Board.MarkerType.RED;
-//                              presenter.addRedPiece(coordinate);
-//                            } else {
-//                              board.cells[coordinate.getRow()][coordinate.getCol()] = Board.MarkerType.BLUE;
-//                              presenter.addBluePiece(coordinate);
-//                            }
-                          }
-
-//                          isPlayerTurn = false;
-//                          presenter.setWaitingForMove();
-//                          getComputerMove();
                         }
-//                        if (board.cells[xy.getX()][xy.getY()] == null) {
-//                          if (currentPlayer == MarkerType.CROSS) {
-//                            board.cells[xy.getX()][xy.getY()] = MarkerType.CROSS;
-//                            board.currentRow = xy.getX();
-//                            board.currentCol = xy.getY();
-//                            presenter.addCross(xy);
-//                            currentPlayer = MarkerType.NOUGHT;
-//                          } else {
-//                            board.cells[xy.getX()][xy.getY()] = MarkerType.NOUGHT;
-//                            board.currentRow = xy.getX();
-//                            board.currentCol = xy.getY();
-//                            presenter.addNought(xy);
-//                            currentPlayer = MarkerType.CROSS;
-//                          }
-//                        }
-//                        if (board.hasWon(MarkerType.CROSS)) {
-//                          presenter.setPlayerWon(playerOne);
-//                        } else if (board.hasWon(MarkerType.NOUGHT)) {
-//                          presenter.setPlayerWon(playerTwo);
-//                        } else if (board.isDraw()) {
-//                          presenter.setPlayerTie();
-//                        } else {
-//                          updateCurrentPlayer();
-//                        }
                       }
                     });
 
@@ -144,7 +99,6 @@ public class GameInteractor
   @Override
   public void onComputerMoveCompleted(String response) {
     Integer lastComputerMove = this.getLastComputerMove(response);
-
     this.playMove(lastComputerMove);
   }
 
@@ -153,26 +107,43 @@ public class GameInteractor
       movesArray.add(col);
 
       if (isPlayerTurn) {
+        BoardCoordinate coordinate;
+        Board.MarkerType type;
+
         if (playerIsRed) {
-          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.RED);
+          type = Board.MarkerType.RED;
+          coordinate = board.placePiece(col, type);
           presenter.addRedPiece(coordinate);
         } else {
-          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.BLUE);
+          type = Board.MarkerType.BLUE;
+          coordinate = board.placePiece(col, type);
           presenter.addBluePiece(coordinate);
+        }
+
+        if (board.hasWon(coordinate, type)) {
+          presenter.setPlayerWon();
         }
 
         isPlayerTurn = false;
         presenter.setWaitingForMove();
         getComputerMove();
       } else {
+        BoardCoordinate coordinate;
+        Board.MarkerType type;
+
         if (playerIsRed) {
-          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.BLUE);
+          type = type = Board.MarkerType.BLUE;
+          coordinate = board.placePiece(col, type);
           presenter.addBluePiece(coordinate);
         } else {
-          BoardCoordinate coordinate = board.placePiece(col, Board.MarkerType.RED);
+          type = Board.MarkerType.RED;
+          coordinate = board.placePiece(col, type);
           presenter.addRedPiece(coordinate);
         }
 
+        if (board.hasWon(coordinate, type)) {
+          presenter.setComputerWon();
+        }
 
         isPlayerTurn = true;
         presenter.setPromptPlayer();
@@ -201,7 +172,8 @@ public class GameInteractor
     void addRedPiece(BoardCoordinate xy);
     void addBluePiece(BoardCoordinate xy);
     Observable<BoardCoordinate> pieceTouched();
-
+    void setPlayerWon();
+    void setComputerWon();
   }
 
 
