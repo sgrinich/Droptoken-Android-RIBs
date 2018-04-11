@@ -4,12 +4,12 @@
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial3-completed/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",

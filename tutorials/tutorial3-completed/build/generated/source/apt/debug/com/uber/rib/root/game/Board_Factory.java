@@ -18,8 +18,4 @@ public final class Board_Factory implements Factory<Board> {
   public static Factory<Board> create() {
     return INSTANCE;
   }
-
-  public static Board newBoard() {
-    return new Board();
-  }
 }

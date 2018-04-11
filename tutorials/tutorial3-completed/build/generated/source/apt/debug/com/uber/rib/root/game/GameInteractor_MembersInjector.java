@@ -74,7 +74,8 @@ public final class GameInteractor_MembersInjector implements MembersInjector<Gam
     instance.gameListener = gameListener;
   }
 
-  public static void injectPresenter(GameInteractor instance, Object presenter) {
-    instance.presenter = (GameInteractor.GamePresenter) presenter;
+  public static void injectPresenter(
+      GameInteractor instance, GameInteractor.GamePresenter presenter) {
+    instance.presenter = presenter;
   }
 }

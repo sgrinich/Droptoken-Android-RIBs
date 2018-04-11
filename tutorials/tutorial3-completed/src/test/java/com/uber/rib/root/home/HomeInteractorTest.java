@@ -41,22 +41,25 @@ public class HomeInteractorTest extends RibTestBasePlaceholder {
     interactor = TestHomeInteractor.create(listener, presenter);
   }
 
-
-  @Test
-  public void attach_whenViewEmitsName_shouldCallListener() {
-//    when(presenter.loginName()).thenReturn(Observable.just(Pair.create("fakename", "fakename")));
+// TODO: Test
+//  @Test
+//  public void attach_whenViewEmitsName_shouldCallListener() {
+//    when(presenter.playGame()).thenReturn(Observable.just(true));
 //
+//
+////    when(presenter.loginName()).thenReturn(Observable.just(Pair.create("fakename", "fakename")));
+////
 //    InteractorHelper.attach(interactor, presenter, router, null);
+//////
+//    verify(listener).play(true, false);
+//  }
 //
-//    verify(listener).login(any(String.class), any(String.class));
-  }
-
-  @Test
-  public void attach_whenViewEmitsEmptyName_shouldNotCallListener() {
-//    when(presenter.loginName()).thenReturn(Observable.just(Pair.create("", "")));
-//
-//    InteractorHelper.attach(interactor, presenter, router, null);
-//
-//    verify(listener, never()).login(any(String.class), any(String.class));
-  }
+//  @Test
+//  public void attach_whenViewEmitsEmptyName_shouldNotCallListener() {
+////    when(presenter.loginName()).thenReturn(Observable.just(Pair.create("", "")));
+////
+////    InteractorHelper.attach(interactor, presenter, router, null);
+////
+////    verify(listener, never()).login(any(String.class), any(String.class));
+//  }
 }

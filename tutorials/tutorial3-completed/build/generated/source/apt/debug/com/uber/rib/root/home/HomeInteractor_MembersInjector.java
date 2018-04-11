@@ -38,7 +38,8 @@ public final class HomeInteractor_MembersInjector implements MembersInjector<Hom
     instance.listener = listener;
   }
 
-  public static void injectPresenter(HomeInteractor instance, Object presenter) {
-    instance.presenter = (HomeInteractor.HomePresenter) presenter;
+  public static void injectPresenter(
+      HomeInteractor instance, HomeInteractor.HomePresenter presenter) {
+    instance.presenter = presenter;
   }
 }
