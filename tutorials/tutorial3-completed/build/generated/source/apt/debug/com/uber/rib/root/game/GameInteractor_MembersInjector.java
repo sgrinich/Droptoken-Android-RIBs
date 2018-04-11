@@ -12,7 +12,7 @@ import javax.inject.Provider;
 public final class GameInteractor_MembersInjector implements MembersInjector<GameInteractor> {
   private final Provider<GameInteractor.GamePresenter> presenterProvider;
 
-  private final Provider<Integer> firstPlayerProvider;
+  private final Provider<Boolean> playerIsFirstProvider;
 
   private final Provider<Boolean> playerIsRedProvider;
 
@@ -22,12 +22,12 @@ public final class GameInteractor_MembersInjector implements MembersInjector<Gam
 
   public GameInteractor_MembersInjector(
       Provider<GameInteractor.GamePresenter> presenterProvider,
-      Provider<Integer> firstPlayerProvider,
+      Provider<Boolean> playerIsFirstProvider,
       Provider<Boolean> playerIsRedProvider,
       Provider<Board> boardProvider,
       Provider<GameInteractor.Listener> gameListenerProvider) {
     this.presenterProvider = presenterProvider;
-    this.firstPlayerProvider = firstPlayerProvider;
+    this.playerIsFirstProvider = playerIsFirstProvider;
     this.playerIsRedProvider = playerIsRedProvider;
     this.boardProvider = boardProvider;
     this.gameListenerProvider = gameListenerProvider;
@@ -35,13 +35,13 @@ public final class GameInteractor_MembersInjector implements MembersInjector<Gam
 
   public static MembersInjector<GameInteractor> create(
       Provider<GameInteractor.GamePresenter> presenterProvider,
-      Provider<Integer> firstPlayerProvider,
+      Provider<Boolean> playerIsFirstProvider,
       Provider<Boolean> playerIsRedProvider,
       Provider<Board> boardProvider,
       Provider<GameInteractor.Listener> gameListenerProvider) {
     return new GameInteractor_MembersInjector(
         presenterProvider,
-        firstPlayerProvider,
+        playerIsFirstProvider,
         playerIsRedProvider,
         boardProvider,
         gameListenerProvider);
@@ -50,15 +50,15 @@ public final class GameInteractor_MembersInjector implements MembersInjector<Gam
   @Override
   public void injectMembers(GameInteractor instance) {
     Interactor_MembersInjector.injectPresenter(instance, presenterProvider.get());
-    injectFirstPlayer(instance, firstPlayerProvider.get());
+    injectPlayerIsFirst(instance, playerIsFirstProvider.get());
     injectPlayerIsRed(instance, playerIsRedProvider.get());
     injectBoard(instance, boardProvider.get());
     injectGameListener(instance, gameListenerProvider.get());
     injectPresenter(instance, presenterProvider.get());
   }
 
-  public static void injectFirstPlayer(GameInteractor instance, Integer firstPlayer) {
-    instance.firstPlayer = firstPlayer;
+  public static void injectPlayerIsFirst(GameInteractor instance, Boolean playerIsFirst) {
+    instance.playerIsFirst = playerIsFirst;
   }
 
   public static void injectPlayerIsRed(GameInteractor instance, Boolean playerIsRed) {

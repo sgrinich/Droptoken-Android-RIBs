@@ -16,7 +16,7 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
 
   private Provider<GameInteractor.GamePresenter> presenterProvider;
 
-  private Integer firstPlayer;
+  private Boolean firstPlayer;
 
   private Boolean playerIsRed;
 
@@ -63,7 +63,7 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
 
   private GameInteractor injectGameInteractor(GameInteractor instance) {
     Interactor_MembersInjector.injectPresenter(instance, presenterProvider.get());
-    GameInteractor_MembersInjector.injectFirstPlayer(instance, firstPlayer);
+    GameInteractor_MembersInjector.injectPlayerIsFirst(instance, firstPlayer);
     GameInteractor_MembersInjector.injectPlayerIsRed(instance, playerIsRed);
     GameInteractor_MembersInjector.injectBoard(instance, new Board());
     GameInteractor_MembersInjector.injectGameListener(
@@ -82,7 +82,7 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
 
     private GameView view;
 
-    private Integer firstPlayer;
+    private Boolean firstPlayer;
 
     private Boolean playerIsRed;
 
@@ -99,7 +99,7 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
         throw new IllegalStateException(GameView.class.getCanonicalName() + " must be set");
       }
       if (firstPlayer == null) {
-        throw new IllegalStateException(Integer.class.getCanonicalName() + " must be set");
+        throw new IllegalStateException(Boolean.class.getCanonicalName() + " must be set");
       }
       if (playerIsRed == null) {
         throw new IllegalStateException(Boolean.class.getCanonicalName() + " must be set");
@@ -126,7 +126,7 @@ public final class DaggerGameBuilder_Component implements GameBuilder.Component 
     }
 
     @Override
-    public Builder firstPlayer(Integer firstPlayer) {
+    public Builder firstPlayer(Boolean firstPlayer) {
       this.firstPlayer = Preconditions.checkNotNull(firstPlayer);
       return this;
     }

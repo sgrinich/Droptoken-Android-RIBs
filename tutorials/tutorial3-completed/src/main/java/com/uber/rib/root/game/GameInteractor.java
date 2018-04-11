@@ -37,16 +37,15 @@ import io.reactivex.functions.Consumer;
 public class GameInteractor
     extends Interactor<GameInteractor.GamePresenter, GameRouter> implements OnComputerMoveCompleted {
 
-  @Inject @Named("first_player") Integer firstPlayer;
+  @Inject @Named("first_player") Boolean playerIsFirst;
   @Inject @Named("player_is_red") Boolean playerIsRed;
 
   @Inject Board board;
-  @Inject GameInteractor.Listener gameListener;
+  @Inject Listener gameListener;
   @Inject GamePresenter presenter;
 
   private static final String COMPUTER_MOVE_URL_BASE = "https://w0ayb2ph1k.execute-api.us-west-2.amazonaws.com/production";
   private Boolean isPlayerTurn;
-  private Boolean gameInSession;
   private ArrayList<Integer> movesArray;
 
   @Override
@@ -78,18 +77,23 @@ public class GameInteractor
               }
             );
 
+    presenter
+            .goHome()
+            .subscribe(
+                    new Consumer<Boolean>() {
+                      @Override
+                      public void accept(Boolean _) throws Exception {
+                        gameListener.goHome();
+                      }
+                    }
+            );
   }
 
   @Override
   protected void willResignActive() {
     super.willResignActive();
-
-    // TODO: Perform any required clean up here, or delete this method entirely if not needed.
   }
 
-  private Boolean isFirstMoveUser() {
-    return (this.firstPlayer > 1);
-  }
 
   private String getUrlWithMoves() {
     return COMPUTER_MOVE_URL_BASE.concat("?moves=").concat(movesArray.toString());
@@ -100,7 +104,7 @@ public class GameInteractor
   }
 
   private void initNewGame() {
-    this.isPlayerTurn = this.isFirstMoveUser();
+    this.isPlayerTurn = this.playerIsFirst;
     this.movesArray = new ArrayList<Integer>();
 
     if (this.isPlayerTurn) {
@@ -109,13 +113,12 @@ public class GameInteractor
       presenter.setWaitingForMove();
       this.getComputerMove();
     }
-
-    presenter.removeAllPieces();
   }
 
   private void resetBoard() {
     this.initNewGame();
     this.board = new Board();
+    presenter.removeAllPieces();
   }
 
   @Override
@@ -145,7 +148,6 @@ public class GameInteractor
         if (board.hasWon()) {
           presenter.setPlayerWon();
         } else if (board.isDraw()) {
-          Log.e("DRAW: ", "setting draw A");
           presenter.setDraw();
         } else {
           isPlayerTurn = false;
@@ -169,7 +171,6 @@ public class GameInteractor
         if (board.hasWon()) {
           presenter.setComputerWon();
         } else if (board.isDraw()) {
-          Log.e("DRAW: ", "setting draw B");
           presenter.setDraw();
         } else {
           isPlayerTurn = true;
@@ -201,6 +202,7 @@ public class GameInteractor
     void removeAllPieces();
     Observable<BoardCoordinate> pieceTouched();
     Observable newGame();
+    Observable goHome();
     void setPlayerWon();
     void setComputerWon();
     void setDraw();
@@ -208,13 +210,7 @@ public class GameInteractor
 
 
   public interface Listener {
-
-    /**
-     * Called when the game is over.
-     *
-     * @param winner player that won, or null if it's a tie.
-     */
-//    void gameWon(@Nullable String winner);
+    void goHome();
   }
 
 }

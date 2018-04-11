@@ -46,13 +46,10 @@ public class HomeInteractor
     super.didBecomeActive(savedInstanceState);
     presenter
         .playGame()
-        .subscribe(new Consumer<Integer>() {
+        .subscribe(new Consumer<Boolean>() {
           @Override
-          public void accept(Integer firstPlayer) throws Exception {
-            if (firstPlayer.intValue() != -1) {
+          public void accept(Boolean firstPlayer) throws Exception {
               listener.play(firstPlayer, playerChoseRed);
-            }
-
           }
         });
 
@@ -92,13 +89,13 @@ public class HomeInteractor
    * Presenter interface implemented by this RIB's view.
    */
   interface HomePresenter {
-    Observable<Integer> playGame();
+    Observable<Boolean> playGame();
     Observable<Boolean> choseRedColor();
     Observable<Boolean> choseBlueColor();
   }
 
   public interface Listener {
-    void play(Integer firstPlayer, Boolean playerIsRed);
+    void play(Boolean firstPlayer, Boolean playerIsRed);
   }
 
 }
