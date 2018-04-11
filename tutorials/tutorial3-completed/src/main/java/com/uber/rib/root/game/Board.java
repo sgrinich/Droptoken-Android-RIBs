@@ -97,7 +97,7 @@ public class Board {
     }
 
     // Check left diagonal win
-    if ((this.cells[0][3] != null) && (this.cells[1][2] == this.cells[0][3]) && (this.cells[2][1] == this.cells[0][3])  && (this.cells[3][0] == this.cells[3][3])) {
+    if ((this.cells[0][3] != null) && (this.cells[1][2] == this.cells[0][3]) && (this.cells[2][1] == this.cells[0][3])  && (this.cells[3][0] == this.cells[0][3])) {
         return true;
     }
 
