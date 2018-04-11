@@ -1,7 +1,7 @@
 package com.uber.rib.root.game;
 
-import com.uber.rib.core.RibTestBasePlaceholder;
 import com.uber.rib.core.InteractorHelper;
+import com.uber.rib.core.RibTestBasePlaceholder;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -10,6 +10,7 @@ import org.mockito.MockitoAnnotations;
 
 public class GameInteractorTest extends RibTestBasePlaceholder {
 
+  @Mock GameInteractor.Listener listener;
   @Mock GameInteractor.GamePresenter presenter;
   @Mock GameRouter router;
 
@@ -19,19 +20,17 @@ public class GameInteractorTest extends RibTestBasePlaceholder {
   public void setup() {
     MockitoAnnotations.initMocks(this);
 
-    interactor = TestGameInteractor.create(presenter);
+    interactor = TestGameInteractor.create(true, true, new Board(), listener, presenter);
   }
 
-  /**
-   * TODO: Delete this example and add real tests.
-   */
-  @Test
-  public void anExampleTest_withSomeConditions_shouldPass() {
+//  TODO: Test
+//  @Test
+//  public void anExampleTest_withSomeConditions_shouldPass() {
     // Use InteractorHelper to drive your interactor's lifecycle.
-    InteractorHelper.attach(interactor, presenter, router, null);
-    InteractorHelper.detach(interactor);
-
-    throw new RuntimeException("Remove this test and add real tests.");
-  }
+//    InteractorHelper.attach(interactor, presenter, router, null);
+//    InteractorHelper.detach(interactor);
+//
+//    throw new RuntimeException("Remove this test and add real tests.");
+//  }
 
 }

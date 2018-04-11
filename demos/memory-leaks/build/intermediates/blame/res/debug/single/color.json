@@ -4,12 +4,12 @@
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/demos/memory-leaks/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/demos/memory-leaks/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/demos/memory-leaks/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/demos/memory-leaks/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",

@@ -26,7 +26,7 @@ public class Board {
   Color[][] cells;
 
   @Inject
-  Board() {
+  public Board() {
     cells = new Color[ROWS][COLS];
     for (int row = 0; row < ROWS; ++row) {
       for (int col = 0; col < COLS; ++col) {

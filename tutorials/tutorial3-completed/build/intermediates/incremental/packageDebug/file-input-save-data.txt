@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 10 20:18:14 PDT 2018
+#Tue Apr 10 21:32:25 PDT 2018
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
@@ -30,7 +30,7 @@
 65.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_template_big_media_narrow.xml
 61.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 217.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_search_api_material.xml
-40.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_item_material.xml
+40.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_toolbar.xml
 186.set=ANDROID_RESOURCE
 115.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable/abc_textfield_search_material.xml
 49.set=ANDROID_RESOURCE
@@ -152,7 +152,7 @@
 67.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3cea9dba2655480ed7b49fc96d11403c335e37d1/classes.dex
 219.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_thumb_material.xml
 42.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
-117.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_tick_mark_material.xml
+117.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
 94.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_lines_media.xml
 148.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 69.set=ANDROID_RESOURCE
@@ -160,7 +160,7 @@
 200.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 123.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 221.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-v23/abc_control_background_material.xml
-144.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_popup_menu_header_item_layout.xml
+144.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_dark.xml
 175.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 120.set=ANDROID_RESOURCE
 2.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_light.xml
@@ -211,7 +211,7 @@
 12.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 68.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/abc_activity_chooser_view_list_item.xml
 43.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_menu_layout.xml
-118.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+118.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_tick_mark_material.xml
 95.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media_custom.xml
 149.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 79.set=ANDROID_RESOURCE
@@ -219,7 +219,7 @@
 70.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_radio.xml
 124.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 222.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_title_item.xml
-145.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_dark.xml
+145.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_popup_menu_header_item_layout.xml
 176.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 130.set=ANDROID_RESOURCE
 177.set=ANDROID_RESOURCE
@@ -261,7 +261,7 @@
 165.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 126.set=ANDROID_RESOURCE
 140.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
-196.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+196.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
 171.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
 38.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 133.set=ANDROID_RESOURCE
@@ -269,8 +269,8 @@
 13.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 69.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_color_highlight_material.xml
 44.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media_narrow.xml
-119.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_switch_thumb.xml
-96.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+119.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_dark.xml
+96.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_in_top.xml
 89.set=ANDROID_RESOURCE
 202.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 71.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_seek_thumb.xml
@@ -320,8 +320,8 @@
 166.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 136.set=ANDROID_RESOURCE
 141.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
-197.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
-120.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_dark.xml
+197.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+120.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_switch_thumb.xml
 172.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_icon_group.xml
 39.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 143.set=ANDROID_RESOURCE
@@ -330,8 +330,8 @@
 45.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
 99.set=ANDROID_RESOURCE
 104.set=ANDROID_RESOURCE
-97.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_in_top.xml
-20.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+97.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+20.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_close_item_material.xml
 203.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 72.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_switch_thumb.xml
 126.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
@@ -359,7 +359,7 @@
 211.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e364623db4de67e5ac7181c82ae1e3c127095383/classes.dex
 134.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_default.xml
 74.set=ANDROID_RESOURCE
-186.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+186.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
 161.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_media_cancel_action.xml
 192.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 172.set=ANDROID_RESOURCE
@@ -391,7 +391,7 @@
 46.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_exit.xml
 114.set=ANDROID_RESOURCE
 98.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_title_material.xml
-21.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_close_item_material.xml
+21.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
 204.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 73.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_default_mtrl_shape.xml
 127.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
@@ -414,7 +414,7 @@ count=225
 212.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_button_bar_material.xml
 135.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_dark.xml
 84.set=ANDROID_RESOURCE
-187.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+187.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
 110.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_normal.9.png
 162.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
 193.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
@@ -658,7 +658,7 @@ count=225
 183.set=ANDROID_RESOURCE
 46.set=ANDROID_RESOURCE
 18.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
-39.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_toolbar.xml
+39.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_item_material.xml
 14.file=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_/res/anim/abc_fade_out.xml
 45.base=/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_
 92.set=ANDROID_RESOURCE

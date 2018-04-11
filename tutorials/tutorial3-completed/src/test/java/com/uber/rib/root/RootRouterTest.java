@@ -1,5 +1,6 @@
 package com.uber.rib.root;
 
+import com.uber.rib.root.game.GameBuilder;
 import com.uber.rib.root.home.HomeBuilder;
 
 import org.junit.Before;
@@ -23,6 +24,6 @@ public class RootRouterTest {
         interactor,
         component,
         new HomeBuilder(component),
-        new LoggedInBuilder(component));
+        new GameBuilder(component));
   }
 }

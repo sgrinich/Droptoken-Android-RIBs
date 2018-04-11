@@ -60,7 +60,7 @@ public class GameInteractor
             .subscribe(
               new Consumer<Boolean>() {
                 @Override
-                public void accept(Boolean _) throws Exception {
+                public void accept(Boolean val) throws Exception {
                   resetBoard();
                 }
               }
@@ -71,7 +71,7 @@ public class GameInteractor
             .subscribe(
                     new Consumer<Boolean>() {
                       @Override
-                      public void accept(Boolean _) throws Exception {
+                      public void accept(Boolean val) throws Exception {
                         gameListener.goHome();
                       }
                     }
@@ -180,7 +180,7 @@ public class GameInteractor
   /**
    * Presenter interface implemented by this RIB's view.
    */
-  interface GamePresenter {
+  public interface GamePresenter {
     Observable<BoardCoordinate> pieceTouched();
     Observable newGame();
     Observable goHome();

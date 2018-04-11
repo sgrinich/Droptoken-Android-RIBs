@@ -751,8 +751,15 @@ int string abc_shareactionprovider_share_with_application 0x7f050011
 int string abc_toolbar_collapse_description 0x7f050012
 int string app_name 0x7f050021
 int string color_choice_label 0x7f050022
+int string computer_choice_label 0x7f050023
+int string home_label 0x7f050024
+int string new_game_label 0x7f050025
+int string play_button_label 0x7f050026
 int string search_menu_title 0x7f050013
 int string status_bar_notification_info_overflow 0x7f050014
+int string turn_choice_label 0x7f050027
+int string you_choice_label 0x7f050028
+int string your_turn_label 0x7f050029
 int style AlertDialog_AppCompat 0x7f07009f
 int style AlertDialog_AppCompat_Light 0x7f0700a0
 int style Animation_AppCompat_Dialog 0x7f0700a1

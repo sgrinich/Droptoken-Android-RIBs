@@ -12,12 +12,12 @@
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/libraries/rib-workflow/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-workflow/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/libraries/rib-workflow/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/libraries/rib-workflow/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
