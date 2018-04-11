@@ -347,8 +347,15 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Drop Token</string>
     <string name="color_choice_label">Choose your color</string>
+    <string name="computer_choice_label">Computer</string>
+    <string name="home_label">Home</string>
+    <string name="new_game_label">New Game</string>
+    <string name="play_button_label">Play</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="turn_choice_label">First turn</string>
+    <string name="you_choice_label">You</string>
+    <string name="your_turn_label">Your Turn</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rib-uava.rib-uava-0.9.1-SNAPSHOT-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/rib-uava/build/libs/rib-uava-0.9.1-SNAPSHOT-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

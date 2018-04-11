@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Drop Token</string>
+    <string name="color_choice_label">Choose your color</string>
+    <string name="turn_choice_label">First turn</string>
+    <string name="you_choice_label">You</string>
+    <string name="computer_choice_label">Computer</string>
+    <string name="play_button_label">Play</string>
+    <string name="home_label">Home</string>
+    <string name="new_game_label">New Game</string>
+    <string name="your_turn_label">Your Turn</string>
+
+</resources>
