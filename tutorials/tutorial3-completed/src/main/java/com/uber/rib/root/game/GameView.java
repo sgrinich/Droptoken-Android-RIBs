@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.percent.PercentRelativeLayout;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -110,27 +111,58 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
   }
 
   @Override
+  public Observable newGame() {
+    return RxView.clicks(findViewById(R.id.new_game))
+            .map(new Function<Object, Boolean>() {
+              @Override
+              public Boolean apply(Object o) throws Exception {
+                return true;
+              }
+            });
+  }
+
+  @Override
   public void addRedPiece(BoardCoordinate coordinate) {
     TextView textView = imageButtons[coordinate.getRow()][coordinate.getCol()];
     textView.setBackground(getResources().getDrawable(R.drawable.red_piece));
-    textView.setClickable(false);
   }
 
   @Override
   public void addBluePiece(BoardCoordinate coordinate) {
     TextView textView = imageButtons[coordinate.getRow()][coordinate.getCol()];
     textView.setBackground(getResources().getDrawable(R.drawable.blue_piece));
-    textView.setClickable(false);
   }
 
   @Override
   public void setPlayerWon() {
-
+    TextView textView = (TextView) findViewById(R.id.prompt);
+    textView.setText("You won!");
   }
 
   @Override
   public void setComputerWon() {
+    TextView textView = (TextView) findViewById(R.id.prompt);
+    textView.setText("You lost");
+    Log.d("", "you lost set");
+  }
 
+  @Override
+  public void setDraw() {
+    TextView textView = (TextView) findViewById(R.id.prompt);
+    textView.setText("Draw");
+  }
+
+  @Override
+  public void removeAllPieces() {
+    for (int row = 0; row < 4; row++) {
+      for (int col = 0; col < 4; col++) {
+        final int finalRow = row;
+        final int finalCol = col;
+
+        TextView textView = imageButtons[row][col];
+        textView.setBackground(getResources().getDrawable(R.drawable.empty_piece));
+      }
+    }
   }
 
   private void hideProgressBar() {
@@ -145,6 +177,7 @@ class GameView extends PercentRelativeLayout implements GameInteractor.GamePrese
 
   private void showPlayerPrompt() {
     TextView textView = (TextView) findViewById(R.id.prompt);
+    textView.setText("It's your turn");
     textView.setVisibility(View.VISIBLE);
   }
 

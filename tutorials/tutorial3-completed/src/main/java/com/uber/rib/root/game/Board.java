@@ -48,7 +48,7 @@ public class Board {
         }
       }
     }
-    return !hasWon(MarkerType.RED) && !hasWon(MarkerType.BLUE);
+    return !hasWon();
   }
 
   boolean canPlace(Integer column) {
@@ -75,9 +75,34 @@ public class Board {
   }
 
 
-  boolean hasWon(BoardCoordinate coordinate, MarkerType type) {
-    int leftValues = this.getLeftValues(coordinate, type);
+  boolean hasWon() {
+    // Check for horizontal wins
+    for (int row = 0; row < ROWS; row++) {
+        if ((this.cells[row][0] != null) && (this.cells[row][1] == this.cells[row][0]) && (this.cells[row][2] == this.cells[row][0]) && (this.cells[row][3] == this.cells[row][0])) {
+            return true;
+        }
+    }
+
+    // Check for vertical wins
+    for (int col = 0; col < COLS; col++) {
+        if ((this.cells[0][col] != null) && (this.cells[1][col] == this.cells[0][col]) && (this.cells[2][col] == this.cells[0][col]) && (this.cells[3][col] == this.cells[0][col])) {
+            return true;
+        }
+    }
+
+    // Check right diagonal win
+    if ((this.cells[0][0] != null) && (this.cells[1][1] == this.cells[0][0]) && (this.cells[2][2] == this.cells[0][0]) && (this.cells[3][3] == this.cells[0][0])) {
+        return true;
+    }
+
+    // Check left diagonal win
+    if ((this.cells[0][3] != null) && (this.cells[1][2] == this.cells[0][3]) && (this.cells[2][1] == this.cells[0][3])  && (this.cells[3][0] == this.cells[3][3])) {
+        return true;
+    }
+
+    return false;
   }
+
 
 
 
