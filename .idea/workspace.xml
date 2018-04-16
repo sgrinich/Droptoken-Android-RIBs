@@ -11,43 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="164ab19b-d0f2-421d-a70b-3c8886becb5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/jvmClassSignatures.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/blame/res/release/single/color.json" afterPath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/blame/res/release/single/color.json" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/blame/res/release/single/drawable.json" afterPath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/blame/res/release/single/drawable.json" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/libraries/rib-android/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-base/rib-base.iml" afterPath="$PROJECT_DIR$/libraries/rib-base/rib-base.iml" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-compiler-app/rib-compiler-app.iml" afterPath="$PROJECT_DIR$/libraries/rib-compiler-app/rib-compiler-app.iml" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-compiler-test/rib-compiler-test.iml" afterPath="$PROJECT_DIR$/libraries/rib-compiler-test/rib-compiler-test.iml" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-debug-utils/rib-debug-utils.iml" afterPath="$PROJECT_DIR$/libraries/rib-debug-utils/rib-debug-utils.iml" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-router-navigator/rib-router-navigator.iml" afterPath="$PROJECT_DIR$/libraries/rib-router-navigator/rib-router-navigator.iml" />
-      <change beforePath="$PROJECT_DIR$/libraries/rib-uava/rib-uava.iml" afterPath="$PROJECT_DIR$/libraries/rib-uava/rib-uava.iml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/ComputerMoveTask.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/game/ComputerMoveTask.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/test/debug/com/uber/rib/root/home/HomeInteractorTest.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/test/debug/com/uber/rib/root/home/HomeInteractorTest.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/res/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/classes/com.uber.rib.root.home.HomeInteractorTest.html" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/classes/com.uber.rib.root.home.HomeInteractorTest.html" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/index.html" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/index.html" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/packages/com.uber.rib.root.home.html" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/packages/com.uber.rib.root.home.html" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/test-results/testDebugUnitTest/TEST-com.uber.rib.root.home.HomeInteractorTest.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/test-results/testDebugUnitTest/TEST-com.uber.rib.root.home.HomeInteractorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/test-results/testDebugUnitTest/binary/results.bin" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/test-results/testDebugUnitTest/binary/results.bin" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/values/ub__strings.xml" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/home/HomeInteractorTest.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/home/HomeInteractorTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,8 +47,8 @@
       <file leaf-file-name="HomeInteractorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/home/HomeInteractorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="46" column="57" lean-forward="false" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+            <state relative-caret-position="181">
+              <caret line="45" column="56" lean-forward="false" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -12864,8 +12827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/home/HomeInteractorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="46" column="57" lean-forward="false" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        <state relative-caret-position="181">
+          <caret line="45" column="56" lean-forward="false" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -42,17 +42,17 @@ public class HomeInteractorTest extends RibTestBasePlaceholder {
     interactor = TestHomeInteractor.create(listener, presenter);
   }
 
-// TODO: Test
   @Test
-  public void attach_whenPlayerChoseRed_shouldSetChoseRed() {
-//    presenter.choseRedColor();
+  public void attach_whenPlayerChoseRed_shouldReturnTrue() {
     when(presenter.choseRedColor()).thenReturn(Observable.just(Boolean.TRUE));
-
-//    InteractorHelper.attach(interactor, presenter, router, null);
-//    verify(listener).play(false, true);
-//  }
-
   }
+
+  @Test
+  public void attach_whenPlayerChoseBlue_shouldReturnTrue() {
+    when(presenter.choseBlueColor()).thenReturn(Observable.just(Boolean.TRUE));
+  }
+
+
 
 
 //  @Test
