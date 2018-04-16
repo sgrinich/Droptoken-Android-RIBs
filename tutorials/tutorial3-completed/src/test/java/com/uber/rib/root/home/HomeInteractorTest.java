@@ -3,6 +3,7 @@ package com.uber.rib.root.home;
 import com.uber.rib.core.InteractorHelper;
 import com.uber.rib.core.RibTestBasePlaceholder;
 import android.support.v4.util.Pair;
+import android.util.Log;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.never;
@@ -42,6 +43,18 @@ public class HomeInteractorTest extends RibTestBasePlaceholder {
   }
 
 // TODO: Test
+  @Test
+  public void attach_whenPlayerChoseRed_shouldSetChoseRed() {
+//    presenter.choseRedColor();
+    when(presenter.choseRedColor()).thenReturn(Observable.just(Boolean.TRUE));
+
+//    InteractorHelper.attach(interactor, presenter, router, null);
+//    verify(listener).play(false, true);
+//  }
+
+  }
+
+
 //  @Test
 //  public void attach_whenViewEmitsName_shouldCallListener() {
 //    when(presenter.playGame()).thenReturn(Observable.just(true));

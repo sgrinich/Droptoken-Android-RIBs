@@ -76,15 +76,5 @@
     <orderEntry type="library" exported="" scope="TEST" name="error_prone_annotations-2.0.12" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="guava-21.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="reactive-streams-1.0.1" level="project" />
-    <orderEntry type="library" exported="" name="rib-compiler-app.rib-compiler-app-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-compiler-app.rib-compiler-app-0.9.1-SNAPSHOT-sources" level="project" />
-    <orderEntry type="library" exported="" name="rib-compiler-app.rib-compiler-app-0.9.1-SNAPSHOT-javadoc" level="project" />
-    <orderEntry type="library" exported="" name="rib-compiler-app.rib-compiler-app-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-compiler-app.rib-compiler-app-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-compiler-app.rib-compiler-app-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-compiler-app.rib-compiler-app-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-compiler-app.rib-compiler-app-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-compiler-app.rib-compiler-app-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-compiler-app.rib-compiler-app-0.9.1-SNAPSHOT" level="project" />
   </component>
 </module>
