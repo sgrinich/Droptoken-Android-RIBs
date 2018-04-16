@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.uber.rib.root.home.HomeInteractorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-16T22:53:27" hostname="Stephens-MacBook-Pro.local" time="0.398">
+<testsuite name="com.uber.rib.root.home.HomeInteractorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-04-16T22:55:09" hostname="Stephens-MacBook-Pro.local" time="0.452">
   <properties/>
-  <testcase name="attach_whenPlayerChoseRed_shouldSetChoseRed" classname="com.uber.rib.root.home.HomeInteractorTest" time="0.398"/>
+  <testcase name="attach_whenPlayerChoseRed_shouldReturnTrue" classname="com.uber.rib.root.home.HomeInteractorTest" time="0.449"/>
+  <testcase name="attach_whenPlayerChoseBlue_shouldReturnTrue" classname="com.uber.rib.root.home.HomeInteractorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

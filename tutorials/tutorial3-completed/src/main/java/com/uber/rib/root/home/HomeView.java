@@ -53,35 +53,45 @@ public class HomeView extends LinearLayout implements HomeInteractor.HomePresent
         .map(new Function<Object, Boolean>() {
           @Override
           public Boolean apply(Object o) throws Exception {
-              RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radio_group);
-              RadioButton radioButton = (RadioButton) findViewById(radioGroup.getCheckedRadioButtonId());
-
-              return radioButton.getText().equals("You");
-
+              return true;
           }
         });
   }
 
-    @Override
-    public Observable<Boolean> choseRedColor() {
-        return RxView.clicks(findViewById(R.id.red_button))
-            .map(new Function<Object, Boolean>() {
-                @Override
-                public Boolean apply(Object o) throws Exception {
-                    return true;
+@Override
+public Observable<Boolean> choseRedColor() {
+    return RxView.clicks(findViewById(R.id.red_button))
+        .map(new Function<Object, Boolean>() {
+            @Override
+            public Boolean apply(Object o) throws Exception {
+                return true;
+        }
+    });
+}
+
+@Override
+public Observable<Boolean> choseBlueColor() {
+    return RxView.clicks(findViewById(R.id.blue_button))
+        .map(new Function<Object, Boolean>() {
+            @Override
+            public Boolean apply(Object o) throws Exception {
+                return true;
             }
         });
-    }
+}
 
-    @Override
-    public Observable<Boolean> choseBlueColor() {
-        return RxView.clicks(findViewById(R.id.blue_button))
-            .map(new Function<Object, Boolean>() {
-                @Override
-                public Boolean apply(Object o) throws Exception {
-                    return true;
-                }
-            });
+@Override
+public Observable<Boolean> chosePlayerFirst() {
+    RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radio_group);
+    final RadioButton radioButton = (RadioButton) findViewById(radioGroup.getCheckedRadioButtonId());
+
+    return RxView.clicks(radioGroup)
+        .map(new Function<Object, Boolean>() {
+            @Override
+            public Boolean apply(Object o) throws Exception {
+                return radioButton.getText().equals("You");
+            }
+        });
     }
 
 }

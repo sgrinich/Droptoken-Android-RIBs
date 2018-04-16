@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-android/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-android/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
         "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/libraries/rib-android/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/stephengrinich/.android/build-cache/fd32a90f1193487b64fdf49ae5162490fe28d8d7/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/stephengrinich/Documents/98point6/RIBs/android/libraries/rib-android/build/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml",

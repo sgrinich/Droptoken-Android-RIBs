@@ -7,7 +7,7 @@
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="cfc78aebcb66385797ee328ac012dbee4644e783">
+        sha1="4c32e22cdbff60ec8e1959ae27702174f0df64ab">
         <dex dex="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/demos/memory-leaks/build/intermediates/pre-dexed/debug/rib-uava-0.9.1-SNAPSHOT_7fb3a8072081d4918cdabeb0b96bdfd618402a24.jar" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="5b7127f0cb2d82db7b4884fb71a7744ab99d5ce4">
+        sha1="775635cee0e646e0f39848509a63d0d8820a571a">
         <dex dex="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/demos/memory-leaks/build/intermediates/pre-dexed/debug/rib-base-0.9.1-SNAPSHOT_7120ec1e66b20df6b455f606bcb0d36bb55febc0.jar" />
     </item>
     <item
