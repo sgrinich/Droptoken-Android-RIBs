@@ -57,10 +57,10 @@ public final class DaggerHomeBuilder_Component implements HomeBuilder.Component 
 
   private HomeInteractor injectHomeInteractor(HomeInteractor instance) {
     Interactor_MembersInjector.injectPresenter(instance, presenterProvider.get());
-    HomeInteractor_MembersInjector.injectListener(
+    HomeInteractor_MembersInjector.injectHomeListener(
         instance,
         Preconditions.checkNotNull(
-            parentComponent.listener(),
+            parentComponent.homeListener(),
             "Cannot return null from a non-@Nullable component method"));
     HomeInteractor_MembersInjector.injectPresenter(instance, presenterProvider.get());
     return instance;

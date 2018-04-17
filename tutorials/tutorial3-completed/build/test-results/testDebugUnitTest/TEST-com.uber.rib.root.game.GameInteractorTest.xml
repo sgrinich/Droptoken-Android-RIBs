@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.uber.rib.root.game.GameInteractorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-11T05:35:30" hostname="Stephens-MacBook-Pro.local" time="0.177">
+<testsuite name="com.uber.rib.root.game.GameInteractorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-04-17T19:00:42" hostname="Stephens-MacBook-Pro.local" time="0.191">
   <properties/>
-  <testcase name="anExampleTest_withSomeConditions_shouldPass" classname="com.uber.rib.root.game.GameInteractorTest" time="0.177"/>
+  <testcase name="attach_whenViewGoHome_shouldCallListener" classname="com.uber.rib.root.game.GameInteractorTest" time="0.188"/>
+  <testcase name="attach_whenNewGame_shouldCallPresenter" classname="com.uber.rib.root.game.GameInteractorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

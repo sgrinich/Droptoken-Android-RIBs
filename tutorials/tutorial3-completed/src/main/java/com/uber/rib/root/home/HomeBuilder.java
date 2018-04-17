@@ -34,7 +34,7 @@ import javax.inject.Scope;
  * Builder for the {@link HomeScope}.
  */
 public class HomeBuilder
-    extends ViewBuilder<HomeView, HomeRouter, HomeBuilder.ParentComponent> {
+        extends ViewBuilder<HomeView, HomeRouter, HomeBuilder.ParentComponent> {
 
   public HomeBuilder(ParentComponent dependency) {
     super(dependency);
@@ -50,10 +50,10 @@ public class HomeBuilder
     HomeView view = createView(parentViewGroup);
     HomeInteractor interactor = new HomeInteractor();
     Component component = DaggerHomeBuilder_Component.builder()
-        .parentComponent(getDependency())
-        .view(view)
-        .interactor(interactor)
-        .build();
+            .parentComponent(getDependency())
+            .view(view)
+            .interactor(interactor)
+            .build();
     return component.homeRouter();
   }
 
@@ -63,8 +63,7 @@ public class HomeBuilder
   }
 
   public interface ParentComponent {
-
-    HomeInteractor.Listener listener();
+    HomeInteractor.HomeListener homeListener();
   }
 
   @dagger.Module
@@ -88,7 +87,7 @@ public class HomeBuilder
 
   @HomeScope
   @dagger.Component(modules = Module.class,
-      dependencies = ParentComponent.class)
+          dependencies = ParentComponent.class)
   interface Component extends InteractorBaseComponent<HomeInteractor>, BuilderComponent {
 
     @dagger.Component.Builder

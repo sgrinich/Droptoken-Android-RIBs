@@ -33,42 +33,65 @@ import javax.inject.Inject;
  */
 @RibInteractor
 public class HomeInteractor
-    extends Interactor<HomeInteractor.HomePresenter, HomeRouter> {
+        extends Interactor<HomeInteractor.HomePresenter, HomeRouter> {
 
-  private Boolean playerChoseRed = true;
 
-  @Inject Listener listener;
+  public Boolean playerChoseFirst = true;
+  public Boolean playerChoseRed = true;
+
+
+  @Inject HomeListener homeListener;
   @Inject HomePresenter presenter;
 
   @Override
   protected void didBecomeActive(@Nullable Bundle savedInstanceState) {
     super.didBecomeActive(savedInstanceState);
     presenter
-        .playGame()
-        .subscribe(new Consumer<Boolean>() {
-          @Override
-          public void accept(Boolean firstPlayer) throws Exception {
-              listener.play(firstPlayer, playerChoseRed);
-          }
-        });
+            .playGame()
+            .subscribe(new Consumer<Boolean>() {
+              @Override
+              public void accept(Boolean val) throws Exception {
+                  homeListener.play(playerChoseFirst, playerChoseRed);
+              }
+            });
 
     presenter
-        .choseRedColor()
-        .subscribe(new Consumer<Boolean>() {
-          @Override
-          public void accept(Boolean choseRed) throws Exception {
-            playerChoseRed = true;
-          }
-        });
+            .choseRedColor()
+            .subscribe(new Consumer<Boolean>() {
+              @Override
+              public void accept(Boolean choseRed) throws Exception {
+                playerChoseRed = true;
+              }
+            });
 
-      presenter
-          .choseBlueColor()
-          .subscribe(new Consumer<Boolean>() {
+    presenter
+            .choseBlueColor()
+            .subscribe(new Consumer<Boolean>() {
               @Override
               public void accept(Boolean choseBlue) throws Exception {
-                  playerChoseRed = false;
+                playerChoseRed = false;
               }
-          });
+            });
+
+    presenter
+            .chosePlayerFirst()
+            .subscribe(new Consumer<Boolean>() {
+              @Override
+              public void accept(Boolean val) throws Exception {
+                playerChoseFirst = true;
+              }
+            });
+
+    presenter
+            .choseComputerFirst()
+            .subscribe(new Consumer<Boolean>() {
+              @Override
+              public void accept(Boolean val) throws Exception {
+                playerChoseFirst = false;
+              }
+            });
+
+
 
   }
 
@@ -83,9 +106,11 @@ public class HomeInteractor
     Observable<Boolean> playGame();
     Observable<Boolean> choseRedColor();
     Observable<Boolean> choseBlueColor();
+    Observable<Boolean> chosePlayerFirst();
+    Observable<Boolean> choseComputerFirst();
   }
-
-  public interface Listener {
+//
+  public interface HomeListener {
     void play(Boolean firstPlayer, Boolean playerIsRed);
   }
 

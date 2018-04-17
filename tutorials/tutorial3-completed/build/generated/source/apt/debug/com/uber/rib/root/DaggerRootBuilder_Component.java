@@ -20,7 +20,7 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
 
   private Provider<RootInteractor> interactorProvider;
 
-  private Provider<HomeInteractor.Listener> homeListenerProvider;
+  private Provider<HomeInteractor.HomeListener> homeListenerProvider;
 
   private Provider<GameInteractor.Listener> gameListenerProvider;
 
@@ -58,7 +58,7 @@ public final class DaggerRootBuilder_Component implements RootBuilder.Component 
   }
 
   @Override
-  public HomeInteractor.Listener listener() {
+  public HomeInteractor.HomeListener homeListener() {
     return homeListenerProvider.get();
   }
 

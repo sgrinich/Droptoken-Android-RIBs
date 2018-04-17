@@ -6,6 +6,7 @@ import android.support.v4.util.Pair;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -26,6 +27,7 @@ import android.widget.RadioGroup;
  */
 
 import com.jakewharton.rxbinding2.view.RxView;
+import com.uber.rib.core.Initializer;
 import com.uber.rib.tutorial1.R;
 import io.reactivex.Observable;
 import io.reactivex.functions.Function;
@@ -35,7 +37,10 @@ import io.reactivex.functions.Function;
  */
 public class HomeView extends LinearLayout implements HomeInteractor.HomePresenter {
 
-  public HomeView(Context context) {
+    private Button playButton;
+
+
+    public HomeView(Context context) {
     this(context, null);
   }
 
@@ -47,41 +52,72 @@ public class HomeView extends LinearLayout implements HomeInteractor.HomePresent
     super(context, attrs, defStyle);
   }
 
+
+
+    @Initializer
+    @Override
+    protected void onFinishInflate() {
+        super.onFinishInflate();
+        playButton = (Button) findViewById(R.id.play_button);
+    }
+
   @Override
   public Observable<Boolean> playGame() {
     return RxView.clicks(findViewById(R.id.play_button))
-        .map(new Function<Object, Boolean>() {
-          @Override
-          public Boolean apply(Object o) throws Exception {
-              RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radio_group);
-              RadioButton radioButton = (RadioButton) findViewById(radioGroup.getCheckedRadioButtonId());
-
-              return radioButton.getText().equals("You");
-
-          }
-        });
+            .map(new Function<Object, Boolean>() {
+              @Override
+              public Boolean apply(Object o) throws Exception {
+                return true;
+              }
+            });
   }
 
-    @Override
-    public Observable<Boolean> choseRedColor() {
-        return RxView.clicks(findViewById(R.id.red_button))
+  @Override
+  public Observable<Boolean> choseRedColor() {
+    return RxView.clicks(findViewById(R.id.red_button))
             .map(new Function<Object, Boolean>() {
-                @Override
-                public Boolean apply(Object o) throws Exception {
-                    return true;
-            }
-        });
-    }
-
-    @Override
-    public Observable<Boolean> choseBlueColor() {
-        return RxView.clicks(findViewById(R.id.blue_button))
-            .map(new Function<Object, Boolean>() {
-                @Override
-                public Boolean apply(Object o) throws Exception {
-                    return true;
-                }
+              @Override
+              public Boolean apply(Object o) throws Exception {
+                return true;
+              }
             });
-    }
+  }
 
+  @Override
+  public Observable<Boolean> choseBlueColor() {
+    return RxView.clicks(findViewById(R.id.blue_button))
+            .map(new Function<Object, Boolean>() {
+              @Override
+              public Boolean apply(Object o) throws Exception {
+                return true;
+              }
+            });
+  }
+
+  @Override
+  public Observable<Boolean> chosePlayerFirst() {
+    final RadioButton radioButton = (RadioButton) findViewById(R.id.you_radio_button);
+
+    return RxView.clicks(radioButton)
+            .map(new Function<Object, Boolean>() {
+              @Override
+              public Boolean apply(Object o) throws Exception {
+                return true;
+              }
+            });
+  }
+
+  @Override
+  public Observable<Boolean> choseComputerFirst() {
+    final RadioButton radioButton = (RadioButton) findViewById(R.id.computer_radio_button);
+
+    return RxView.clicks(radioButton)
+            .map(new Function<Object, Boolean>() {
+              @Override
+              public Boolean apply(Object o) throws Exception {
+                return true;
+              }
+            });
+
+  }
 }

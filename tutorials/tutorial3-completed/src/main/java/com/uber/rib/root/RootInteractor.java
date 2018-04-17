@@ -39,8 +39,7 @@ public class RootInteractor extends Interactor<RootInteractor.RootPresenter, Roo
 
   }
 
-  class HomeListener implements HomeInteractor.Listener {
-
+  class HomeListener implements HomeInteractor.HomeListener {
 
     @Override
     public void play(Boolean firstPlayer, Boolean playerIsRed) {

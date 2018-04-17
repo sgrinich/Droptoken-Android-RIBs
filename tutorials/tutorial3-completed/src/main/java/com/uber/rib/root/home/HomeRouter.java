@@ -22,7 +22,7 @@ import com.uber.rib.core.ViewRouter;
  * Adds and removes children of {@link HomeBuilder.HomeScope}.
  */
 public class HomeRouter extends
-    ViewRouter<HomeView, HomeInteractor, HomeBuilder.Component> {
+        ViewRouter<HomeView, HomeInteractor, HomeBuilder.Component> {
 
   public HomeRouter(
           HomeView view,

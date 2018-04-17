@@ -79,13 +79,5 @@
     <orderEntry type="library" exported="" scope="TEST" name="httpcore-4.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="commons-codec-1.3" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="reactive-streams-1.0.1" level="project" />
-    <orderEntry type="library" exported="" name="rib-base.rib-base-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-base.rib-base-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-base.rib-base-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-base.rib-base-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-base.rib-base-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-base.rib-base-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-base.rib-base-0.9.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="rib-base.rib-base-0.9.1-SNAPSHOT" level="project" />
   </component>
 </module>
