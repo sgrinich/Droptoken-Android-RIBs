@@ -36,8 +36,8 @@ public class HomeInteractor
     extends Interactor<HomeInteractor.HomePresenter, HomeRouter> {
 
 
-  private Boolean playerChoseFirst = true;
-  private Boolean playerChoseRed = true;
+  public Boolean playerChoseFirst = true;
+  public Boolean playerChoseRed = true;
 
 
   @Inject Listener listener;
@@ -79,6 +79,7 @@ public class HomeInteractor
                 @Override
                 public void accept(Boolean val) throws Exception {
                     playerChoseFirst = true;
+                    listener.testFunc();
                 }
             });
 
@@ -112,6 +113,7 @@ public class HomeInteractor
 
   public interface Listener {
     void play(Boolean firstPlayer, Boolean playerIsRed);
+    void testFunc();
   }
 
 }
