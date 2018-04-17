@@ -38,15 +38,6 @@
         <dex dex="/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial2/build/intermediates/pre-dexed/debug/classes_6d9f0a5840fd0973204b6c72d007bf4de36d5dc8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9ffbb37a0c367c2350b41235255471ca8eded9c2">
-        <dex dex="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e364623db4de67e5ac7181c82ae1e3c127095383/classes.dex" />
-    </item>
-    <item
         is-multidex="false"
         jar="/Users/stephengrinich/Documents/98point6/RIBs/android/libraries/rib-uava/build/libs/rib-uava-0.9.1-SNAPSHOT.jar"
         jumboMode="false"
@@ -63,15 +54,6 @@
         revision="25.0.2"
         sha1="dbea3ad1bd726603d48f1ff41d3cf9011f5a6216">
         <dex dex="/Users/stephengrinich/Documents/98point6/RIBs/android/tutorials/tutorial2/build/intermediates/pre-dexed/debug/rib-base-0.9.1-SNAPSHOT_ecfa7306dd67d1056c5013034ac0470e5890caea.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/stephengrinich/Documents/98point6/RIBs Modifying/android/tutorials/tutorial3-completed/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3cea9dba2655480ed7b49fc96d11403c335e37d1/classes.dex" />
     </item>
 
 </items>

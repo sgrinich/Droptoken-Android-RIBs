@@ -12,34 +12,34 @@ import javax.inject.Provider;
 public final class HomeInteractor_MembersInjector implements MembersInjector<HomeInteractor> {
   private final Provider<HomeInteractor.HomePresenter> presenterProvider;
 
-  private final Provider<HomeInteractor.Listener> listenerProvider;
+  private final Provider<HomeInteractor.HomeListener> homeListenerProvider;
 
   public HomeInteractor_MembersInjector(
       Provider<HomeInteractor.HomePresenter> presenterProvider,
-      Provider<HomeInteractor.Listener> listenerProvider) {
+      Provider<HomeInteractor.HomeListener> homeListenerProvider) {
     this.presenterProvider = presenterProvider;
-    this.listenerProvider = listenerProvider;
+    this.homeListenerProvider = homeListenerProvider;
   }
 
   public static MembersInjector<HomeInteractor> create(
       Provider<HomeInteractor.HomePresenter> presenterProvider,
-      Provider<HomeInteractor.Listener> listenerProvider) {
-    return new HomeInteractor_MembersInjector(presenterProvider, listenerProvider);
+      Provider<HomeInteractor.HomeListener> homeListenerProvider) {
+    return new HomeInteractor_MembersInjector(presenterProvider, homeListenerProvider);
   }
 
   @Override
   public void injectMembers(HomeInteractor instance) {
     Interactor_MembersInjector.injectPresenter(instance, presenterProvider.get());
-    injectListener(instance, listenerProvider.get());
+    injectHomeListener(instance, homeListenerProvider.get());
     injectPresenter(instance, presenterProvider.get());
   }
 
-  public static void injectListener(HomeInteractor instance, HomeInteractor.Listener listener) {
-    instance.listener = listener;
+  public static void injectHomeListener(
+      HomeInteractor instance, HomeInteractor.HomeListener homeListener) {
+    instance.homeListener = homeListener;
   }
 
-  public static void injectPresenter(
-      HomeInteractor instance, HomeInteractor.HomePresenter presenter) {
-    instance.presenter = presenter;
+  public static void injectPresenter(HomeInteractor instance, Object presenter) {
+    instance.presenter = (HomeInteractor.HomePresenter) presenter;
   }
 }

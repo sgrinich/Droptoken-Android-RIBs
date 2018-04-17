@@ -4,10 +4,10 @@ public class TestHomeInteractor {
   private TestHomeInteractor() {
   }
 
-  public static HomeInteractor create(final HomeInteractor.Listener listener,
+  public static HomeInteractor create(final HomeInteractor.HomeListener homeListener,
       final HomeInteractor.HomePresenter presenter) {
     HomeInteractor interactor = new HomeInteractor();
-    interactor.listener = listener;
+    interactor.homeListener = homeListener;
     interactor.presenter = presenter;
     return interactor;
   }

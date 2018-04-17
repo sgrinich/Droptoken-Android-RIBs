@@ -73,7 +73,7 @@ public class RootBuilder extends ViewBuilder<RootView, RootRouter, RootBuilder.P
 
     @RootScope
     @Provides
-    static HomeInteractor.Listener homeListener(RootInteractor rootInteractor) {
+    static HomeInteractor.HomeListener homeListener(RootInteractor rootInteractor) {
       return rootInteractor.new HomeListener();
     }
 

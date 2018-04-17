@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.uber.rib.root.home.HomeInteractorTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2018-04-17T01:43:59" hostname="Stephens-MacBook-Pro.local" time="0.445">
+<testsuite name="com.uber.rib.root.home.HomeInteractorTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-04-17T17:45:38" hostname="Stephens-MacBook-Pro.local" time="0.125">
   <properties/>
-  <testcase name="attach_whenComputerChoseFirst_shouldReturnTrue" classname="com.uber.rib.root.home.HomeInteractorTest" time="0.432"/>
-  <testcase name="attach_whenPlayerChoseFirst_shouldReturnTrue" classname="com.uber.rib.root.home.HomeInteractorTest" time="0.001"/>
-  <testcase name="attach_whenPlayerChoseRed_shouldReturnTrue" classname="com.uber.rib.root.home.HomeInteractorTest" time="0.001"/>
-  <testcase name="attach_whenViewEmitssValues_shouldCallListener" classname="com.uber.rib.root.home.HomeInteractorTest" time="0.01">
+  <testcase name="attach_whenViewPlayGame_shouldCallListener" classname="com.uber.rib.root.home.HomeInteractorTest" time="0.125">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.uber.rib.root.home.HomeInteractor.didBecomeActive(HomeInteractor.java:60)
+	at com.uber.rib.root.home.HomeInteractor.didBecomeActive(HomeInteractor.java:78)
 	at com.uber.rib.core.Interactor.dispatchAttach(Interactor.java:122)
 	at com.uber.rib.core.InteractorHelper.attach(InteractorHelper.java:45)
-	at com.uber.rib.root.home.HomeInteractorTest.attach_whenViewEmitssValues_shouldCallListener(HomeInteractorTest.java:55)
+	at com.uber.rib.root.home.HomeInteractorTest.attach_whenViewPlayGame_shouldCallListener(HomeInteractorTest.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,7 +55,6 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="attach_whenPlayerChoseBlue_shouldReturnTrue" classname="com.uber.rib.root.home.HomeInteractorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
