@@ -82,16 +82,28 @@ public Observable<Boolean> choseBlueColor() {
 
 @Override
 public Observable<Boolean> chosePlayerFirst() {
-    RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radio_group);
-    final RadioButton radioButton = (RadioButton) findViewById(radioGroup.getCheckedRadioButtonId());
+    final RadioButton radioButton = (RadioButton) findViewById(R.id.you_radio_button);
 
-    return RxView.clicks(radioGroup)
+    return RxView.clicks(radioButton)
         .map(new Function<Object, Boolean>() {
             @Override
             public Boolean apply(Object o) throws Exception {
-                return radioButton.getText().equals("You");
+                return true;
             }
         });
     }
 
+@Override
+public Observable<Boolean> choseComputerFirst() {
+    final RadioButton radioButton = (RadioButton) findViewById(R.id.computer_radio_button);
+
+    return RxView.clicks(radioButton)
+        .map(new Function<Object, Boolean>() {
+            @Override
+            public Boolean apply(Object o) throws Exception {
+                return true;
+            }
+        });
+
+  }
 }

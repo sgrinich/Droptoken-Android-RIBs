@@ -35,8 +35,10 @@ import javax.inject.Inject;
 public class HomeInteractor
     extends Interactor<HomeInteractor.HomePresenter, HomeRouter> {
 
-  private Boolean playerChoseRed = true;
+
   private Boolean playerChoseFirst = true;
+  private Boolean playerChoseRed = true;
+
 
   @Inject Listener listener;
   @Inject HomePresenter presenter;
@@ -75,10 +77,21 @@ public class HomeInteractor
         .chosePlayerFirst()
         .subscribe(new Consumer<Boolean>() {
                 @Override
-                public void accept(Boolean choseFirst) throws Exception {
-                    playerChoseFirst = choseFirst;
+                public void accept(Boolean val) throws Exception {
+                    playerChoseFirst = true;
                 }
             });
+
+      presenter
+          .choseComputerFirst()
+          .subscribe(new Consumer<Boolean>() {
+              @Override
+              public void accept(Boolean val) throws Exception {
+                  playerChoseFirst = false;
+              }
+          });
+
+
 
   }
 
@@ -94,6 +107,7 @@ public class HomeInteractor
     Observable<Boolean> choseRedColor();
     Observable<Boolean> choseBlueColor();
     Observable<Boolean> chosePlayerFirst();
+    Observable<Boolean> choseComputerFirst();
   }
 
   public interface Listener {
