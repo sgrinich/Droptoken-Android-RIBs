@@ -102,7 +102,7 @@ public class HomeInteractor
   /**
    * Presenter interface implemented by this RIB's view.
    */
-  interface HomePresenter {
+  public interface HomePresenter {
     Observable<Boolean> playGame();
     Observable<Boolean> choseRedColor();
     Observable<Boolean> choseBlueColor();
