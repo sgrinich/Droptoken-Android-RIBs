@@ -3,9 +3,6 @@ package com.uber.rib.root.game;
 
 import com.uber.rib.core.InteractorHelper;
 import com.uber.rib.core.RibTestBasePlaceholder;
-import com.uber.rib.root.home.HomeInteractor;
-import com.uber.rib.root.home.HomeRouter;
-import com.uber.rib.root.home.TestHomeInteractor;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -14,11 +11,13 @@ import org.mockito.MockitoAnnotations;
 
 import io.reactivex.Observable;
 
+import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 public class GameInteractorTest extends RibTestBasePlaceholder {
 
+    @Mock Board board;
     @Mock GameInteractor.Listener gameListener;
     @Mock GameInteractor.GamePresenter presenter;
     @Mock GameRouter router;
@@ -29,20 +28,31 @@ public class GameInteractorTest extends RibTestBasePlaceholder {
   public void setup() {
     MockitoAnnotations.initMocks(this);
 
-    interactor = TestGameInteractor.create(true, true, gameListener, presenter);
+    interactor = TestGameInteractor.create(true, true, board, gameListener, presenter);
   }
 
   @Test
-  public void attach_whenViewPlayGame_shouldCallListener() {
-//      when(presenter.playGame()).thenReturn(Observable.just(true));
-//      when(presenter.choseRedColor()).thenReturn(Observable.just(true));
-//      when(presenter.choseBlueColor()).thenReturn(Observable.just(true));
-//      when(presenter.chosePlayerFirst()).thenReturn(Observable.just(true));
-//      when(presenter.choseComputerFirst()).thenReturn(Observable.just(true));
+  public void attach_whenViewGoHome_shouldCallListener() {
+      when(presenter.pieceTouched()).thenReturn(Observable.just(new BoardCoordinate(0, 0)));
+      when(presenter.newGame()).thenReturn(Observable.just(true));
+      when(presenter.goHome()).thenReturn(Observable.just(true));
 
-//      InteractorHelper.attach(interactor, presenter, router, null);
+      InteractorHelper.attach(interactor, presenter, router, null);
 
-//      verify(gameListener).play(true, true);
+      verify(gameListener).goHome();
+
   }
 
+
+    @Test
+    public void attach_whenNewGame_shouldCallPresenter() {
+        when(presenter.goHome()).thenReturn(Observable.just(true));
+        when(presenter.pieceTouched()).thenReturn(Observable.just(new BoardCoordinate(0, 0)));
+        when(presenter.newGame()).thenReturn(Observable.just(true));
+
+        InteractorHelper.attach(interactor, presenter, router, null);
+
+        verify(presenter).removeAllPieces();
+    }
+    
 }
