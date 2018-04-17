@@ -43,7 +43,6 @@ public class GameInteractorTest extends RibTestBasePlaceholder {
 
   }
 
-
     @Test
     public void attach_whenNewGame_shouldCallPresenter() {
         when(presenter.goHome()).thenReturn(Observable.just(true));

@@ -13,25 +13,16 @@
     <list default="true" id="164ab19b-d0f2-421d-a70b-3c8886becb5c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/jvmClassSignatures.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/home/HomeInteractor_MembersInjector.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/generated/source/apt/debug/com/uber/rib/root/home/HomeInteractor_MembersInjector.java" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/DaggerHomeBuilder_Component.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/DaggerHomeBuilder_Component.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeBuilder$Module.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeBuilder$Module.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeInteractor$HomePresenter.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeInteractor$HomePresenter.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeInteractor.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeInteractor_MembersInjector.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeInteractor_MembersInjector.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeView.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/HomeView.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/TestHomeInteractor.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/debug/com/uber/rib/root/home/TestHomeInteractor.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/test/debug/com/uber/rib/root/home/HomeInteractorTest.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/test/debug/com/uber/rib/root/home/HomeInteractorTest.class" />
-      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/test/debug/com/uber/rib/root/home/HomeRouterTest.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/test/debug/com/uber/rib/root/home/HomeRouterTest.class" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/test/debug/com/uber/rib/root/game/GameInteractorTest.class" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/intermediates/classes/test/debug/com/uber/rib/root/game/GameInteractorTest.class" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/classes/com.uber.rib.root.game.GameInteractorTest.html" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/classes/com.uber.rib.root.game.GameInteractorTest.html" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/classes/com.uber.rib.root.home.HomeInteractorTest.html" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/classes/com.uber.rib.root.home.HomeInteractorTest.html" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/index.html" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/index.html" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/packages/com.uber.rib.root.game.html" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/packages/com.uber.rib.root.game.html" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/packages/com.uber.rib.root.home.html" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/reports/tests/testDebugUnitTest/packages/com.uber.rib.root.home.html" />
+      <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/test-results/testDebugUnitTest/TEST-com.uber.rib.root.game.GameInteractorTest.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/test-results/testDebugUnitTest/TEST-com.uber.rib.root.game.GameInteractorTest.xml" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/test-results/testDebugUnitTest/TEST-com.uber.rib.root.home.HomeInteractorTest.xml" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/test-results/testDebugUnitTest/TEST-com.uber.rib.root.home.HomeInteractorTest.xml" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/test-results/testDebugUnitTest/binary/results.bin" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/build/test-results/testDebugUnitTest/binary/results.bin" />
       <change beforePath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/game/GameInteractorTest.java" afterPath="$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/game/GameInteractorTest.java" />
@@ -108,10 +99,37 @@
         <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/game/GameInteractorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="649">
-              <caret line="56" column="4" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+              <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameInteractor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-23">
+              <caret line="118" column="15" lean-forward="false" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
+              <folding>
+                <element signature="e#1299#1683#0" expanded="true" />
+                <element signature="e#1682#1683#0" expanded="true" />
+                <element signature="e#1758#1942#0" expanded="true" />
+                <element signature="e#1941#1942#0" expanded="true" />
+                <element signature="e#2039#2262#0" expanded="true" />
+                <element signature="e#2261#2262#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameRouter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameRouter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,23 +140,6 @@
             <state relative-caret-position="247">
               <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameInteractor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="31" />
-              <folding>
-                <element signature="e#1299#1683#0" expanded="true" />
-                <element signature="e#1682#1683#0" expanded="true" />
-                <element signature="e#1758#1942#0" expanded="true" />
-                <element signature="e#1941#1942#0" expanded="true" />
-                <element signature="e#2039#2262#0" expanded="true" />
-                <element signature="e#2261#2262#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -211,9 +212,9 @@
       <find>chose</find>
       <find>game</find>
       <find>home</find>
-      <find>homerouter</find>
-      <find>reset</find>
       <find>setpromptplayer</find>
+      <find>reset</find>
+      <find>homerouter</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/tutorials/tutorial3-completed</dir>
@@ -12641,14 +12642,6 @@
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/gameold/GameInteractorTest.java" />
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/gameold/GameRouterTest.java" />
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/logged_in/LoggedInRouterTest.java" />
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/res/layout/game_rib.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -12882,16 +12875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/game/GameRouterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.0.42-beta/ede29667b56c661b3e5e466223ebc4e68d4b737d/mockito-core-2.0.42-beta-sources.jar!/org/mockito/Mockito.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -12932,18 +12915,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java">
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameRouter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="31" />
-          <folding>
-            <element signature="e#1299#1683#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
-            <element signature="e#1758#1942#0" expanded="true" />
-            <element signature="e#1941#1942#0" expanded="true" />
-            <element signature="e#2039#2262#0" expanded="true" />
-            <element signature="e#2261#2262#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -12955,10 +12931,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/game/GameInteractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="118" column="15" lean-forward="false" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
+          <folding>
+            <element signature="e#1299#1683#0" expanded="true" />
+            <element signature="e#1682#1683#0" expanded="true" />
+            <element signature="e#1758#1942#0" expanded="true" />
+            <element signature="e#1941#1942#0" expanded="true" />
+            <element signature="e#2039#2262#0" expanded="true" />
+            <element signature="e#2261#2262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/game/GameRouterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/tutorial3-completed/src/test/java/com/uber/rib/root/game/GameInteractorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
-          <caret line="56" column="4" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
